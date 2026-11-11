@@ -1,0 +1,75 @@
+{
+  "id": "edamame",
+  "name": "毛豆",
+  "emoji": "🫛",
+  "category": "豆魚蛋肉",
+  "aliases": [
+    "毛豆仁",
+    "枝豆",
+    "edamame"
+  ],
+  "summary": "還沒成熟的黃豆，蛋白質與纖維兼具。若畫的是帶殼毛豆，重量請減半。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2.5,
+    "min": 1,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.65,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 小碗（豆仁）",
+    "grams": 80
+  },
+  "per100g": {
+    "kcal": 121,
+    "protein": 11.9,
+    "fat": 5.2,
+    "satFat": 0.6,
+    "carbs": 8.9,
+    "sugar": 2.2,
+    "fiber": 5.2,
+    "sodium": 6,
+    "potassium": 436,
+    "calcium": 63,
+    "iron": 2.3,
+    "vitC": 6,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "植物性蛋白",
+    "膳食纖維",
+    "葉酸",
+    "鉀"
+  ],
+  "benefits": [
+    {
+      "title": "心血管疾病",
+      "detail": "富含植物性蛋白、纖維與不飽和脂肪，有助血脂控制。"
+    },
+    {
+      "title": "便秘",
+      "detail": "纖維含量高，有助腸道健康。"
+    },
+    {
+      "title": "素食者蛋白質不足",
+      "detail": "是胺基酸組成完整的植物性蛋白質來源。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "對大豆過敏者",
+      "why": "毛豆就是黃豆，過敏者應避免。"
+    },
+    {
+      "who": "腎臟病需限鉀、限磷者",
+      "why": "鉀與磷含量較高。"
+    },
+    {
+      "who": "容易脹氣者",
+      "why": "寡醣較多，一次吃太多容易脹氣。"
+    }
+  ],
+  "tips": "居酒屋的鹽味毛豆鈉含量高，自己水煮可以少放鹽。"
+}

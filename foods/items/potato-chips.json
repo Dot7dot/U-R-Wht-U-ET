@@ -1,0 +1,66 @@
+{
+  "id": "potato-chips",
+  "name": "洋芋片",
+  "emoji": "🥔",
+  "category": "點心零食",
+  "aliases": [
+    "薯片",
+    "餅乾",
+    "chips"
+  ],
+  "summary": "油炸的薄片馬鈴薯，高油、高鈉、熱量密集。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 小包",
+    "grams": 40
+  },
+  "per100g": {
+    "kcal": 536,
+    "protein": 7,
+    "fat": 34.6,
+    "satFat": 10,
+    "carbs": 53,
+    "sugar": 0.4,
+    "fiber": 4.4,
+    "sodium": 525,
+    "potassium": 1275,
+    "calcium": 24,
+    "iron": 1.6,
+    "vitC": 18,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "高熱量",
+    "高脂",
+    "高鈉"
+  ],
+  "benefits": [
+    {
+      "title": "偶爾的心情調劑",
+      "detail": "沒有特別的保健功效，適量享用就好。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "高血壓、心臟病、腎臟病患者",
+      "why": "鈉含量高。"
+    },
+    {
+      "who": "正在控制體重者",
+      "why": "體積蓬鬆但熱量密度極高，一包（約 100 公克）超過 500 大卡。"
+    },
+    {
+      "who": "高血脂患者",
+      "why": "油脂含量高，部分產品使用飽和脂肪較高的棕櫚油。"
+    }
+  ],
+  "tips": "倒一小碗出來吃，不要整包拿著吃。"
+}

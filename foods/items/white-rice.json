@@ -1,0 +1,66 @@
+{
+  "id": "white-rice",
+  "name": "白飯",
+  "emoji": "🍚",
+  "category": "全穀雜糧",
+  "aliases": [
+    "米飯",
+    "飯",
+    "rice"
+  ],
+  "summary": "最常見的主食，提供快速的熱量來源。",
+  "shape": {
+    "type": "mound",
+    "thickness": 4,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.75,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 碗",
+    "grams": 160
+  },
+  "per100g": {
+    "kcal": 183,
+    "protein": 3.1,
+    "fat": 0.3,
+    "satFat": 0.1,
+    "carbs": 41,
+    "sugar": 0,
+    "fiber": 0.6,
+    "sodium": 2,
+    "potassium": 39,
+    "calcium": 1,
+    "iron": 0.2,
+    "vitC": 0,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "低脂",
+    "低鈉",
+    "好消化"
+  ],
+  "benefits": [
+    {
+      "title": "補充活動所需能量",
+      "detail": "澱粉是身體與大腦主要的能量來源，適量主食有助維持體力與專注。"
+    },
+    {
+      "title": "腸胃不適時的溫和主食",
+      "detail": "纖維少、好消化，腸胃炎恢復期較不刺激。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "糖尿病或血糖偏高者",
+      "why": "升糖指數高，建議控制份量，並搭配蔬菜與蛋白質一起吃，或部分換成糙米。"
+    },
+    {
+      "who": "正在控制體重者",
+      "why": "熱量密度不低，一碗約 280 大卡，容易不知不覺吃多。"
+    }
+  ],
+  "tips": "飯放涼再吃（如壽司、隔夜飯）會產生較多抗性澱粉，血糖上升稍慢。"
+}

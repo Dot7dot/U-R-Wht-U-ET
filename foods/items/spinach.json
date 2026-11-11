@@ -1,0 +1,74 @@
+{
+  "id": "spinach",
+  "name": "菠菜（熟）",
+  "emoji": "🥬",
+  "category": "蔬菜",
+  "aliases": [
+    "菠薐菜",
+    "spinach"
+  ],
+  "summary": "深綠色葉菜，葉酸、鉀、鎂與維生素 K 都很高。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.7,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 碟",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 23,
+    "protein": 3,
+    "fat": 0.3,
+    "satFat": 0,
+    "carbs": 3.8,
+    "sugar": 0.4,
+    "fiber": 2.4,
+    "sodium": 70,
+    "potassium": 466,
+    "calcium": 136,
+    "iron": 3.6,
+    "vitC": 10,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "葉酸",
+    "維生素K",
+    "鉀",
+    "葉黃素"
+  ],
+  "benefits": [
+    {
+      "title": "高血壓",
+      "detail": "鉀與硝酸鹽含量高，有助血壓調節。"
+    },
+    {
+      "title": "眼睛保健",
+      "detail": "富含葉黃素，與較低的黃斑部病變風險相關。"
+    },
+    {
+      "title": "胎兒神經管缺陷",
+      "detail": "葉酸豐富，備孕與懷孕初期特別需要。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "草酸鈣結石體質者",
+      "why": "草酸含量很高，建議先汆燙去除部分草酸，並避免大量食用。"
+    },
+    {
+      "who": "服用抗凝血劑 Warfarin（可邁丁）者",
+      "why": "維生素 K 很高，攝取量要穩定。"
+    },
+    {
+      "who": "腎臟病需限鉀者",
+      "why": "鉀含量高，汆燙後再吃且不喝菜湯。"
+    }
+  ],
+  "tips": "菠菜的鐵和鈣吸收率其實不高，別只靠它補鐵補鈣。"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mantou",
+  "name": "饅頭",
+  "emoji": "🥟",
+  "category": "全穀雜糧",
+  "aliases": [
+    "白饅頭",
+    "steamed bun"
+  ],
+  "summary": "發酵麵食，低脂但澱粉密度高。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 0.4,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 顆",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 233,
+    "protein": 7,
+    "fat": 1.2,
+    "satFat": 0.3,
+    "carbs": 48,
+    "sugar": 4,
+    "fiber": 1.5,
+    "sodium": 30,
+    "potassium": 80,
+    "calcium": 15,
+    "iron": 0.8,
+    "vitC": 0,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "低脂",
+    "發酵麵食"
+  ],
+  "benefits": [
+    {
+      "title": "補充能量",
+      "detail": "脂肪低、好消化，適合作為運動前的碳水化合物來源。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "糖尿病患者",
+      "why": "一顆饅頭的醣量約等於一碗多的飯，容易低估。"
+    },
+    {
+      "who": "麩質不耐或乳糜瀉患者",
+      "why": "小麥製品，含麩質。"
+    }
+  ],
+  "tips": "選全麥或雜糧饅頭，並搭配蛋或無糖豆漿，血糖較穩定。"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "chicken-breast",
+  "name": "雞胸肉（熟）",
+  "emoji": "🍗",
+  "category": "豆魚蛋肉",
+  "aliases": [
+    "雞胸",
+    "雞肉",
+    "chicken"
+  ],
+  "summary": "高蛋白、低脂肪的白肉代表。",
+  "shape": {
+    "type": "flat",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 5
+  },
+  "density": 1.05,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 片（手掌大）",
+    "grams": 120
+  },
+  "per100g": {
+    "kcal": 165,
+    "protein": 31,
+    "fat": 3.6,
+    "satFat": 1,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "sodium": 74,
+    "potassium": 256,
+    "calcium": 15,
+    "iron": 1,
+    "vitC": 0,
+    "cholesterol": 85
+  },
+  "highlights": [
+    "高蛋白",
+    "低脂",
+    "菸鹼酸",
+    "維生素B6"
+  ],
+  "benefits": [
+    {
+      "title": "肌少症",
+      "detail": "蛋白質密度高，有助於增肌與維持肌肉量。"
+    },
+    {
+      "title": "體重控制",
+      "detail": "蛋白質飽足感強，熱量相對低。"
+    },
+    {
+      "title": "心血管疾病",
+      "detail": "以白肉取代加工紅肉，與較低的心血管風險相關。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "腎臟病需限制蛋白質者",
+      "why": "蛋白質含量很高，請依營養師建議的份量食用。"
+    },
+    {
+      "who": "痛風急性發作期",
+      "why": "屬中普林食物，發作期間宜減量。"
+    }
+  ],
+  "tips": "市售即食雞胸肉通常加了不少鹽，買之前看一下鈉含量。"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "banana",
+  "name": "香蕉",
+  "emoji": "🍌",
+  "category": "水果",
+  "aliases": [
+    "芭蕉",
+    "banana"
+  ],
+  "summary": "鉀含量高、能快速補充能量的水果。畫的時候請連皮一起畫。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 0.95,
+  "edibleRatio": 0.65,
+  "serving": {
+    "label": "1 根",
+    "grams": 150
+  },
+  "per100g": {
+    "kcal": 89,
+    "protein": 1.1,
+    "fat": 0.3,
+    "satFat": 0.1,
+    "carbs": 22.8,
+    "sugar": 12.2,
+    "fiber": 2.6,
+    "sodium": 1,
+    "potassium": 358,
+    "calcium": 5,
+    "iron": 0.3,
+    "vitC": 8.7,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "鉀",
+    "維生素B6",
+    "快速能量"
+  ],
+  "benefits": [
+    {
+      "title": "高血壓",
+      "detail": "鉀有助於排出多餘的鈉、放鬆血管壁。"
+    },
+    {
+      "title": "運動中低血糖與疲勞",
+      "detail": "好消化的碳水化合物，適合運動前後補充。"
+    },
+    {
+      "title": "便秘",
+      "detail": "熟香蕉含水溶性纖維；偏青的香蕉含抗性澱粉，可作為腸道好菌的養分。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "腎臟病需限鉀者",
+      "why": "鉀含量高，可能引起高血鉀，請依醫囑。"
+    },
+    {
+      "who": "糖尿病患者",
+      "why": "越熟糖分越高，一次吃半根到一根小的為宜。"
+    },
+    {
+      "who": "對乳膠過敏者",
+      "why": "可能對香蕉有交叉過敏反應。"
+    }
+  ],
+  "tips": "一根香蕉可食部分約 100 公克，約 90 大卡。"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "apple",
+  "name": "蘋果",
+  "emoji": "🍎",
+  "category": "水果",
+  "aliases": [
+    "apple",
+    "苹果"
+  ],
+  "summary": "方便攜帶的水果，果膠與多酚豐富。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 0.85,
+  "edibleRatio": 0.9,
+  "serving": {
+    "label": "1 顆中型",
+    "grams": 180
+  },
+  "per100g": {
+    "kcal": 52,
+    "protein": 0.3,
+    "fat": 0.2,
+    "satFat": 0,
+    "carbs": 13.8,
+    "sugar": 10.4,
+    "fiber": 2.4,
+    "sodium": 1,
+    "potassium": 107,
+    "calcium": 6,
+    "iron": 0.1,
+    "vitC": 4.6,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "果膠",
+    "多酚",
+    "低鈉"
+  ],
+  "benefits": [
+    {
+      "title": "心血管疾病",
+      "detail": "水溶性纖維（果膠）有助降低低密度膽固醇。"
+    },
+    {
+      "title": "第二型糖尿病",
+      "detail": "吃完整水果（特別是蘋果、藍莓）與較低的糖尿病風險相關。"
+    },
+    {
+      "title": "便秘",
+      "detail": "果膠與纖維有助腸道蠕動，連皮吃效果更好。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "腸躁症患者",
+      "why": "屬於高 FODMAP 水果（果糖、山梨醇多），可能引起脹氣或腹瀉。"
+    },
+    {
+      "who": "樺樹花粉過敏者",
+      "why": "部分人生吃蘋果會嘴巴發癢（口腔過敏症候群）。"
+    },
+    {
+      "who": "糖尿病患者",
+      "why": "一次以一個拳頭大小為限，不建議打成果汁。"
+    }
+  ],
+  "tips": "多酚大多在果皮，洗乾淨連皮吃最好。"
+}

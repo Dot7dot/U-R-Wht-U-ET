@@ -1,0 +1,71 @@
+{
+  "id": "beef-steak",
+  "name": "牛排（熟）",
+  "emoji": "🥩",
+  "category": "豆魚蛋肉",
+  "aliases": [
+    "牛肉",
+    "沙朗",
+    "beef",
+    "steak"
+  ],
+  "summary": "鐵質與維生素 B12 豐富的紅肉。",
+  "shape": {
+    "type": "flat",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 5
+  },
+  "density": 1.05,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 塊",
+    "grams": 150
+  },
+  "per100g": {
+    "kcal": 244,
+    "protein": 27,
+    "fat": 14,
+    "satFat": 5.6,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "sodium": 57,
+    "potassium": 340,
+    "calcium": 18,
+    "iron": 1.7,
+    "vitC": 0,
+    "cholesterol": 85
+  },
+  "highlights": [
+    "血基質鐵",
+    "維生素B12",
+    "鋅",
+    "蛋白質"
+  ],
+  "benefits": [
+    {
+      "title": "缺鐵性貧血",
+      "detail": "紅肉的血基質鐵吸收率高，適量攝取有助補鐵。"
+    },
+    {
+      "title": "肌少症",
+      "detail": "蛋白質與肌酸含量高，有助維持肌肉。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "大腸癌高風險族群",
+      "why": "大量攝取紅肉與大腸癌風險上升有關，建議每週熟重不超過 500 公克。"
+    },
+    {
+      "who": "高血脂、心血管疾病患者",
+      "why": "油花多的部位飽和脂肪高，宜選瘦肉部位。"
+    },
+    {
+      "who": "痛風患者",
+      "why": "普林含量偏高，急性期應避免。"
+    }
+  ],
+  "tips": "搭配富含維生素 C 的蔬果，可提高鐵的吸收；避免烤焦的部分。"
+}

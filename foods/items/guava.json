@@ -1,0 +1,67 @@
+{
+  "id": "guava",
+  "name": "芭樂",
+  "emoji": "🍐",
+  "category": "水果",
+  "aliases": [
+    "番石榴",
+    "拔辣",
+    "guava"
+  ],
+  "summary": "台灣常見的高維生素 C、低糖、高纖水果。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 0.9,
+  "edibleRatio": 0.95,
+  "serving": {
+    "label": "半顆",
+    "grams": 160
+  },
+  "per100g": {
+    "kcal": 38,
+    "protein": 0.7,
+    "fat": 0.1,
+    "satFat": 0,
+    "carbs": 9.8,
+    "sugar": 6,
+    "fiber": 3.3,
+    "sodium": 4,
+    "potassium": 150,
+    "calcium": 4,
+    "iron": 0.2,
+    "vitC": 138,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "維生素C",
+    "膳食纖維",
+    "低糖",
+    "低熱量"
+  ],
+  "benefits": [
+    {
+      "title": "第二型糖尿病",
+      "detail": "糖分低、纖維高，是血糖控制者較友善的水果選擇。"
+    },
+    {
+      "title": "感冒與免疫力",
+      "detail": "維生素 C 含量是柳橙的 2 倍以上。"
+    },
+    {
+      "title": "體重控制",
+      "detail": "熱量低、需要咀嚼，飽足感高。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "容易便秘者",
+      "why": "芭樂籽不易消化，吃太多籽可能讓便秘更嚴重，可挖掉籽心。"
+    },
+    {
+      "who": "胃腸功能較弱者",
+      "why": "質地較硬、纖維粗，請細嚼慢嚥。"
+    }
+  ],
+  "tips": "沾梅子粉會多吃進不少鈉和糖，原味最好。"
+}

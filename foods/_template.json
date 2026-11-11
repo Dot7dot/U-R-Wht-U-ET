@@ -1,0 +1,35 @@
+{
+  "id": "my-food",
+  "name": "食物名稱",
+  "emoji": "🍽️",
+  "category": "水果",
+  "aliases": ["別名", "english name"],
+  "summary": "一句話介紹這個食物。",
+  "shape": { "type": "round" },
+  "density": 1.0,
+  "edibleRatio": 1,
+  "serving": { "label": "1 份", "grams": 100 },
+  "per100g": {
+    "kcal": 0,
+    "protein": 0,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "sodium": 0,
+    "potassium": 0,
+    "calcium": 0,
+    "iron": 0,
+    "vitC": 0,
+    "cholesterol": 0
+  },
+  "highlights": ["營養亮點 1", "營養亮點 2"],
+  "benefits": [
+    { "title": "可能有助預防的疾病或保健方向", "detail": "簡短說明原因。" }
+  ],
+  "cautions": [
+    { "who": "不適合或需要注意的族群", "why": "簡短說明原因。" }
+  ],
+  "tips": "一個實用的小撇步。"
+}

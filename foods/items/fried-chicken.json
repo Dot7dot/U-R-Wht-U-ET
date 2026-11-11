@@ -1,0 +1,69 @@
+{
+  "id": "fried-chicken",
+  "name": "炸雞",
+  "emoji": "🍗",
+  "category": "點心零食",
+  "aliases": [
+    "鹹酥雞",
+    "雞排",
+    "fried chicken"
+  ],
+  "summary": "裹粉油炸的雞肉，蛋白質不少，但油脂與鈉大幅增加。",
+  "shape": {
+    "type": "flat",
+    "thickness": 2.5,
+    "min": 1,
+    "max": 5
+  },
+  "density": 0.9,
+  "edibleRatio": 0.85,
+  "serving": {
+    "label": "1 塊",
+    "grams": 120
+  },
+  "per100g": {
+    "kcal": 269,
+    "protein": 19,
+    "fat": 16,
+    "satFat": 4.2,
+    "carbs": 11,
+    "sugar": 0.3,
+    "fiber": 0.5,
+    "sodium": 480,
+    "potassium": 220,
+    "calcium": 20,
+    "iron": 1,
+    "vitC": 0,
+    "cholesterol": 90
+  },
+  "highlights": [
+    "蛋白質",
+    "高脂",
+    "高鈉"
+  ],
+  "benefits": [
+    {
+      "title": "補充蛋白質",
+      "detail": "仍可提供優質蛋白質，但建議偶爾吃。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "高血脂、心血管疾病患者",
+      "why": "油炸吸油多，反覆使用的炸油還可能含反式脂肪與氧化產物。"
+    },
+    {
+      "who": "高血壓患者",
+      "why": "醃料與胡椒鹽的鈉含量高。"
+    },
+    {
+      "who": "胃食道逆流、膽囊疾病患者",
+      "why": "高脂食物容易誘發症狀。"
+    },
+    {
+      "who": "正在控制體重者",
+      "why": "一塊雞排可達 600 大卡以上。"
+    }
+  ],
+  "tips": "去掉外皮和麵衣，熱量可以少掉三到四成。"
+}

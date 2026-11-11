@@ -1,0 +1,71 @@
+{
+  "id": "orange",
+  "name": "柳橙",
+  "emoji": "🍊",
+  "category": "水果",
+  "aliases": [
+    "柳丁",
+    "橘子",
+    "橙",
+    "orange"
+  ],
+  "summary": "維生素 C 的經典來源。畫的時候請連皮一起畫。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 0.95,
+  "edibleRatio": 0.73,
+  "serving": {
+    "label": "1 顆",
+    "grams": 180
+  },
+  "per100g": {
+    "kcal": 47,
+    "protein": 0.9,
+    "fat": 0.1,
+    "satFat": 0,
+    "carbs": 11.8,
+    "sugar": 9.4,
+    "fiber": 2.4,
+    "sodium": 0,
+    "potassium": 181,
+    "calcium": 40,
+    "iron": 0.1,
+    "vitC": 53,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "維生素C",
+    "類黃酮",
+    "葉酸"
+  ],
+  "benefits": [
+    {
+      "title": "壞血病與牙齦出血",
+      "detail": "一顆柳橙就能提供大半天所需的維生素 C。"
+    },
+    {
+      "title": "缺鐵性貧血",
+      "detail": "維生素 C 能促進植物性鐵的吸收，搭配餐點吃很適合。"
+    },
+    {
+      "title": "心血管疾病",
+      "detail": "柑橘類黃酮與較低的中風風險相關。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "胃食道逆流、胃潰瘍患者",
+      "why": "酸度高，可能加重不適。"
+    },
+    {
+      "who": "腎臟病需限鉀者",
+      "why": "柳橙與柳橙汁都含不少鉀。"
+    },
+    {
+      "who": "糖尿病患者",
+      "why": "吃整顆比喝果汁好；一杯柳橙汁約等於 3–4 顆的糖。"
+    }
+  ],
+  "tips": "白色的橘絡含纖維與類黃酮，不用挑得太乾淨。"
+}

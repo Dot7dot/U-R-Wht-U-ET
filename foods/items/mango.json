@@ -1,0 +1,65 @@
+{
+  "id": "mango",
+  "name": "芒果",
+  "emoji": "🥭",
+  "category": "水果",
+  "aliases": [
+    "檨仔",
+    "mango"
+  ],
+  "summary": "香甜的夏季水果，維生素 A 與 C 豐富。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1,
+  "edibleRatio": 0.7,
+  "serving": {
+    "label": "半顆",
+    "grams": 150
+  },
+  "per100g": {
+    "kcal": 60,
+    "protein": 0.8,
+    "fat": 0.4,
+    "satFat": 0.1,
+    "carbs": 15,
+    "sugar": 13.7,
+    "fiber": 1.6,
+    "sodium": 1,
+    "potassium": 168,
+    "calcium": 11,
+    "iron": 0.2,
+    "vitC": 36,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "β-胡蘿蔔素",
+    "維生素C",
+    "葉酸"
+  ],
+  "benefits": [
+    {
+      "title": "眼睛與皮膚保健",
+      "detail": "β-胡蘿蔔素可轉換成維生素 A。"
+    },
+    {
+      "title": "免疫力",
+      "detail": "半顆芒果約可提供一半的每日維生素 C。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "對芒果、漆樹過敏者",
+      "why": "果皮含漆酚類物質，可能引起嘴唇周圍紅腫發癢（芒果皮膚炎）。"
+    },
+    {
+      "who": "糖尿病患者",
+      "why": "糖分高，一次約半顆（去皮去籽約一碗）為限。"
+    },
+    {
+      "who": "正在控制體重者",
+      "why": "芒果冰、芒果乾糖分更加濃縮。"
+    }
+  ],
+  "tips": "容易過敏的人可請別人削皮切塊，避免嘴唇接觸果皮。"
+}

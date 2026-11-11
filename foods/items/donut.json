@@ -1,0 +1,65 @@
+{
+  "id": "donut",
+  "name": "甜甜圈",
+  "emoji": "🍩",
+  "category": "點心零食",
+  "aliases": [
+    "多拿滋",
+    "donut",
+    "doughnut"
+  ],
+  "summary": "油炸後再裹糖的甜點，糖與油都高。畫的時候可以忽略中間的洞。",
+  "shape": {
+    "type": "flat",
+    "thickness": 3,
+    "min": 1.5,
+    "max": 5
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 個",
+    "grams": 60
+  },
+  "per100g": {
+    "kcal": 421,
+    "protein": 6.4,
+    "fat": 22.9,
+    "satFat": 5.9,
+    "carbs": 49,
+    "sugar": 21,
+    "fiber": 1.5,
+    "sodium": 316,
+    "potassium": 100,
+    "calcium": 40,
+    "iron": 1.9,
+    "vitC": 0,
+    "cholesterol": 20
+  },
+  "highlights": [
+    "高糖",
+    "高脂",
+    "高熱量"
+  ],
+  "benefits": [
+    {
+      "title": "偶爾的心情調劑",
+      "detail": "沒有特別的保健功效，當作偶爾的享受。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "糖尿病或血糖偏高者",
+      "why": "精製澱粉加糖霜，血糖上升快。"
+    },
+    {
+      "who": "高血脂、心血管疾病患者",
+      "why": "油炸且可能含反式脂肪。"
+    },
+    {
+      "who": "正在控制體重者",
+      "why": "一個約 250 大卡，卻不太有飽足感。"
+    }
+  ],
+  "tips": "想吃甜點時，搭配無糖茶或黑咖啡，並把它算進當天的熱量。"
+}

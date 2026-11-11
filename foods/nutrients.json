@@ -1,0 +1,15 @@
+[
+  { "key": "kcal",        "label": "熱量",       "unit": "大卡", "dv": 2000, "kind": "neutral" },
+  { "key": "protein",     "label": "蛋白質",     "unit": "克",   "dv": 60,   "kind": "good" },
+  { "key": "fat",         "label": "脂肪",       "unit": "克",   "dv": 60,   "kind": "neutral" },
+  { "key": "carbs",       "label": "碳水化合物", "unit": "克",   "dv": 300,  "kind": "neutral" },
+  { "key": "fiber",       "label": "膳食纖維",   "unit": "克",   "dv": 25,   "kind": "good" },
+  { "key": "sugar",       "label": "糖",         "unit": "克",   "dv": 50,   "kind": "limit" },
+  { "key": "satFat",      "label": "飽和脂肪",   "unit": "克",   "dv": 18,   "kind": "limit" },
+  { "key": "sodium",      "label": "鈉",         "unit": "毫克", "dv": 2000, "kind": "limit" },
+  { "key": "cholesterol", "label": "膽固醇",     "unit": "毫克", "dv": 300,  "kind": "limit" },
+  { "key": "potassium",   "label": "鉀",         "unit": "毫克", "dv": 2800, "kind": "good" },
+  { "key": "calcium",     "label": "鈣",         "unit": "毫克", "dv": 1200, "kind": "good" },
+  { "key": "iron",        "label": "鐵",         "unit": "毫克", "dv": 15,   "kind": "good" },
+  { "key": "vitC",        "label": "維生素C",    "unit": "毫克", "dv": 100,  "kind": "good" }
+]

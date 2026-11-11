@@ -1,0 +1,74 @@
+{
+  "id": "dark-chocolate",
+  "name": "黑巧克力",
+  "emoji": "🍫",
+  "category": "點心零食",
+  "aliases": [
+    "巧克力",
+    "可可",
+    "chocolate"
+  ],
+  "summary": "可可含量 70% 以上的巧克力，含可可黃烷醇。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.8,
+    "min": 0.3,
+    "max": 3
+  },
+  "density": 1.25,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "2 小片",
+    "grams": 20
+  },
+  "per100g": {
+    "kcal": 598,
+    "protein": 7.8,
+    "fat": 42.6,
+    "satFat": 24.5,
+    "carbs": 45.9,
+    "sugar": 24,
+    "fiber": 10.9,
+    "sodium": 20,
+    "potassium": 715,
+    "calcium": 73,
+    "iron": 11.9,
+    "vitC": 0,
+    "cholesterol": 3
+  },
+  "highlights": [
+    "可可黃烷醇",
+    "鎂",
+    "鐵",
+    "熱量高"
+  ],
+  "benefits": [
+    {
+      "title": "高血壓",
+      "detail": "可可黃烷醇有助血管舒張，研究顯示能小幅降低血壓。"
+    },
+    {
+      "title": "心血管疾病",
+      "detail": "適量攝取與較佳的血管內皮功能相關。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "胃食道逆流者",
+      "why": "可可會讓下食道括約肌放鬆，可能加重逆流。"
+    },
+    {
+      "who": "對咖啡因敏感者、孕婦",
+      "why": "含咖啡因與可可鹼，傍晚後吃可能影響睡眠。"
+    },
+    {
+      "who": "偏頭痛患者",
+      "why": "部分人會被巧克力誘發偏頭痛。"
+    },
+    {
+      "who": "正在控制體重或血糖者",
+      "why": "熱量與糖仍然很高，一天 1–2 小片就好。"
+    }
+  ],
+  "tips": "家裡有狗狗的要收好：巧克力對狗有毒。"
+}

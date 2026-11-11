@@ -1,0 +1,69 @@
+{
+  "id": "grapes",
+  "name": "葡萄",
+  "emoji": "🍇",
+  "category": "水果",
+  "aliases": [
+    "提子",
+    "grape"
+  ],
+  "summary": "多酚豐富但糖分也高的水果。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.65,
+  "edibleRatio": 0.95,
+  "serving": {
+    "label": "約 13 顆",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 69,
+    "protein": 0.7,
+    "fat": 0.2,
+    "satFat": 0.1,
+    "carbs": 18.1,
+    "sugar": 15.5,
+    "fiber": 0.9,
+    "sodium": 2,
+    "potassium": 191,
+    "calcium": 10,
+    "iron": 0.4,
+    "vitC": 3.2,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "多酚",
+    "白藜蘆醇",
+    "花青素"
+  ],
+  "benefits": [
+    {
+      "title": "心血管疾病",
+      "detail": "葡萄多酚有助於血管內皮功能，連皮吃多酚較多。"
+    },
+    {
+      "title": "第二型糖尿病",
+      "detail": "吃完整葡萄（不是果汁）在觀察研究中與較低的糖尿病風險相關。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "糖尿病患者",
+      "why": "糖分高且一顆接一顆容易過量，建議先數好顆數。"
+    },
+    {
+      "who": "5 歲以下幼兒",
+      "why": "整顆葡萄容易噎到，請縱切成 4 等份。"
+    },
+    {
+      "who": "腎臟病需限鉀者",
+      "why": "請控制份量。"
+    }
+  ],
+  "tips": "葡萄乾的糖分濃縮了 4 倍以上，份量要更小。"
+}
