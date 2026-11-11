@@ -1,0 +1,63 @@
+{
+  "id": "simmered-pork-feet",
+  "name": "豬腳（燉熟）",
+  "emoji": "🍖",
+  "category": "豆魚蛋肉",
+  "subcategory": "肉類與加工肉品",
+  "aliases": [
+    "豬腳",
+    "simmered pork feet",
+    "PORK,FRSH,VAR MEATS&BY-PRODUCTS,FEET,CKD,SIMMRD"
+  ],
+  "summary": "豬腳（燉熟），每 100 公克可食部分約 238 大卡；營養數值採 USDA SR28 對應食物紀錄。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克可食部分",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 238.0,
+    "protein": 21.94,
+    "fat": 16.05,
+    "satFat": 4.343,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "sodium": 73.0,
+    "potassium": 33.0,
+    "calcium": 0.0,
+    "iron": 0.98,
+    "vitC": 0.0,
+    "cholesterol": 107.0
+  },
+  "highlights": [
+    "蛋白質 21.94 克／100 公克",
+    "脂肪 16.05 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "只秤可食部分，不包含骨、殼、果皮等不食用的部分。請在完成名稱所示的烹調方式後秤重，另外添加的油、糖與醬料需另外計算。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "10173",
+      "originalDescription": "PORK,FRSH,VAR MEATS&BY-PRODUCTS,FEET,CKD,SIMMRD",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "sr28-expansion-300",
+    "basis": "每 100 公克可食部分，生熟、含皮、加鹽與瀝乾狀態依名稱及來源原名。糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 是介面估重暫定值，非 USDA 實測密度；edibleRatio=1 只適用於可食部分。優先使用秤重或定量份量。"
+  }
+}

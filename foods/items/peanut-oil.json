@@ -1,0 +1,63 @@
+{
+  "id": "peanut-oil",
+  "name": "花生油",
+  "emoji": "🫒",
+  "category": "油脂",
+  "subcategory": "油脂",
+  "aliases": [
+    "花生油",
+    "peanut oil",
+    "OIL,PNUT,SALAD OR COOKING"
+  ],
+  "summary": "花生油，每 100 公克可食部分約 884 大卡；營養數值採 USDA SR28 對應食物紀錄。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 1
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 5 公克可食部分",
+    "grams": 5
+  },
+  "per100g": {
+    "kcal": 884.0,
+    "protein": 0.0,
+    "fat": 100.0,
+    "satFat": 16.9,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "sodium": 0.0,
+    "potassium": 0.0,
+    "calcium": 0.0,
+    "iron": 0.03,
+    "vitC": 0.0,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "碳水化合物 0 克／100 公克",
+    "脂肪 100 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "請按實際使用公克數計算，避免直接把 100 公克當作一次使用量。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "04042",
+      "originalDescription": "OIL,PNUT,SALAD OR COOKING",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "sr28-expansion-300",
+    "basis": "每 100 公克可食部分，生熟、含皮、加鹽與瀝乾狀態依名稱及來源原名。糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 是介面估重暫定值，非 USDA 實測密度；edibleRatio=1 只適用於可食部分。優先使用秤重或定量份量。"
+  }
+}

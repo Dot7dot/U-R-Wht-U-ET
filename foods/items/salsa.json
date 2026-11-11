@@ -1,0 +1,63 @@
+{
+  "id": "salsa",
+  "name": "莎莎醬（即食）",
+  "emoji": "🥣",
+  "category": "醬料",
+  "subcategory": "醬料",
+  "aliases": [
+    "莎莎醬",
+    "salsa",
+    "SAUCE,SALSA,RTS"
+  ],
+  "summary": "莎莎醬（即食），每 100 公克可食部分約 29 大卡；營養數值採 USDA SR28 對應食物紀錄。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 1
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 10 公克可食部分",
+    "grams": 10
+  },
+  "per100g": {
+    "kcal": 29.0,
+    "protein": 1.52,
+    "fat": 0.17,
+    "satFat": 0.021,
+    "carbs": 6.64,
+    "sugar": 4.01,
+    "fiber": 1.9,
+    "sodium": 711.0,
+    "potassium": 275.0,
+    "calcium": 30.0,
+    "iron": 0.42,
+    "vitC": 1.9,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "碳水化合物 6.64 克／100 公克",
+    "脂肪 0.17 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "請按實際使用公克數計算，避免直接把 100 公克當作一次使用量。不同品牌與配方會有差異，包裝食品可優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "06164",
+      "originalDescription": "SAUCE,SALSA,RTS",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "sr28-expansion-300",
+    "basis": "每 100 公克可食部分，生熟、含皮、加鹽與瀝乾狀態依名稱及來源原名。糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 是介面估重暫定值，非 USDA 實測密度；edibleRatio=1 只適用於可食部分。優先使用秤重或定量份量。"
+  }
+}

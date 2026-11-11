@@ -1,0 +1,63 @@
+{
+  "id": "cumin-seed",
+  "name": "孜然籽",
+  "emoji": "🧂",
+  "category": "香料調味",
+  "subcategory": "香料與調味",
+  "aliases": [
+    "孜然籽",
+    "cumin seed",
+    "CUMIN SEED"
+  ],
+  "summary": "孜然籽，每 100 公克可食部分約 375 大卡；營養數值採 USDA SR28 對應食物紀錄。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 5 公克可食部分",
+    "grams": 5
+  },
+  "per100g": {
+    "kcal": 375.0,
+    "protein": 17.81,
+    "fat": 22.27,
+    "satFat": 1.535,
+    "carbs": 44.24,
+    "sugar": 2.25,
+    "fiber": 10.5,
+    "sodium": 168.0,
+    "potassium": 1788.0,
+    "calcium": 931.0,
+    "iron": 66.36,
+    "vitC": 7.7,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "碳水化合物 44.24 克／100 公克",
+    "脂肪 22.27 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "請按實際使用公克數計算，避免直接把 100 公克當作一次使用量。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "02014",
+      "originalDescription": "CUMIN SEED",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "sr28-expansion-300",
+    "basis": "每 100 公克可食部分，生熟、含皮、加鹽與瀝乾狀態依名稱及來源原名。糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 是介面估重暫定值，非 USDA 實測密度；edibleRatio=1 只適用於可食部分。優先使用秤重或定量份量。"
+  }
+}
