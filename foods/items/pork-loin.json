@@ -1,0 +1,70 @@
+{
+  "id": "pork-loin",
+  "name": "豬里肌（熟）",
+  "emoji": "🥩",
+  "category": "豆魚蛋肉",
+  "aliases": [
+    "豬肉",
+    "豬排",
+    "里肌",
+    "pork"
+  ],
+  "summary": "瘦的豬肉部位，維生素 B1 含量是肉類中的佼佼者。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 4
+  },
+  "density": 1.05,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 片",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 196,
+    "protein": 28,
+    "fat": 8.5,
+    "satFat": 3,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "sodium": 60,
+    "potassium": 380,
+    "calcium": 10,
+    "iron": 0.9,
+    "vitC": 0,
+    "cholesterol": 80
+  },
+  "highlights": [
+    "蛋白質",
+    "維生素B1",
+    "鋅"
+  ],
+  "benefits": [
+    {
+      "title": "疲勞與腳氣病",
+      "detail": "豬肉富含維生素 B1，是能量代謝必需的營養素。"
+    },
+    {
+      "title": "肌少症",
+      "detail": "提供完整的優質蛋白質。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "高血脂、心血管疾病患者",
+      "why": "請選瘦肉並去除肥肉；紅肉建議每週不超過 500 公克（熟重）。"
+    },
+    {
+      "who": "痛風患者",
+      "why": "屬中普林食物，急性期應減量。"
+    },
+    {
+      "who": "所有人",
+      "why": "豬肉務必完全煮熟，避免寄生蟲與細菌感染。"
+    }
+  ],
+  "tips": "炸豬排吸油後熱量幾乎加倍，用煎、烤、滷會清爽很多。"
+}

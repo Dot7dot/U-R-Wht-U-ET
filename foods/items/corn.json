@@ -1,0 +1,62 @@
+{
+  "id": "corn",
+  "name": "玉米",
+  "emoji": "🌽",
+  "category": "全穀雜糧",
+  "aliases": [
+    "玉蜀黍",
+    "甜玉米",
+    "corn"
+  ],
+  "summary": "屬於全穀類的主食，含葉黃素與纖維。畫的時候請連玉米梗一起畫。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 0.95,
+  "edibleRatio": 0.55,
+  "serving": {
+    "label": "1 根",
+    "grams": 180
+  },
+  "per100g": {
+    "kcal": 96,
+    "protein": 3.4,
+    "fat": 1.5,
+    "satFat": 0.2,
+    "carbs": 21,
+    "sugar": 4.5,
+    "fiber": 2.4,
+    "sodium": 1,
+    "potassium": 218,
+    "calcium": 3,
+    "iron": 0.5,
+    "vitC": 5.5,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "全穀",
+    "葉黃素",
+    "膳食纖維"
+  ],
+  "benefits": [
+    {
+      "title": "眼睛保健",
+      "detail": "含葉黃素與玉米黃素，與較低的老年性黃斑部病變風險相關。"
+    },
+    {
+      "title": "便秘",
+      "detail": "不溶性纖維多，有助腸道蠕動。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "糖尿病患者",
+      "why": "玉米是主食，一根約等於 2/3 碗飯的醣量，要記得替換飯量。"
+    },
+    {
+      "who": "腸胃功能較弱者",
+      "why": "外皮不易消化，請細嚼慢嚥，避免一次吃太多。"
+    }
+  ],
+  "tips": "一根玉米大約可食 100 公克；路邊燒烤玉米的醬料鈉與糖都很高。"
+}

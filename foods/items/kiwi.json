@@ -1,0 +1,70 @@
+{
+  "id": "kiwi",
+  "name": "奇異果",
+  "emoji": "🥝",
+  "category": "水果",
+  "aliases": [
+    "獼猴桃",
+    "kiwi"
+  ],
+  "summary": "維生素 C 密度很高，還含有幫助消化的酵素。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.02,
+  "edibleRatio": 0.86,
+  "serving": {
+    "label": "1 顆",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 61,
+    "protein": 1.1,
+    "fat": 0.5,
+    "satFat": 0,
+    "carbs": 14.7,
+    "sugar": 9,
+    "fiber": 3,
+    "sodium": 3,
+    "potassium": 312,
+    "calcium": 34,
+    "iron": 0.3,
+    "vitC": 93,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "維生素C",
+    "膳食纖維",
+    "奇異果酵素",
+    "鉀"
+  ],
+  "benefits": [
+    {
+      "title": "便秘",
+      "detail": "研究顯示每天 2 顆奇異果可改善慢性便秘。"
+    },
+    {
+      "title": "感冒與免疫力",
+      "detail": "一顆就幾乎滿足一天的維生素 C。"
+    },
+    {
+      "title": "睡眠品質",
+      "detail": "小型研究發現睡前吃奇異果可能有助入睡。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "對奇異果或乳膠過敏者",
+      "why": "可能引起口腔發癢甚至嚴重過敏。"
+    },
+    {
+      "who": "腎臟病需限鉀者",
+      "why": "鉀含量高。"
+    },
+    {
+      "who": "嬰幼兒",
+      "why": "初次嘗試請少量，留意過敏反應。"
+    }
+  ],
+  "tips": "黃金奇異果的維生素 C 更高，綠色的纖維較多。"
+}

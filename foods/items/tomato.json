@@ -1,0 +1,67 @@
+{
+  "id": "tomato",
+  "name": "番茄",
+  "emoji": "🍅",
+  "category": "蔬菜",
+  "aliases": [
+    "蕃茄",
+    "西紅柿",
+    "tomato"
+  ],
+  "summary": "茄紅素的最佳來源，熱量極低。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 0.98,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 顆中型",
+    "grams": 150
+  },
+  "per100g": {
+    "kcal": 18,
+    "protein": 0.9,
+    "fat": 0.2,
+    "satFat": 0,
+    "carbs": 3.9,
+    "sugar": 2.6,
+    "fiber": 1.2,
+    "sodium": 5,
+    "potassium": 237,
+    "calcium": 10,
+    "iron": 0.3,
+    "vitC": 14,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "茄紅素",
+    "維生素C",
+    "鉀",
+    "低熱量"
+  ],
+  "benefits": [
+    {
+      "title": "攝護腺癌",
+      "detail": "多項研究顯示茄紅素攝取量高與較低的攝護腺癌風險相關。"
+    },
+    {
+      "title": "心血管疾病",
+      "detail": "茄紅素與鉀有助於血管與血壓健康。"
+    },
+    {
+      "title": "皮膚曬傷",
+      "detail": "茄紅素可能提供些微的抗紫外線保護。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "胃食道逆流者",
+      "why": "酸度高，可能加重火燒心症狀。"
+    },
+    {
+      "who": "腎臟病需限鉀者",
+      "why": "鉀含量不低，番茄汁、番茄糊更濃縮。"
+    }
+  ],
+  "tips": "茄紅素是脂溶性，加一點油煮熟後吸收率更高（番茄炒蛋就很棒）。"
+}

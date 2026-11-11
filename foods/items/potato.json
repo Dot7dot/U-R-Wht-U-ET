@@ -1,0 +1,66 @@
+{
+  "id": "potato",
+  "name": "馬鈴薯（水煮）",
+  "emoji": "🥔",
+  "category": "全穀雜糧",
+  "aliases": [
+    "洋芋",
+    "土豆",
+    "potato"
+  ],
+  "summary": "屬於主食類的根莖，水煮時熱量比飯低、飽足感高。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.05,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 顆中型",
+    "grams": 150
+  },
+  "per100g": {
+    "kcal": 87,
+    "protein": 1.9,
+    "fat": 0.1,
+    "satFat": 0,
+    "carbs": 20.1,
+    "sugar": 0.9,
+    "fiber": 1.8,
+    "sodium": 4,
+    "potassium": 379,
+    "calcium": 5,
+    "iron": 0.3,
+    "vitC": 13,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "鉀",
+    "維生素C",
+    "飽足感高"
+  ],
+  "benefits": [
+    {
+      "title": "高血壓",
+      "detail": "鉀含量豐富，有助於鈉的排出。"
+    },
+    {
+      "title": "體重控制",
+      "detail": "水煮馬鈴薯的飽足感指數很高，同樣熱量下較不容易餓。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "腎臟病需限鉀者",
+      "why": "含鉀高，可先切塊泡水、汆燙後再料理以減少鉀。"
+    },
+    {
+      "who": "糖尿病患者",
+      "why": "升糖指數偏高，放涼後食用或搭配蛋白質較佳。"
+    },
+    {
+      "who": "所有人",
+      "why": "發芽或表皮變綠的馬鈴薯含茄鹼，可能造成中毒，請勿食用。"
+    }
+  ],
+  "tips": "炸成薯條後熱量會變成 3 倍以上，蒸、煮、烤是比較好的做法。"
+}

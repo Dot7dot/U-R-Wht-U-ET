@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#fbf6ee">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="吃什麼像什麼">
+<title>U R Wht U ET｜吃什麼像什麼</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main id="app">
+
+  <!-- 首次設定：手掌長度 -->
+  <section id="view-setup" class="view" hidden>
+    <div class="setup">
+      <div class="setup-hand"><canvas id="setup-hand" width="220" height="260"></canvas></div>
+      <h1>先量一下你的手掌</h1>
+      <p class="muted">從<strong>手腕橫紋</strong>量到<strong>中指指尖</strong>的長度。之後畫食物時，背景的手掌就會是你的手的實際比例。</p>
+      <div class="palm-input">
+        <button type="button" class="step" data-palm-step="-0.5" aria-label="減少">−</button>
+        <label><input id="setup-palm" type="number" inputmode="decimal" min="10" max="26" step="0.1" value="18"><span>公分</span></label>
+        <button type="button" class="step" data-palm-step="0.5" aria-label="增加">＋</button>
+      </div>
+      <p class="hint">沒有尺？成人大約 16–20 公分；一張悠遊卡／信用卡長 8.6 公分。</p>
+      <button id="setup-done" class="btn primary big">開始使用</button>
+    </div>
+  </section>
+
+  <!-- 搜尋 -->
+  <section id="view-search" class="view" hidden>
+    <header class="top">
+      <h1>今天好奇什麼食物？</h1>
+      <div class="searchbox">
+        <span aria-hidden="true">🔍</span>
+        <input id="q" type="search" placeholder="搜尋食物，例如：蘋果、雞胸、便秘…" autocomplete="off" enterkeyhint="search">
+      </div>
+      <div id="cats" class="chips"></div>
+    </header>
+    <ul id="results" class="food-list"></ul>
+    <p id="no-results" class="empty" hidden>找不到這個食物 🥲<br><small>可以在 <code>foods/items</code> 資料夾新增它。</small></p>
+  </section>
+
+  <!-- 食物：畫大小 + 營養 -->
+  <section id="view-food" class="view" hidden>
+    <header class="food-head">
+      <button class="icon-btn" id="food-back" aria-label="返回">‹</button>
+      <div class="food-title"><span id="food-emoji"></span><span id="food-name"></span></div>
+      <button class="icon-btn book" id="food-book" aria-label="更多健康資訊">📖</button>
+    </header>
+
+    <div class="stage-wrap">
+      <canvas id="stage"></canvas>
+      <div id="stage-hint" class="stage-hint">用手指在手掌上<br>大略圈出食物的大小</div>
+      <div class="stage-tools">
+        <button class="tool" id="t-undo">↶ 復原</button>
+        <button class="tool" id="t-clear">✕ 清除</button>
+        <button class="tool" id="t-zoom">⤢ 視野</button>
+      </div>
+      <div id="stage-dim" class="stage-dim"></div>
+    </div>
+
+    <div class="panel">
+      <div id="thick-row" class="thick-row" hidden>
+        <label for="thick"><span id="thick-label">厚度</span> <b id="thick-val"></b></label>
+        <input id="thick" type="range" step="0.1">
+      </div>
+
+      <div class="amount">
+        <div class="amount-main">
+          <label class="grams"><input id="grams" type="number" inputmode="decimal" min="0" step="1" value="0"><span>公克</span></label>
+          <div class="kcal"><b id="kcal">0</b><span>大卡</span></div>
+        </div>
+        <button class="btn ghost small" id="use-serving"></button>
+      </div>
+
+      <div class="macros" id="macros"></div>
+      <div class="nutri" id="nutri"></div>
+      <p class="hint center">％為每日參考值（以 2000 大卡成人估算）。份量為依圖形估算，僅供參考。</p>
+    </div>
+
+    <div class="food-actions">
+      <button class="btn ghost" id="open-book">📖 這個食物的健康小書</button>
+      <button class="btn primary" id="add-log">＋ 加入今日紀錄</button>
+    </div>
+  </section>
+
+  <!-- 紀錄 -->
+  <section id="view-log" class="view" hidden>
+    <header class="top">
+      <div class="date-nav">
+        <button class="icon-btn" id="day-prev" aria-label="前一天">‹</button>
+        <h1 id="day-label"></h1>
+        <button class="icon-btn" id="day-next" aria-label="後一天">›</button>
+      </div>
+    </header>
+    <div class="panel">
+      <div class="day-total"><b id="day-kcal">0</b><span>大卡</span></div>
+      <div class="macros" id="day-macros"></div>
+      <div class="nutri" id="day-nutri"></div>
+    </div>
+    <ul id="log-list" class="log-list"></ul>
+    <p id="log-empty" class="empty" hidden>這天還沒有紀錄。<br><small>搜尋食物、畫出大小後就能加入。</small></p>
+  </section>
+
+  <!-- 設定 -->
+  <section id="view-settings" class="view" hidden>
+    <header class="top"><h1>設定</h1></header>
+    <div class="panel">
+      <h2>手掌長度</h2>
+      <p class="muted">手腕橫紋到中指指尖。</p>
+      <div class="palm-input">
+        <button type="button" class="step" data-palm-step="-0.5" aria-label="減少">−</button>
+        <label><input id="set-palm" type="number" inputmode="decimal" min="10" max="26" step="0.1"><span>公分</span></label>
+        <button type="button" class="step" data-palm-step="0.5" aria-label="增加">＋</button>
+      </div>
+    </div>
+    <div class="panel">
+      <h2>資料</h2>
+      <p class="muted">紀錄只存在這支手機的瀏覽器裡，不會上傳。</p>
+      <button class="btn ghost" id="export-log">匯出紀錄（JSON）</button>
+      <button class="btn danger" id="clear-log">清除所有紀錄</button>
+    </div>
+    <div class="panel">
+      <h2>關於</h2>
+      <p class="muted">營養數值為每 100 公克可食部分的近似值，參考衛福部食藥署「食品營養成分資料庫」與 USDA FoodData Central 整理。健康資訊為一般性衛教內容，<strong>不能取代醫師或營養師的建議</strong>。</p>
+      <p class="muted">目前收錄 <b id="food-count">0</b> 種食物。想新增食物，請看專案的 <code>foods/README.md</code>。</p>
+    </div>
+  </section>
+</main>
+
+<nav id="nav" class="nav" hidden>
+  <a href="#/" data-nav="search"><span>🔍</span>查食物</a>
+  <a href="#/log" data-nav="log"><span>📒</span>紀錄</a>
+  <a href="#/settings" data-nav="settings"><span>✋</span>設定</a>
+</nav>
+
+<!-- 健康小書 -->
+<div id="sheet" class="sheet" hidden>
+  <div class="sheet-bg" data-close></div>
+  <article class="sheet-body" role="dialog" aria-modal="true">
+    <button class="icon-btn sheet-close" data-close aria-label="關閉">✕</button>
+    <div id="sheet-content"></div>
+  </article>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+<script src="js/app.js" type="module"></script>
+</body>
+</html>

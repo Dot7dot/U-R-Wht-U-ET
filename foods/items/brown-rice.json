@@ -1,0 +1,71 @@
+{
+  "id": "brown-rice",
+  "name": "糙米飯",
+  "emoji": "🍙",
+  "category": "全穀雜糧",
+  "aliases": [
+    "糙米",
+    "全穀飯",
+    "brown rice"
+  ],
+  "summary": "保留米糠與胚芽的全穀主食，纖維與礦物質比白飯多。",
+  "shape": {
+    "type": "mound",
+    "thickness": 4,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.75,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 碗",
+    "grams": 160
+  },
+  "per100g": {
+    "kcal": 176,
+    "protein": 3.7,
+    "fat": 1.3,
+    "satFat": 0.3,
+    "carbs": 37,
+    "sugar": 0.3,
+    "fiber": 1.8,
+    "sodium": 3,
+    "potassium": 90,
+    "calcium": 6,
+    "iron": 0.5,
+    "vitC": 0,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "全穀",
+    "膳食纖維",
+    "維生素B群",
+    "鎂"
+  ],
+  "benefits": [
+    {
+      "title": "第二型糖尿病",
+      "detail": "研究顯示以全穀取代精製澱粉，與較低的第二型糖尿病風險相關。"
+    },
+    {
+      "title": "心血管疾病",
+      "detail": "全穀攝取量高的人，心血管疾病與中風風險較低。"
+    },
+    {
+      "title": "便秘",
+      "detail": "纖維較多，有助增加糞便體積、促進腸道蠕動。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "腎臟病需限磷、限鉀者",
+      "why": "磷、鉀含量比白米高，請依營養師指示食用。"
+    },
+    {
+      "who": "腸胃功能較弱或剛手術後",
+      "why": "纖維較粗，可能引起脹氣或不適，可先與白米混煮。"
+    }
+  ],
+  "tips": "第一次吃可以從「白米：糙米 = 2：1」開始，浸泡 1–2 小時再煮口感較軟。"
+}

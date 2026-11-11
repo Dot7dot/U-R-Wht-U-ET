@@ -1,0 +1,76 @@
+{
+  "id": "broccoli",
+  "name": "青花菜（熟）",
+  "emoji": "🥦",
+  "category": "蔬菜",
+  "aliases": [
+    "花椰菜",
+    "綠花椰",
+    "西蘭花",
+    "broccoli"
+  ],
+  "summary": "十字花科蔬菜，維生素 C、K 與蘿蔔硫素豐富。",
+  "shape": {
+    "type": "mound",
+    "thickness": 4,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.4,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 碗",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 35,
+    "protein": 2.4,
+    "fat": 0.4,
+    "satFat": 0.1,
+    "carbs": 7.2,
+    "sugar": 1.4,
+    "fiber": 3.3,
+    "sodium": 41,
+    "potassium": 293,
+    "calcium": 40,
+    "iron": 0.7,
+    "vitC": 65,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "維生素C",
+    "維生素K",
+    "蘿蔔硫素",
+    "膳食纖維"
+  ],
+  "benefits": [
+    {
+      "title": "部分癌症",
+      "detail": "十字花科蔬菜攝取量高，與較低的大腸癌、肺癌等風險相關。"
+    },
+    {
+      "title": "心血管疾病",
+      "detail": "纖維與抗氧化物質有助於血管健康。"
+    },
+    {
+      "title": "便秘",
+      "detail": "纖維與水分有助排便。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "服用抗凝血劑 Warfarin（可邁丁）者",
+      "why": "維生素 K 含量高，請維持每天攝取量穩定，不要突然大量增減。"
+    },
+    {
+      "who": "腸躁症或容易脹氣者",
+      "why": "可能引起脹氣，可減少份量並充分煮熟。"
+    },
+    {
+      "who": "甲狀腺功能低下者",
+      "why": "大量生食可能干擾碘利用，煮熟並適量食用即可。"
+    }
+  ],
+  "tips": "切好後靜置幾分鐘再快蒸或快炒，可保留較多蘿蔔硫素。"
+}

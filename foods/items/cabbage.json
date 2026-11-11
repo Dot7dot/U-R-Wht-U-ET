@@ -1,0 +1,71 @@
+{
+  "id": "cabbage",
+  "name": "高麗菜（熟）",
+  "emoji": "🥬",
+  "category": "蔬菜",
+  "aliases": [
+    "甘藍",
+    "包心菜",
+    "捲心菜",
+    "cabbage"
+  ],
+  "summary": "溫和好入口的十字花科蔬菜。",
+  "shape": {
+    "type": "mound",
+    "thickness": 4,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.55,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 碗",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 23,
+    "protein": 1.3,
+    "fat": 0.1,
+    "satFat": 0,
+    "carbs": 5.5,
+    "sugar": 2.8,
+    "fiber": 1.9,
+    "sodium": 8,
+    "potassium": 196,
+    "calcium": 48,
+    "iron": 0.2,
+    "vitC": 37,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "維生素C",
+    "維生素K",
+    "低熱量"
+  ],
+  "benefits": [
+    {
+      "title": "體重控制",
+      "detail": "熱量很低、體積大，能增加飽足感。"
+    },
+    {
+      "title": "部分癌症",
+      "detail": "十字花科蔬菜含硫化物，攝取量高與部分癌症風險較低相關。"
+    },
+    {
+      "title": "便秘",
+      "detail": "提供纖維與水分。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "服用抗凝血劑 Warfarin（可邁丁）者",
+      "why": "含維生素 K，攝取量請保持穩定。"
+    },
+    {
+      "who": "腸躁症或容易脹氣者",
+      "why": "可能產氣，建議煮軟並減量。"
+    }
+  ],
+  "tips": "快炒或汆燙比久煮更能保留維生素 C。"
+}

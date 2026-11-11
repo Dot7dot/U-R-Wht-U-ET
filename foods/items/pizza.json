@@ -1,0 +1,68 @@
+{
+  "id": "pizza",
+  "name": "起司披薩",
+  "emoji": "🍕",
+  "category": "點心零食",
+  "aliases": [
+    "比薩",
+    "pizza"
+  ],
+  "summary": "麵皮、起司與醬料的組合，鈣不少但鈉也高。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 4
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 片",
+    "grams": 110
+  },
+  "per100g": {
+    "kcal": 266,
+    "protein": 11.4,
+    "fat": 9.7,
+    "satFat": 4.5,
+    "carbs": 33,
+    "sugar": 3.6,
+    "fiber": 2.3,
+    "sodium": 598,
+    "potassium": 172,
+    "calcium": 188,
+    "iron": 2.5,
+    "vitC": 1.4,
+    "cholesterol": 17
+  },
+  "highlights": [
+    "鈣",
+    "高鈉",
+    "精製澱粉"
+  ],
+  "benefits": [
+    {
+      "title": "補充鈣質",
+      "detail": "起司提供不少鈣，但不是最理想的來源。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "高血壓、需限鈉者",
+      "why": "兩片就可能超過一天鈉建議量的一半。"
+    },
+    {
+      "who": "乳糖不耐、牛奶過敏者",
+      "why": "含大量起司。"
+    },
+    {
+      "who": "麩質不耐或乳糜瀉患者",
+      "why": "麵皮含麩質。"
+    },
+    {
+      "who": "正在控制體重者",
+      "why": "很容易一次吃三四片。"
+    }
+  ],
+  "tips": "選薄皮、蔬菜多的口味，少選臘腸、培根等加工肉。"
+}

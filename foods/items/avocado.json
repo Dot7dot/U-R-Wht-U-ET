@@ -1,0 +1,71 @@
+{
+  "id": "avocado",
+  "name": "酪梨",
+  "emoji": "🥑",
+  "category": "水果",
+  "aliases": [
+    "牛油果",
+    "鱷梨",
+    "avocado"
+  ],
+  "summary": "以單元不飽和脂肪為主的高脂水果，在飲食指南中算油脂類。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1,
+  "edibleRatio": 0.7,
+  "serving": {
+    "label": "半顆",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 160,
+    "protein": 2,
+    "fat": 14.7,
+    "satFat": 2.1,
+    "carbs": 8.5,
+    "sugar": 0.7,
+    "fiber": 6.7,
+    "sodium": 7,
+    "potassium": 485,
+    "calcium": 12,
+    "iron": 0.6,
+    "vitC": 10,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "單元不飽和脂肪",
+    "膳食纖維",
+    "鉀",
+    "葉酸"
+  ],
+  "benefits": [
+    {
+      "title": "心血管疾病",
+      "detail": "以酪梨取代奶油、加工肉等飽和脂肪來源，有助降低低密度膽固醇。"
+    },
+    {
+      "title": "便秘",
+      "detail": "纖維含量是水果中的前段班。"
+    },
+    {
+      "title": "高血壓",
+      "detail": "鉀含量比香蕉還高。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "正在控制體重者",
+      "why": "熱量密度高，半顆約 160 大卡，請取代其他油脂而不是額外加。"
+    },
+    {
+      "who": "腎臟病需限鉀者",
+      "why": "鉀含量很高。"
+    },
+    {
+      "who": "對乳膠過敏者",
+      "why": "可能有交叉過敏。"
+    }
+  ],
+  "tips": "和番茄、紅蘿蔔一起吃，能幫助脂溶性營養素吸收。"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "toast",
+  "name": "白吐司",
+  "emoji": "🍞",
+  "category": "全穀雜糧",
+  "aliases": [
+    "吐司",
+    "土司",
+    "麵包",
+    "bread",
+    "toast"
+  ],
+  "summary": "方便的早餐主食，但鈉與精製澱粉都不少。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.8,
+    "max": 4
+  },
+  "density": 0.25,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 片厚片",
+    "grams": 50
+  },
+  "per100g": {
+    "kcal": 290,
+    "protein": 9.5,
+    "fat": 5.5,
+    "satFat": 2.4,
+    "carbs": 50,
+    "sugar": 6,
+    "fiber": 2.5,
+    "sodium": 430,
+    "potassium": 110,
+    "calcium": 30,
+    "iron": 1,
+    "vitC": 0,
+    "cholesterol": 5
+  },
+  "highlights": [
+    "方便",
+    "含鈉較高"
+  ],
+  "benefits": [
+    {
+      "title": "快速補充能量",
+      "detail": "容易取得、好消化，適合運動前後或趕時間時補充碳水化合物。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "高血壓、需限鈉者",
+      "why": "兩片吐司約有 400 毫克以上的鈉，再加上抹醬、火腿很容易超標。"
+    },
+    {
+      "who": "麩質不耐或乳糜瀉患者",
+      "why": "以小麥製成，含麩質。"
+    },
+    {
+      "who": "糖尿病患者",
+      "why": "精製澱粉升糖快，建議選全麥並搭配蛋、蔬菜。"
+    }
+  ],
+  "tips": "選「全麥／全穀」且成分第一項是全麥麵粉的產品，纖維會多很多。"
+}

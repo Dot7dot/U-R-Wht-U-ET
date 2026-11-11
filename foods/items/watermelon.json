@@ -1,0 +1,67 @@
+{
+  "id": "watermelon",
+  "name": "西瓜",
+  "emoji": "🍉",
+  "category": "水果",
+  "aliases": [
+    "watermelon"
+  ],
+  "summary": "九成以上是水分的夏季水果。畫的時候請連皮一起畫，並調整厚度。",
+  "shape": {
+    "type": "flat",
+    "thickness": 2.5,
+    "min": 1,
+    "max": 8
+  },
+  "density": 0.95,
+  "edibleRatio": 0.65,
+  "serving": {
+    "label": "1 片",
+    "grams": 250
+  },
+  "per100g": {
+    "kcal": 30,
+    "protein": 0.6,
+    "fat": 0.2,
+    "satFat": 0,
+    "carbs": 7.6,
+    "sugar": 6.2,
+    "fiber": 0.4,
+    "sodium": 1,
+    "potassium": 112,
+    "calcium": 7,
+    "iron": 0.2,
+    "vitC": 8,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "水分",
+    "茄紅素",
+    "瓜胺酸"
+  ],
+  "benefits": [
+    {
+      "title": "脫水與中暑",
+      "detail": "水分與鉀有助於補充夏天流失的水分。"
+    },
+    {
+      "title": "心血管保健",
+      "detail": "含茄紅素與瓜胺酸，有助血管舒張。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "糖尿病患者",
+      "why": "升糖指數高，雖然每公克糖不多但容易吃過量，一次以一碗為限。"
+    },
+    {
+      "who": "腎臟病需限水、限鉀者",
+      "why": "一次吃很多會帶來大量水分與鉀。"
+    },
+    {
+      "who": "腸躁症患者",
+      "why": "屬高 FODMAP 水果，可能引起脹氣腹瀉。"
+    }
+  ],
+  "tips": "紅肉西瓜的茄紅素含量不輸番茄。"
+}

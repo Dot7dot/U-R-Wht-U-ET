@@ -1,0 +1,65 @@
+{
+  "id": "carrot",
+  "name": "紅蘿蔔",
+  "emoji": "🥕",
+  "category": "蔬菜",
+  "aliases": [
+    "胡蘿蔔",
+    "carrot"
+  ],
+  "summary": "β-胡蘿蔔素含量極高的根菜。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.03,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "半根",
+    "grams": 80
+  },
+  "per100g": {
+    "kcal": 41,
+    "protein": 0.9,
+    "fat": 0.2,
+    "satFat": 0,
+    "carbs": 9.6,
+    "sugar": 4.7,
+    "fiber": 2.8,
+    "sodium": 69,
+    "potassium": 320,
+    "calcium": 33,
+    "iron": 0.3,
+    "vitC": 6,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "β-胡蘿蔔素",
+    "膳食纖維",
+    "鉀"
+  ],
+  "benefits": [
+    {
+      "title": "夜盲症與乾眼",
+      "detail": "β-胡蘿蔔素可轉換成維生素 A，是視網膜感光所需。"
+    },
+    {
+      "title": "心血管疾病",
+      "detail": "類胡蘿蔔素攝取量高與較低的心血管風險相關。"
+    },
+    {
+      "title": "便秘",
+      "detail": "水溶性與非水溶性纖維兼具。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "大量食用者",
+      "why": "吃太多（或大量喝胡蘿蔔汁）皮膚會暫時變黃，減量後會恢復，無害。"
+    },
+    {
+      "who": "糖尿病患者",
+      "why": "打成汁會去掉纖維、糖分吸收變快，建議吃整根。"
+    }
+  ],
+  "tips": "用油炒過，β-胡蘿蔔素的吸收率會明顯提高。"
+}

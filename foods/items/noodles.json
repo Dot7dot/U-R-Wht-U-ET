@@ -1,0 +1,66 @@
+{
+  "id": "noodles",
+  "name": "麵條（熟）",
+  "emoji": "🍜",
+  "category": "全穀雜糧",
+  "aliases": [
+    "麵",
+    "白麵",
+    "拉麵",
+    "noodle"
+  ],
+  "summary": "煮熟的小麥麵條，熱量主要來自澱粉。",
+  "shape": {
+    "type": "mound",
+    "thickness": 4,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.7,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 碗（不含湯）",
+    "grams": 200
+  },
+  "per100g": {
+    "kcal": 135,
+    "protein": 4.5,
+    "fat": 0.6,
+    "satFat": 0.1,
+    "carbs": 27.5,
+    "sugar": 0.5,
+    "fiber": 1.2,
+    "sodium": 100,
+    "potassium": 30,
+    "calcium": 8,
+    "iron": 0.5,
+    "vitC": 0,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "低脂",
+    "好消化"
+  ],
+  "benefits": [
+    {
+      "title": "補充能量",
+      "detail": "提供碳水化合物，是活動量大時方便的主食選擇。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病患者",
+      "why": "麵體本身含鈉，湯頭與醬料鈉含量更高，建議少喝湯。"
+    },
+    {
+      "who": "麩質不耐或乳糜瀉患者",
+      "why": "小麥製品，含麩質。"
+    },
+    {
+      "who": "糖尿病患者",
+      "why": "精製澱粉，請注意份量並搭配蔬菜、蛋白質。"
+    }
+  ],
+  "tips": "吃麵時多加一份青菜和一顆蛋，營養會均衡很多。"
+}

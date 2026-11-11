@@ -1,0 +1,75 @@
+{
+  "id": "cheddar",
+  "name": "起司片",
+  "emoji": "🧀",
+  "category": "乳品",
+  "aliases": [
+    "乳酪",
+    "芝士",
+    "切達",
+    "cheese"
+  ],
+  "summary": "濃縮的乳製品，鈣與蛋白質高，但飽和脂肪和鈉也高。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.3,
+    "min": 0.2,
+    "max": 3
+  },
+  "density": 1.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 片",
+    "grams": 20
+  },
+  "per100g": {
+    "kcal": 403,
+    "protein": 23,
+    "fat": 33,
+    "satFat": 19,
+    "carbs": 3.1,
+    "sugar": 0.3,
+    "fiber": 0,
+    "sodium": 653,
+    "potassium": 76,
+    "calcium": 710,
+    "iron": 0.1,
+    "vitC": 0,
+    "cholesterol": 99
+  },
+  "highlights": [
+    "鈣",
+    "蛋白質",
+    "飽和脂肪高",
+    "鈉高"
+  ],
+  "benefits": [
+    {
+      "title": "骨質疏鬆",
+      "detail": "鈣密度極高，一片約提供 140 毫克的鈣。"
+    },
+    {
+      "title": "蛀牙",
+      "detail": "吃完起司能提高口腔酸鹼值，有助保護牙齒琺瑯質。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "高血壓、需限鈉者",
+      "why": "鈉含量高，加工起司片尤其明顯。"
+    },
+    {
+      "who": "高血脂、心血管疾病患者",
+      "why": "飽和脂肪高，請控制份量。"
+    },
+    {
+      "who": "牛奶蛋白過敏者",
+      "why": "含酪蛋白與乳清蛋白，應避免。"
+    },
+    {
+      "who": "服用 MAOI 類抗憂鬱藥者",
+      "why": "熟成起司含酪胺，可能引發血壓急遽升高。"
+    }
+  ],
+  "tips": "熟成硬質起司的乳糖很少，輕度乳糖不耐者通常可以少量食用。"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "salmon",
+  "name": "鮭魚（熟）",
+  "emoji": "🐟",
+  "category": "豆魚蛋肉",
+  "aliases": [
+    "三文魚",
+    "魚",
+    "salmon"
+  ],
+  "summary": "富含 Omega-3 脂肪酸（EPA、DHA）的油脂魚。",
+  "shape": {
+    "type": "flat",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 5
+  },
+  "density": 1.05,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "1 片",
+    "grams": 120
+  },
+  "per100g": {
+    "kcal": 206,
+    "protein": 22,
+    "fat": 12.4,
+    "satFat": 2.4,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "sodium": 61,
+    "potassium": 384,
+    "calcium": 15,
+    "iron": 0.3,
+    "vitC": 0,
+    "cholesterol": 63
+  },
+  "highlights": [
+    "Omega-3",
+    "維生素D",
+    "優質蛋白質"
+  ],
+  "benefits": [
+    {
+      "title": "心血管疾病",
+      "detail": "每週吃兩次魚（尤其是油脂魚）與較低的心臟病死亡風險相關。"
+    },
+    {
+      "title": "高三酸甘油酯",
+      "detail": "EPA 與 DHA 有助降低血中三酸甘油酯。"
+    },
+    {
+      "title": "骨質疏鬆",
+      "detail": "是少數天然富含維生素 D 的食物，有助鈣質吸收。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "對魚過敏者",
+      "why": "魚類是常見過敏原。"
+    },
+    {
+      "who": "正在服用抗凝血藥物者",
+      "why": "大量 Omega-3 可能影響凝血，補充魚油或大量吃魚前請先詢問醫師。"
+    },
+    {
+      "who": "孕婦、幼兒與免疫力低下者",
+      "why": "避免生食（生魚片、煙燻鮭魚），以免李斯特菌或寄生蟲感染。"
+    },
+    {
+      "who": "痛風患者",
+      "why": "屬中高普林食物，急性期宜減量。"
+    }
+  ],
+  "tips": "用蒸、烤、氣炸比油炸更能保留 Omega-3。"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "shrimp",
+  "name": "蝦子（熟）",
+  "emoji": "🦐",
+  "category": "豆魚蛋肉",
+  "aliases": [
+    "蝦",
+    "蝦仁",
+    "shrimp"
+  ],
+  "summary": "高蛋白、幾乎不含脂肪的海鮮。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 1,
+    "max": 5,
+    "fill": 0.6
+  },
+  "density": 0.7,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "6 隻蝦仁",
+    "grams": 80
+  },
+  "per100g": {
+    "kcal": 99,
+    "protein": 24,
+    "fat": 0.3,
+    "satFat": 0.1,
+    "carbs": 0.2,
+    "sugar": 0,
+    "fiber": 0,
+    "sodium": 111,
+    "potassium": 259,
+    "calcium": 70,
+    "iron": 0.5,
+    "vitC": 0,
+    "cholesterol": 189
+  },
+  "highlights": [
+    "高蛋白",
+    "低脂",
+    "硒",
+    "碘"
+  ],
+  "benefits": [
+    {
+      "title": "體重控制",
+      "detail": "熱量低、蛋白質高，飽足感好。"
+    },
+    {
+      "title": "甲狀腺功能",
+      "detail": "含碘與硒，是甲狀腺素合成與代謝所需的礦物質。"
+    }
+  ],
+  "cautions": [
+    {
+      "who": "對甲殼類過敏者",
+      "why": "蝦是最常見、也可能很嚴重的過敏原之一，過敏者必須完全避免。"
+    },
+    {
+      "who": "痛風患者",
+      "why": "普林含量偏高，急性期應避免。"
+    },
+    {
+      "who": "醫師要求限制膽固醇者",
+      "why": "膽固醇含量高（蝦頭、蝦卵尤其多）。"
+    }
+  ],
+  "tips": "膽固醇主要在蝦頭，去頭吃可以少掉大部分。"
+}
