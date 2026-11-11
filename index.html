@@ -26,8 +26,8 @@
         <label><input id="setup-palm" type="number" inputmode="decimal" min="10" max="26" step="0.1" value="18"><span>公分</span></label>
         <button type="button" class="step" data-palm-step="0.5" aria-label="增加">＋</button>
       </div>
-      <p class="hint">沒有尺？在掌心放一枚十元硬幣拍張照，就能幫你推算。</p>
-      <button type="button" class="btn ghost" data-measure>📷 用十元硬幣拍照測量</button>
+      <p class="hint">沒有尺？在掌心放一枚硬幣拍張照，就能幫你推算。</p>
+      <button type="button" class="btn ghost" data-measure>📷 用硬幣拍照測量</button>
       <button id="setup-done" class="btn primary big">開始使用</button>
     </div>
   </section>
@@ -119,7 +119,7 @@
         <label><input id="set-palm" type="number" inputmode="decimal" min="10" max="26" step="0.1"><span>公分</span></label>
         <button type="button" class="step" data-palm-step="0.5" aria-label="增加">＋</button>
       </div>
-      <button type="button" class="btn ghost" data-measure>📷 用十元硬幣拍照測量</button>
+      <button type="button" class="btn ghost" data-measure>📷 用硬幣拍照測量</button>
     </div>
     <div class="panel">
       <h2>資料</h2>
@@ -153,14 +153,14 @@
 <!-- 拍照測量手掌 -->
 <div id="measure" class="measure" hidden>
   <header class="measure-head">
-    <b>用十元硬幣測量手掌</b>
+    <b>用硬幣測量手掌</b>
     <button class="icon-btn" id="m-close" aria-label="關閉">✕</button>
   </header>
   <div id="m-intro" class="measure-body">
     <canvas id="m-demo" width="300" height="330"></canvas>
     <ol class="m-steps">
       <li>手掌攤平、掌心朝上，手指伸直。</li>
-      <li>在<strong>掌心正中央</strong>平放一枚<strong>十元硬幣</strong>。</li>
+      <li>在<strong>掌心正中央</strong>平放<strong>一枚硬幣</strong>，1 元、5 元、10 元、50 元都可以，會自動判斷面額。</li>
       <li>手機拿在手掌<strong>正上方</strong>、與手掌平行，把<strong>整隻手連同手腕</strong>拍進去。</li>
     </ol>
     <label class="btn primary big">📷 拍照<input id="m-camera" type="file" accept="image/*" capture="environment" hidden></label>
@@ -170,6 +170,7 @@
   <div id="m-edit" class="measure-body" hidden>
     <p id="m-status" class="m-status"></p>
     <div class="m-canvas-wrap"><canvas id="m-canvas"></canvas></div>
+    <div class="m-coin-row"><span>硬幣</span><div id="m-coins" class="chips"></div></div>
     <div class="m-result">手掌長約 <b id="m-value">–</b> 公分</div>
     <p id="m-range" class="hint center" hidden>結果超出 10–26 公分，請調整圓圈與兩個點的位置。</p>
     <div class="m-actions">

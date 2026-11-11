@@ -464,7 +464,7 @@ document.addEventListener('click', (e) => {
 });
 document.addEventListener('click', (e) => {
   if (!e.target.closest('[data-measure]')) return;
-  // 示意圖：掌心放一枚十元硬幣
+  // 示意圖：掌心放一枚硬幣
   const demo = $('m-demo').getContext('2d');
   demo.clearRect(0, 0, 300, 330);
   drawHand(demo, 46, 20, 290);
@@ -472,7 +472,7 @@ document.addEventListener('click', (e) => {
   demo.fillStyle = '#c9a25a'; demo.strokeStyle = '#8f6f2f'; demo.lineWidth = 2;
   demo.beginPath(); demo.arc(cx, cy, r, 0, Math.PI * 2); demo.fill(); demo.stroke();
   demo.fillStyle = '#6b5220'; demo.font = '700 15px sans-serif'; demo.textAlign = 'center'; demo.textBaseline = 'middle';
-  demo.fillText('10', cx, cy + 1);
+  demo.fillText('$', cx, cy + 1);
   openMeasure((cm) => {
     savePalm(cm);
     $('setup-palm').value = $('set-palm').value = state.settings.palmCm;
