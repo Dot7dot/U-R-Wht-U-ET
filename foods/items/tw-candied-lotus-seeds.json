@@ -1,0 +1,65 @@
+{
+  "id": "tw-candied-lotus-seeds",
+  "name": "糖漬蓮子",
+  "emoji": "🌰",
+  "category": "點心零食",
+  "subcategory": "蜜餞果乾",
+  "aliases": [
+    "Lotus nut",
+    "Lotus seed"
+  ],
+  "summary": "糖漬蓮子，每 100 公克可食部分約 230 大卡；營養數值採衛福部食藥署「食品營養成分資料庫」台灣樣品分析值。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.7,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克可食部分",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 230,
+    "protein": 5.7,
+    "fat": 0.1,
+    "satFat": 0.0,
+    "carbs": 51.4,
+    "fiber": 3.3,
+    "sodium": 11,
+    "potassium": 155,
+    "calcium": 54,
+    "iron": 1.1,
+    "vitC": 0.4
+  },
+  "highlights": [
+    "蛋白質 5.7 克／100 公克",
+    "鈉 11 毫克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "數值為食藥署抽樣分析的代表值，不同品牌、口味與配方會有差異；包裝食品請優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署 食品營養成分資料庫（政府資料開放平臺資料集）",
+      "url": "https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=20&logType=2",
+      "integratedNo": "R7101901",
+      "originalName": "糖漬蓮子",
+      "originalCategory": "加工調理食品及其他類",
+      "description": "樣品狀態:糖漬品(蓮子,糖等); 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-snacks-2026",
+    "basis": "每 100 公克可食部分。糖為「糖質總量」（總糖，非添加糖）；熱量採資料庫「熱量」欄。",
+    "missingNutrients": [
+      "sugar",
+      "cholesterol"
+    ],
+    "estimation": "shape 與 density 為編輯估計的介面估重設定，非食藥署實測物性；edibleRatio 依食藥署「廢棄率」換算。優先使用秤重或包裝標示重量。"
+  }
+}

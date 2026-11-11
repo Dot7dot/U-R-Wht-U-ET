@@ -1,0 +1,65 @@
+{
+  "id": "tw-pork-jerky-slices",
+  "name": "片狀肉乾(豬肉)",
+  "emoji": "🥓",
+  "category": "點心零食",
+  "subcategory": "肉乾肉鬆",
+  "aliases": [
+    "片狀肉乾",
+    "豬肉干",
+    "Pork: baked"
+  ],
+  "summary": "片狀肉乾(豬肉)，每 100 公克可食部分約 329 大卡；營養數值採衛福部食藥署「食品營養成分資料庫」台灣樣品分析值。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克可食部分",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 329,
+    "protein": 30.0,
+    "fat": 5.0,
+    "satFat": 1.8,
+    "carbs": 41.0,
+    "sugar": 26.8,
+    "sodium": 1177,
+    "potassium": 583,
+    "calcium": 8,
+    "iron": 1.8,
+    "vitC": 7.1,
+    "cholesterol": 106
+  },
+  "highlights": [
+    "鈉 1177 毫克／100 公克",
+    "糖 26.8 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "數值為食藥署抽樣分析的代表值，不同品牌、口味與配方會有差異；包裝食品請優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署 食品營養成分資料庫（政府資料開放平臺資料集）",
+      "url": "https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=20&logType=2",
+      "integratedNo": "R5200201",
+      "originalName": "片狀肉乾(豬肉)",
+      "originalCategory": "加工調理食品及其他類",
+      "description": "前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-snacks-2026",
+    "basis": "每 100 公克可食部分。糖為「糖質總量」（總糖，非添加糖）；熱量採資料庫「熱量」欄。",
+    "missingNutrients": [
+      "fiber"
+    ],
+    "estimation": "shape 與 density 為編輯估計的介面估重設定，非食藥署實測物性；edibleRatio 依食藥署「廢棄率」換算。優先使用秤重或包裝標示重量。"
+  }
+}
