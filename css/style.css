@@ -207,3 +207,24 @@ input[type=range] { width: 100%; accent-color: var(--accent); height: 28px; marg
   background: var(--ink); color: #fff; padding: 10px 18px; border-radius: 999px; font-size: .9rem; z-index: 30;
   white-space: nowrap;
 }
+
+/* 拍照測量手掌 */
+.measure { position: fixed; inset: 0; z-index: 40; background: var(--bg); overflow-y: auto; }
+.measure-head {
+  display: flex; align-items: center; justify-content: space-between; max-width: 520px; margin: 0 auto;
+  padding: calc(12px + env(safe-area-inset-top)) 16px 8px; font-size: 1.1rem;
+}
+.measure-body { max-width: 520px; margin: 0 auto; padding: 0 16px calc(24px + env(safe-area-inset-bottom)); }
+#m-demo { display: block; width: 190px; height: auto; margin: 0 auto; }
+.m-steps { padding-left: 1.4em; margin: 12px 0 18px; }
+.m-steps li { margin-bottom: 6px; }
+label.btn { text-align: center; }
+.m-status { border-radius: 14px; padding: 10px 13px; font-size: .88rem; background: var(--accent-soft); margin: 0 0 10px; }
+.m-status[data-kind=warn] { background: var(--warn-soft); }
+.m-status[data-kind=busy] { background: var(--line); }
+.m-canvas-wrap { display: flex; justify-content: center; background: #000; border-radius: 16px; overflow: hidden; }
+#m-canvas { display: block; touch-action: none; }
+.m-result { text-align: center; margin-top: 12px; color: var(--muted); }
+.m-result b { font-size: 2rem; color: var(--ink); margin: 0 4px; }
+.m-actions { display: grid; grid-template-columns: 1fr 2fr; gap: 10px; }
+.btn:disabled { opacity: .45; }
