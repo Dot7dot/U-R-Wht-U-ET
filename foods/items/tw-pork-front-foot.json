@@ -1,0 +1,99 @@
+{
+  "id": "tw-pork-front-foot",
+  "name": "豬前腳（生重、去骨）",
+  "emoji": "🍖",
+  "category": "豆魚蛋肉",
+  "subcategory": "內臟與滷味原料",
+  "aliases": [
+    "前蹄",
+    "短腳",
+    "豬前腳",
+    "Pork: feet, front"
+  ],
+  "summary": "來源去骨後分析，整支豬腳的骨頭不可計入；與蹄膀分開。 每 100 公克約 252 大卡，蛋白質 21.9 克、脂肪 17.6 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.2,
+    "max": 6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 252.0,
+    "protein": 21.9,
+    "fat": 17.6,
+    "carbs": 0.0,
+    "satFat": 5.5,
+    "sodium": 114.0,
+    "cholesterol": 111.0,
+    "potassium": 124.0,
+    "calcium": 33.0,
+    "iron": 1.0,
+    "vitC": 0.5,
+    "zinc": 2.5,
+    "vitB1": 0.11,
+    "vitB2": 0.13,
+    "vitB6": 0.03,
+    "vitB12": 0.43,
+    "epa": 0.0,
+    "dha": 35.0
+  },
+  "highlights": [
+    "滷味",
+    "黑白切",
+    "火鍋",
+    "熱炒",
+    "蛋白質 21.9 克／100 公克",
+    "脂肪 17.6 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "以熟食重量記錄者",
+      "why": "本筆以名稱標示的原料或原品狀態計算。下鍋前後含水量、油脂及醬料不同，不以固定比例把生重換成熟重。"
+    }
+  ],
+  "tips": "來源去骨後分析，整支豬腳的骨頭不可計入；與蹄膀分開。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署：食品營養成分資料集（8543）",
+      "url": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "datasetUrl": "https://data.gov.tw/dataset/8543",
+      "sampleId": "I0322101",
+      "originalDescription": "豬前腳",
+      "preparation": "樣品狀態:生,豬腳; 前處理描述:去骨,混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "meatDetails": {
+    "animal": "豬",
+    "cutOrProduct": "豬前腳",
+    "weightBasis": "生重",
+    "commonUses": [
+      "滷味",
+      "黑白切",
+      "火鍋",
+      "熱炒"
+    ],
+    "referenceScope": "來源去骨後分析，整支豬腳的骨頭不可計入；與蹄膀分開。",
+    "originalPreparation": "樣品狀態:生,豬腳; 前處理描述:去骨,混合均勻打碎"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "TFDA:I0322101",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [
+      "fiber",
+      "sugar",
+      "vitD"
+    ],
+    "qualifiers": {},
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}

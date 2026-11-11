@@ -1,0 +1,101 @@
+{
+  "id": "tw-beef-tenderloin",
+  "name": "菲力牛排（生重、美牛 2025 年樣品）",
+  "emoji": "🥩",
+  "category": "豆魚蛋肉",
+  "subcategory": "牛肉部位",
+  "aliases": [
+    "腓力",
+    "牛柳",
+    "小里肌",
+    "腰內肉",
+    "filet mignon",
+    "tenderloin",
+    "腓力牛排(美牛)(2025年取樣)",
+    "TenderLoin"
+  ],
+  "summary": "前腰脊的小里肌樣品；本筆為修清菲力，不可直接套用到裹培根或奶油烹調後的牛排。 每 100 公克約 143 大卡，蛋白質 20.7 克、脂肪 6 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.2,
+    "max": 6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 143.0,
+    "protein": 20.7,
+    "fat": 6.0,
+    "carbs": 0.2,
+    "sugar": 0.1,
+    "satFat": 2.8,
+    "sodium": 51.0,
+    "cholesterol": 58.0,
+    "potassium": 377.0,
+    "calcium": 2.0,
+    "iron": 3.0,
+    "vitC": 0.0,
+    "zinc": 4.1,
+    "vitB1": 0.14,
+    "vitB2": 0.27,
+    "vitB6": 0.5,
+    "vitB12": 3.73,
+    "vitD": 0.0,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "牛排",
+    "燒肉",
+    "燉煮",
+    "蛋白質 20.7 克／100 公克",
+    "脂肪 6 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "以熟食重量記錄者",
+      "why": "本筆以名稱標示的原料或原品狀態計算。下鍋前後含水量、油脂及醬料不同，不以固定比例把生重換成熟重。"
+    }
+  ],
+  "tips": "前腰脊的小里肌樣品；本筆為修清菲力，不可直接套用到裹培根或奶油烹調後的牛排。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署：食品營養成分資料集（8543）",
+      "url": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "datasetUrl": "https://data.gov.tw/dataset/8543",
+      "sampleId": "I0106202",
+      "originalDescription": "腓力牛排(美牛)(2025年取樣)",
+      "preparation": "樣品狀態:生,牛前腰脊部位,冷凍產品; 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "meatDetails": {
+    "animal": "牛",
+    "cutOrProduct": "菲力牛排",
+    "weightBasis": "生重",
+    "commonUses": [
+      "牛排",
+      "燒肉",
+      "燉煮"
+    ],
+    "referenceScope": "前腰脊的小里肌樣品；本筆為修清菲力，不可直接套用到裹培根或奶油烹調後的牛排。",
+    "originalPreparation": "樣品狀態:生,牛前腰脊部位,冷凍產品; 前處理描述:混合均勻打碎"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "TFDA:I0106202",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [
+      "fiber"
+    ],
+    "qualifiers": {},
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}
