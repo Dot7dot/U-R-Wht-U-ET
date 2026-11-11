@@ -1,0 +1,64 @@
+{
+  "id": "tw-spiced-dried-tofu-cubes",
+  "name": "豆干丁(五香)",
+  "emoji": "🟫",
+  "category": "點心零食",
+  "subcategory": "鹹酥零食",
+  "aliases": [
+    "豆干丁"
+  ],
+  "summary": "豆干丁(五香)，每 100 公克可食部分約 383 大卡；營養數值採衛福部食藥署「食品營養成分資料庫」台灣樣品分析值。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.7,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "食藥署樣品 1 單位",
+    "grams": 9
+  },
+  "per100g": {
+    "kcal": 383,
+    "protein": 35.4,
+    "fat": 18.1,
+    "satFat": 3.4,
+    "carbs": 19.6,
+    "sugar": 5.6,
+    "fiber": 2.8,
+    "sodium": 988,
+    "potassium": 284,
+    "calcium": 640,
+    "iron": 3.3,
+    "vitC": 0.0
+  },
+  "highlights": [
+    "蛋白質 35.4 克／100 公克",
+    "鈉 988 毫克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "數值為食藥署抽樣分析的代表值，不同品牌、口味與配方會有差異；包裝食品請優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署 食品營養成分資料庫（政府資料開放平臺資料集）",
+      "url": "https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=20&logType=2",
+      "integratedNo": "Q9100101",
+      "originalName": "豆干丁(五香)",
+      "originalCategory": "糕餅點心類",
+      "description": "前處理描述:混合均勻打碎(黃豆,糖,鹽,辣椒,香辛料,調味料,己二烯酸等)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-snacks-2026",
+    "basis": "每 100 公克可食部分。糖為「糖質總量」（總糖，非添加糖）；熱量採資料庫「熱量」欄。",
+    "missingNutrients": [
+      "cholesterol"
+    ],
+    "estimation": "shape 與 density 為編輯估計的介面估重設定，非食藥署實測物性；edibleRatio 依食藥署「廢棄率」換算。優先使用秤重或包裝標示重量。"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "tw-cheese-honey-cake",
+  "name": "蜂蜜蛋糕(起司)",
+  "emoji": "🍰",
+  "category": "點心零食",
+  "subcategory": "蛋糕西點",
+  "aliases": [
+    "蜂蜜蛋糕",
+    "Honey cake: Cheese"
+  ],
+  "summary": "蜂蜜蛋糕(起司)，每 100 公克可食部分約 352 大卡；營養數值採衛福部食藥署「食品營養成分資料庫」台灣樣品分析值。",
+  "shape": {
+    "type": "flat",
+    "thickness": 3,
+    "min": 1,
+    "max": 10
+  },
+  "density": 0.4,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "食藥署樣品 1 單位",
+    "grams": 35
+  },
+  "per100g": {
+    "kcal": 352,
+    "protein": 7.4,
+    "fat": 18.1,
+    "satFat": 5.7,
+    "carbs": 39.9,
+    "sugar": 21.3,
+    "fiber": 0.7,
+    "sodium": 170,
+    "potassium": 111,
+    "calcium": 31,
+    "iron": 1.1,
+    "cholesterol": 162
+  },
+  "highlights": [
+    "糖 21.3 克／100 公克",
+    "脂肪 18.1 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "數值為食藥署抽樣分析的代表值，不同品牌、口味與配方會有差異；包裝食品請優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署 食品營養成分資料庫（政府資料開放平臺資料集）",
+      "url": "https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=20&logType=2",
+      "integratedNo": "Q0900601",
+      "originalName": "蜂蜜蛋糕(起司)",
+      "originalCategory": "糕餅點心類",
+      "description": "前處理描述:混合均勻打碎(雞蛋,麵粉,起司,植物油,香料,膨鬆劑,乳化劑等)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-snacks-2026",
+    "basis": "每 100 公克可食部分。糖為「糖質總量」（總糖，非添加糖）；熱量採資料庫「熱量」欄。",
+    "missingNutrients": [
+      "vitC"
+    ],
+    "estimation": "shape 與 density 為編輯估計的介面估重設定，非食藥署實測物性；edibleRatio 依食藥署「廢棄率」換算。優先使用秤重或包裝標示重量。"
+  }
+}

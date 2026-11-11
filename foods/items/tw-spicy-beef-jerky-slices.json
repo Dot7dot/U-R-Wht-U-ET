@@ -1,0 +1,66 @@
+{
+  "id": "tw-spicy-beef-jerky-slices",
+  "name": "片狀肉乾(牛肉,辣味)",
+  "emoji": "🌶️",
+  "category": "點心零食",
+  "subcategory": "肉乾肉鬆",
+  "aliases": [
+    "片狀肉乾",
+    "辣味牛肉干",
+    "Beef: baked, sliced and spiced",
+    "Spicy flavored beef jerky"
+  ],
+  "summary": "片狀肉乾(牛肉,辣味)，每 100 公克可食部分約 335 大卡；營養數值採衛福部食藥署「食品營養成分資料庫」台灣樣品分析值。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克可食部分",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 335,
+    "protein": 38.0,
+    "fat": 7.0,
+    "satFat": 3.4,
+    "carbs": 29.9,
+    "sugar": 24.4,
+    "sodium": 1537,
+    "potassium": 676,
+    "calcium": 5,
+    "iron": 5.7,
+    "vitC": 5.6,
+    "cholesterol": 57
+  },
+  "highlights": [
+    "鈉 1537 毫克／100 公克",
+    "蛋白質 38 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "數值為食藥署抽樣分析的代表值，不同品牌、口味與配方會有差異；包裝食品請優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署 食品營養成分資料庫（政府資料開放平臺資料集）",
+      "url": "https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=20&logType=2",
+      "integratedNo": "R5200102",
+      "originalName": "片狀肉乾(牛肉,辣味)",
+      "originalCategory": "加工調理食品及其他類",
+      "description": "樣品狀態:牛肉乾(牛肉,醬油,砂糖,食品添加物等); 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-snacks-2026",
+    "basis": "每 100 公克可食部分。糖為「糖質總量」（總糖，非添加糖）；熱量採資料庫「熱量」欄。",
+    "missingNutrients": [
+      "fiber"
+    ],
+    "estimation": "shape 與 density 為編輯估計的介面估重設定，非食藥署實測物性；edibleRatio 依食藥署「廢棄率」換算。優先使用秤重或包裝標示重量。"
+  }
+}

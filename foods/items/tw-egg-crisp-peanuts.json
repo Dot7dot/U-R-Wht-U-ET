@@ -1,0 +1,67 @@
+{
+  "id": "tw-egg-crisp-peanuts",
+  "name": "蛋酥花生仁",
+  "emoji": "🥜",
+  "category": "點心零食",
+  "subcategory": "堅果瓜子零食",
+  "aliases": [
+    "土豆",
+    "長生果",
+    "落花生",
+    "Peanut"
+  ],
+  "summary": "蛋酥花生仁，每 100 公克可食部分約 606 大卡；營養數值採衛福部食藥署「食品營養成分資料庫」台灣樣品分析值。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克可食部分",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 606,
+    "protein": 21.1,
+    "fat": 43.8,
+    "satFat": 10.9,
+    "carbs": 31.8,
+    "fiber": 7.3,
+    "sodium": 45,
+    "potassium": 464,
+    "calcium": 56,
+    "iron": 0.5,
+    "vitC": 3.9,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "脂肪 43.8 克／100 公克",
+    "蛋白質 21.1 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "數值為食藥署抽樣分析的代表值，不同品牌、口味與配方會有差異；包裝食品請優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署 食品營養成分資料庫（政府資料開放平臺資料集）",
+      "url": "https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=20&logType=2",
+      "integratedNo": "R7101401",
+      "originalName": "蛋酥花生仁",
+      "originalCategory": "加工調理食品及其他類",
+      "description": "前處理描述:含膜,混合均勻打碎(花生仁,蛋,糖,植物油等)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-snacks-2026",
+    "basis": "每 100 公克可食部分。糖為「糖質總量」（總糖，非添加糖）；熱量採資料庫「熱量」欄。",
+    "missingNutrients": [
+      "sugar"
+    ],
+    "estimation": "shape 與 density 為編輯估計的介面估重設定，非食藥署實測物性；edibleRatio 依食藥署「廢棄率」換算。優先使用秤重或包裝標示重量。"
+  }
+}

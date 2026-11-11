@@ -1,0 +1,63 @@
+{
+  "id": "tw-dried-persimmon",
+  "name": "柿餅",
+  "emoji": "🍊",
+  "category": "點心零食",
+  "subcategory": "蜜餞果乾",
+  "aliases": [
+    "Persimmon"
+  ],
+  "summary": "柿餅，每 100 公克可食部分約 196 大卡；營養數值採衛福部食藥署「食品營養成分資料庫」台灣樣品分析值。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.7,
+  "edibleRatio": 0.957,
+  "serving": {
+    "label": "食藥署樣品 1 單位",
+    "grams": 49
+  },
+  "per100g": {
+    "kcal": 196,
+    "protein": 1.7,
+    "fat": 0.2,
+    "satFat": 0.1,
+    "carbs": 52.2,
+    "sugar": 26.0,
+    "fiber": 12.6,
+    "sodium": 4,
+    "potassium": 611,
+    "calcium": 23,
+    "iron": 0.8,
+    "vitC": 2.9,
+    "cholesterol": 0
+  },
+  "highlights": [
+    "糖 26 克／100 公克",
+    "蛋白質 1.7 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "數值為食藥署抽樣分析的代表值，不同品牌、口味與配方會有差異；包裝食品請優先參考實際營養標示。畫圖估重時請連殼一起畫，可食比例已依食藥署廢棄率換算。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署 食品營養成分資料庫（政府資料開放平臺資料集）",
+      "url": "https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=20&logType=2",
+      "integratedNo": "D2700501",
+      "originalName": "柿餅",
+      "originalCategory": "水果類",
+      "description": "前處理描述:去蒂,混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-snacks-2026",
+    "basis": "每 100 公克可食部分。糖為「糖質總量」（總糖，非添加糖）；熱量採資料庫「熱量」欄。",
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為編輯估計的介面估重設定，非食藥署實測物性；edibleRatio 依食藥署「廢棄率」換算。優先使用秤重或包裝標示重量。"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "tw-honey-pine-nuts",
+  "name": "蜜汁松子仁",
+  "emoji": "🌰",
+  "category": "點心零食",
+  "subcategory": "堅果瓜子零食",
+  "aliases": [
+    "Pine-seed: honey roasted"
+  ],
+  "summary": "蜜汁松子仁，每 100 公克可食部分約 697 大卡；營養數值採衛福部食藥署「食品營養成分資料庫」台灣樣品分析值。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克可食部分",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 697,
+    "protein": 14.9,
+    "fat": 62.4,
+    "satFat": 5.2,
+    "carbs": 19.0,
+    "fiber": 4.0,
+    "sodium": 2,
+    "potassium": 339,
+    "calcium": 15,
+    "iron": 5.6,
+    "vitC": 2.8
+  },
+  "highlights": [
+    "脂肪 62.4 克／100 公克",
+    "蛋白質 14.9 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "數值為食藥署抽樣分析的代表值，不同品牌、口味與配方會有差異；包裝食品請優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署 食品營養成分資料庫（政府資料開放平臺資料集）",
+      "url": "https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=20&logType=2",
+      "integratedNo": "R7100301",
+      "originalName": "蜜汁松子仁",
+      "originalCategory": "加工調理食品及其他類",
+      "description": "前處理描述:混合均勻打碎(松子仁,果糖,鹽等)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-snacks-2026",
+    "basis": "每 100 公克可食部分。糖為「糖質總量」（總糖，非添加糖）；熱量採資料庫「熱量」欄。",
+    "missingNutrients": [
+      "sugar",
+      "cholesterol"
+    ],
+    "estimation": "shape 與 density 為編輯估計的介面估重設定，非食藥署實測物性；edibleRatio 依食藥署「廢棄率」換算。優先使用秤重或包裝標示重量。"
+  }
+}
