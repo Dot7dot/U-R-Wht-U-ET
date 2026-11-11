@@ -1,0 +1,64 @@
+{
+  "id": "celtuce",
+  "name": "萵筍（生重）",
+  "emoji": "🥬",
+  "category": "蔬菜",
+  "subcategory": "蔬菜",
+  "aliases": [
+    "萵筍",
+    "celtuce",
+    "CELTUCE,RAW"
+  ],
+  "summary": "萵筍（生重），每 100 公克可食部分約 18 大卡；營養數值採 USDA SR28 對應食物紀錄。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克可食部分",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 18.0,
+    "protein": 0.85,
+    "fat": 0.3,
+    "carbs": 3.65,
+    "fiber": 1.7,
+    "sodium": 11.0,
+    "potassium": 330.0,
+    "calcium": 39.0,
+    "iron": 0.55,
+    "vitC": 19.5,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "膳食纖維 1.7 克／100 公克",
+    "維生素 C 19.5 毫克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "只秤可食部分，不包含骨、殼、果皮等不食用的部分。此筆採用名稱所示的生重或乾重，不能直接套用到烹調後重量；生重資料不代表可以生食。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "11145",
+      "originalDescription": "CELTUCE,RAW",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "sr28-expansion-300",
+    "basis": "每 100 公克可食部分，生熟、含皮、加鹽與瀝乾狀態依名稱及來源原名。糖為總糖，非添加糖。",
+    "missingNutrients": [
+      "satFat",
+      "sugar"
+    ],
+    "estimation": "density=1 是介面估重暫定值，非 USDA 實測密度；edibleRatio=1 只適用於可食部分。優先使用秤重或定量份量。"
+  }
+}

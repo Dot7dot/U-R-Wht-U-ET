@@ -1,0 +1,64 @@
+{
+  "id": "coriander-seed",
+  "name": "芫荽籽",
+  "emoji": "🧂",
+  "category": "香料調味",
+  "subcategory": "香料與調味",
+  "aliases": [
+    "芫荽籽",
+    "coriander seed",
+    "CORIANDER SEED"
+  ],
+  "summary": "芫荽籽，每 100 公克可食部分約 298 大卡；營養數值採 USDA SR28 對應食物紀錄。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 5 公克可食部分",
+    "grams": 5
+  },
+  "per100g": {
+    "kcal": 298.0,
+    "protein": 12.37,
+    "fat": 17.77,
+    "satFat": 0.99,
+    "carbs": 54.99,
+    "fiber": 41.9,
+    "sodium": 35.0,
+    "potassium": 1267.0,
+    "calcium": 709.0,
+    "iron": 16.32,
+    "vitC": 21.0,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "碳水化合物 54.99 克／100 公克",
+    "脂肪 17.77 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "請按實際使用公克數計算，避免直接把 100 公克當作一次使用量。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "02013",
+      "originalDescription": "CORIANDER SEED",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "sr28-expansion-300",
+    "basis": "每 100 公克可食部分，生熟、含皮、加鹽與瀝乾狀態依名稱及來源原名。糖為總糖，非添加糖。",
+    "missingNutrients": [
+      "sugar"
+    ],
+    "estimation": "density=1 是介面估重暫定值，非 USDA 實測密度；edibleRatio=1 只適用於可食部分。優先使用秤重或定量份量。"
+  }
+}

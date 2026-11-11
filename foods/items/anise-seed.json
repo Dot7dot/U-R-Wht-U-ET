@@ -1,0 +1,64 @@
+{
+  "id": "anise-seed",
+  "name": "西洋茴香籽",
+  "emoji": "🧂",
+  "category": "香料調味",
+  "subcategory": "香料與調味",
+  "aliases": [
+    "西洋茴香籽",
+    "anise seed",
+    "ANISE SEED"
+  ],
+  "summary": "西洋茴香籽，每 100 公克可食部分約 337 大卡；營養數值採 USDA SR28 對應食物紀錄。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 5 公克可食部分",
+    "grams": 5
+  },
+  "per100g": {
+    "kcal": 337.0,
+    "protein": 17.6,
+    "fat": 15.9,
+    "satFat": 0.586,
+    "carbs": 50.02,
+    "fiber": 14.6,
+    "sodium": 16.0,
+    "potassium": 1441.0,
+    "calcium": 646.0,
+    "iron": 36.96,
+    "vitC": 21.0,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "碳水化合物 50.02 克／100 公克",
+    "脂肪 15.9 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "請按實際使用公克數計算，避免直接把 100 公克當作一次使用量。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "02002",
+      "originalDescription": "ANISE SEED",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "sr28-expansion-300",
+    "basis": "每 100 公克可食部分，生熟、含皮、加鹽與瀝乾狀態依名稱及來源原名。糖為總糖，非添加糖。",
+    "missingNutrients": [
+      "sugar"
+    ],
+    "estimation": "density=1 是介面估重暫定值，非 USDA 實測密度；edibleRatio=1 只適用於可食部分。優先使用秤重或定量份量。"
+  }
+}

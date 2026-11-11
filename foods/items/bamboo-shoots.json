@@ -1,0 +1,63 @@
+{
+  "id": "bamboo-shoots",
+  "name": "竹筍（生重）",
+  "emoji": "🥬",
+  "category": "蔬菜",
+  "subcategory": "蔬菜",
+  "aliases": [
+    "竹筍",
+    "bamboo shoots",
+    "BAMBOO SHOOTS,RAW"
+  ],
+  "summary": "竹筍（生重），每 100 公克可食部分約 27 大卡；營養數值採 USDA SR28 對應食物紀錄。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克可食部分",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 27.0,
+    "protein": 2.6,
+    "fat": 0.3,
+    "satFat": 0.069,
+    "carbs": 5.2,
+    "sugar": 3.0,
+    "fiber": 2.2,
+    "sodium": 4.0,
+    "potassium": 533.0,
+    "calcium": 13.0,
+    "iron": 0.5,
+    "vitC": 4.0,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "膳食纖維 2.2 克／100 公克",
+    "維生素 C 4 毫克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "只秤可食部分，不包含骨、殼、果皮等不食用的部分。此筆採用名稱所示的生重或乾重，不能直接套用到烹調後重量；生重資料不代表可以生食。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "11026",
+      "originalDescription": "BAMBOO SHOOTS,RAW",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "sr28-expansion-300",
+    "basis": "每 100 公克可食部分，生熟、含皮、加鹽與瀝乾狀態依名稱及來源原名。糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 是介面估重暫定值，非 USDA 實測密度；edibleRatio=1 只適用於可食部分。優先使用秤重或定量份量。"
+  }
+}
