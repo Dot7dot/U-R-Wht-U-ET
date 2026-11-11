@@ -1,0 +1,56 @@
+{
+  "id": "red-white-currant",
+  "name": "紅白醋栗",
+  "emoji": "🍒",
+  "category": "水果",
+  "aliases": [
+    "red currant",
+    "white currant"
+  ],
+  "summary": "生鮮紅白醋栗，每 100 公克可食部分約 56 大卡。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.0,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 56.0,
+    "protein": 1.4,
+    "fat": 0.2,
+    "satFat": 0.017,
+    "carbs": 13.8,
+    "sugar": 7.37,
+    "fiber": 4.3,
+    "sodium": 1.0,
+    "potassium": 275.0,
+    "calcium": 33.0,
+    "iron": 1.0,
+    "vitC": 41.0,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "維生素 C 41 毫克／100 公克",
+    "膳食纖維 4.3 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "此筆涵蓋紅、白醋栗，食用前移除果梗。 畫圖估重請只畫可食部分；需要精準份量時請使用秤重。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "09084",
+      "originalDescription": "CURRANTS,RED&WHITE,RAW",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "basis": "每 100 公克生鮮可食部分；糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 為介面估重暫定值，非實測密度；edibleRatio=1 僅適用於已去除不可食部分的圖形。"
+  }
+}

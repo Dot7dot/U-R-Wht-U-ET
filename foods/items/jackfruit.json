@@ -1,0 +1,56 @@
+{
+  "id": "jackfruit",
+  "name": "波羅蜜",
+  "emoji": "🍈",
+  "category": "水果",
+  "aliases": [
+    "jackfruit",
+    "菠蘿蜜"
+  ],
+  "summary": "生鮮波羅蜜，每 100 公克可食部分約 95 大卡。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.0,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 95.0,
+    "protein": 1.72,
+    "fat": 0.64,
+    "satFat": 0.195,
+    "carbs": 23.25,
+    "sugar": 19.08,
+    "fiber": 1.5,
+    "sodium": 2.0,
+    "potassium": 448.0,
+    "calcium": 24.0,
+    "iron": 0.23,
+    "vitC": 13.7,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "維生素 C 13.7 毫克／100 公克",
+    "膳食纖維 1.5 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "只計可食果肉，此筆不適用於波羅蜜種子。 畫圖估重請只畫可食部分；需要精準份量時請使用秤重。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "09144",
+      "originalDescription": "JACKFRUIT,RAW",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "basis": "每 100 公克生鮮可食部分；糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 為介面估重暫定值，非實測密度；edibleRatio=1 僅適用於已去除不可食部分的圖形。"
+  }
+}

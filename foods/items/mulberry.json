@@ -1,0 +1,56 @@
+{
+  "id": "mulberry",
+  "name": "桑葚",
+  "emoji": "🫐",
+  "category": "水果",
+  "aliases": [
+    "mulberry",
+    "桑椹"
+  ],
+  "summary": "生鮮桑葚，每 100 公克可食部分約 43 大卡。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.0,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 43.0,
+    "protein": 1.44,
+    "fat": 0.39,
+    "satFat": 0.027,
+    "carbs": 9.8,
+    "sugar": 8.1,
+    "fiber": 1.7,
+    "sodium": 10.0,
+    "potassium": 194.0,
+    "calcium": 39.0,
+    "iron": 1.85,
+    "vitC": 36.4,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "維生素 C 36.4 毫克／100 公克",
+    "膳食纖維 1.7 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "洗淨後盡快食用，避免堆壓。 畫圖估重請只畫可食部分；需要精準份量時請使用秤重。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "09190",
+      "originalDescription": "MULBERRIES,RAW",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "basis": "每 100 公克生鮮可食部分；糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 為介面估重暫定值，非實測密度；edibleRatio=1 僅適用於已去除不可食部分的圖形。"
+  }
+}

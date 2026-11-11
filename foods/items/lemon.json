@@ -1,0 +1,55 @@
+{
+  "id": "lemon",
+  "name": "檸檬",
+  "emoji": "🍋",
+  "category": "水果",
+  "aliases": [
+    "lemon"
+  ],
+  "summary": "生鮮檸檬，每 100 公克可食部分約 29 大卡。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.0,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 29.0,
+    "protein": 1.1,
+    "fat": 0.3,
+    "satFat": 0.039,
+    "carbs": 9.32,
+    "sugar": 2.5,
+    "fiber": 2.8,
+    "sodium": 2.0,
+    "potassium": 138.0,
+    "calcium": 26.0,
+    "iron": 0.6,
+    "vitC": 53.0,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "維生素 C 53 毫克／100 公克",
+    "膳食纖維 2.8 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "數值為去皮果肉，不能直接套用到純檸檬汁。 畫圖估重請只畫可食部分；需要精準份量時請使用秤重。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "09150",
+      "originalDescription": "LEMONS,RAW,WITHOUT PEEL",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "basis": "每 100 公克生鮮可食部分；糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 為介面估重暫定值，非實測密度；edibleRatio=1 僅適用於已去除不可食部分的圖形。"
+  }
+}

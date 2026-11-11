@@ -63,3 +63,5 @@ foods/
 
 數值為參考衛福部食藥署「食品營養成分資料庫」與 USDA FoodData Central 整理的近似值，
 健康資訊為一般性衛教內容，不能取代醫師或營養師的建議。
+
+本次新增的 35 種水果使用 USDA SR28 官方原始數值，來源、欄位單位、缺值與估重限制見 [水果資料來源](FRUIT_SOURCES.md)。每筆資料另附 `sources` 與 `dataNotes`，不影響既有 App 欄位。
