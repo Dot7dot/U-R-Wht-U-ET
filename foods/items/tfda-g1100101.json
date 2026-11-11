@@ -1,0 +1,81 @@
+{
+  "id": "tfda-g1100101",
+  "name": "酒杯菇",
+  "emoji": "🍄",
+  "category": "蔬菜",
+  "subcategory": "菇類",
+  "aliases": [
+    "酒杯菇",
+    "大杯傘",
+    "大杯菇",
+    "葉松茸",
+    "豬肚菇"
+  ],
+  "summary": "酒杯菇；菇類，生。每 100 公克可食部分約 50 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 50.0,
+    "protein": 4.6,
+    "fat": 0.3,
+    "carbs": 9.0,
+    "fiber": 4.0,
+    "sugar": 1.6,
+    "satFat": 0.1,
+    "sodium": 1.0,
+    "potassium": 293.0,
+    "calcium": 2.0,
+    "iron": 1.4,
+    "vitC": 0.3,
+    "zinc": 0.7,
+    "vitB1": 0.12,
+    "vitB2": 0.39,
+    "vitB6": 0.12,
+    "vitB12": 0.2,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "菇類",
+    "食藥署樣品",
+    "蛋白質 4.6 克／100 公克",
+    "脂肪 0.3 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:生; 前處理描述:混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "G1100101",
+      "originalDescription": "酒杯菇",
+      "preparation": "樣品狀態:生; 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:G1100101",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "cholesterol",
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

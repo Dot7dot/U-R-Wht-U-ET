@@ -1,0 +1,84 @@
+{
+  "id": "tfda-q2100501",
+  "name": "檸檬愛玉凍（食藥署樣品）",
+  "emoji": "🍰",
+  "category": "點心零食",
+  "subcategory": "糕餅點心類",
+  "aliases": [
+    "檸檬愛玉凍",
+    "愛玉",
+    "草子仔",
+    "草枳子",
+    "天拋藤",
+    "玉枳",
+    "枳子",
+    "天拋",
+    "風不動",
+    "Awkeotsang; Jelly-fig; Moraceae"
+  ],
+  "summary": "檸檬愛玉凍；糕餅點心類，依來源前處理描述。每 100 公克可食部分約 53 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 53.0,
+    "carbs": 13.1,
+    "fiber": 0.0,
+    "sodium": 28.0,
+    "potassium": 105.0,
+    "calcium": 2.0,
+    "iron": 0.0,
+    "vitC": 0.2,
+    "zinc": 0.0,
+    "vitB1": 0.0,
+    "vitB2": 0.0,
+    "vitB6": 0.0
+  },
+  "highlights": [
+    "糕餅點心類",
+    "食藥署樣品"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "前處理描述:混合均質(砂糖,檸檬汁等)。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "Q2100501",
+      "originalDescription": "檸檬愛玉凍",
+      "preparation": "前處理描述:混合均質(砂糖,檸檬汁等)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:Q2100501",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "protein",
+      "fat",
+      "sugar",
+      "satFat",
+      "cholesterol",
+      "vitB12",
+      "vitD",
+      "epa",
+      "dha"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

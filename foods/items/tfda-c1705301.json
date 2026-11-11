@@ -1,0 +1,81 @@
+{
+  "id": "tfda-c1705301",
+  "name": "帶膜花生仁(生)(2004年取樣)",
+  "emoji": "🥜",
+  "category": "堅果種子",
+  "subcategory": "堅果及種子類",
+  "aliases": [
+    "帶膜花生仁(生)(2004年取樣)",
+    "土豆",
+    "長生果",
+    "落花生",
+    "Raw peanut: dry"
+  ],
+  "summary": "帶膜花生仁(生)(2004年取樣)；堅果及種子類，生,帶膜。每 100 公克可食部分約 516 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 516.0,
+    "protein": 23.6,
+    "fat": 38.1,
+    "carbs": 28.4,
+    "fiber": 7.9,
+    "sugar": 4.4,
+    "satFat": 8.2,
+    "sodium": 13.0,
+    "potassium": 671.0,
+    "calcium": 91.0,
+    "iron": 3.5,
+    "vitC": 0.8,
+    "zinc": 4.7,
+    "vitB1": 1.07,
+    "vitB2": 0.06,
+    "vitB6": 0.45,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "堅果及種子類",
+    "食藥署樣品",
+    "蛋白質 23.6 克／100 公克",
+    "脂肪 38.1 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:生,帶膜; 前處理描述:混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "C1705301",
+      "originalDescription": "帶膜花生仁(生)(2004年取樣)",
+      "preparation": "樣品狀態:生,帶膜; 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:C1705301",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "cholesterol",
+      "vitB12",
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

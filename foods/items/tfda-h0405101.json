@@ -1,0 +1,84 @@
+{
+  "id": "tfda-h0405101",
+  "name": "紅豆",
+  "emoji": "🫘",
+  "category": "豆魚蛋肉",
+  "subcategory": "豆類",
+  "aliases": [
+    "紅豆",
+    "小豆",
+    "赤小豆",
+    "赤豆",
+    "通常小豆",
+    "小紅豆",
+    "紅小豆",
+    "Red bean; Rice bean; Small red bean; Adzuki bean"
+  ],
+  "summary": "紅豆；豆類，乾貨。每 100 公克可食部分約 328 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 328.0,
+    "protein": 20.9,
+    "fat": 0.6,
+    "carbs": 61.5,
+    "fiber": 18.5,
+    "sugar": 0.4,
+    "satFat": 0.2,
+    "sodium": 1.0,
+    "potassium": 1203.0,
+    "calcium": 87.0,
+    "iron": 7.1,
+    "vitC": 1.2,
+    "zinc": 3.1,
+    "vitB1": 0.41,
+    "vitB2": 0.15,
+    "vitB6": 0.34,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "豆類",
+    "食藥署樣品",
+    "蛋白質 20.9 克／100 公克",
+    "脂肪 0.6 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:乾貨; 前處理描述:混合均勻磨碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "H0405101",
+      "originalDescription": "紅豆",
+      "preparation": "樣品狀態:乾貨; 前處理描述:混合均勻磨碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:H0405101",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "cholesterol",
+      "vitB12",
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

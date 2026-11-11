@@ -1,0 +1,86 @@
+{
+  "id": "tfda-r4400901",
+  "name": "薤",
+  "emoji": "🍱",
+  "category": "加工調理食品",
+  "subcategory": "加工調理食品及其他類",
+  "aliases": [
+    "薤",
+    "蕗蕎",
+    "薤頭",
+    "火蔥",
+    "蕎蔥",
+    "大韭(韮)",
+    "露京",
+    "蕎頭",
+    "叫頭",
+    "Allium bakeri Regel;Baker's garlic"
+  ],
+  "summary": "薤；加工調理食品及其他類，醃漬品。每 100 公克可食部分約 11 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 11.0,
+    "protein": 0.5,
+    "fat": 0.2,
+    "carbs": 1.9,
+    "fiber": 1.8,
+    "sodium": 2586.0,
+    "potassium": 90.0,
+    "calcium": 35.0,
+    "iron": 1.6,
+    "vitC": 1.6,
+    "zinc": 0.3,
+    "vitB1": 0.0,
+    "vitB2": 0.01,
+    "vitB6": 7.3
+  },
+  "highlights": [
+    "加工調理食品及其他類",
+    "食藥署樣品",
+    "蛋白質 0.5 克／100 公克",
+    "脂肪 0.2 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:醃漬品; 前處理描述:混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "R4400901",
+      "originalDescription": "薤",
+      "preparation": "樣品狀態:醃漬品; 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:R4400901",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "sugar",
+      "satFat",
+      "cholesterol",
+      "vitB12",
+      "vitD",
+      "epa",
+      "dha"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

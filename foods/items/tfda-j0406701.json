@@ -1,0 +1,87 @@
+{
+  "id": "tfda-j0406701",
+  "name": "大口逆鈎鰺",
+  "emoji": "🐟",
+  "category": "豆魚蛋肉",
+  "subcategory": "魚貝類",
+  "aliases": [
+    "大口逆鈎鰺",
+    "七星仔",
+    "棘蔥仔",
+    "鬼平",
+    "龜濱",
+    "龜柄",
+    "油面仔(臺東)",
+    "歸秉",
+    "龜秉",
+    "肥柄(澎湖)",
+    "Queenfish; Talang queenfish; Talang queen fish; Largemouth queenfish"
+  ],
+  "summary": "大口逆鈎鰺；魚貝類，生。每 100 公克可食部分約 103 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 103.0,
+    "protein": 21.8,
+    "fat": 1.1,
+    "carbs": 0.1,
+    "satFat": 0.5,
+    "sodium": 54.0,
+    "cholesterol": 52.0,
+    "potassium": 596.0,
+    "calcium": 2.0,
+    "iron": 0.8,
+    "vitC": 1.5,
+    "zinc": 0.4,
+    "vitB1": 0.12,
+    "vitB2": 0.16,
+    "vitB6": 0.43,
+    "vitB12": 2.74,
+    "epa": 25.0,
+    "dha": 219.0
+  },
+  "highlights": [
+    "魚貝類",
+    "食藥署樣品",
+    "蛋白質 21.8 克／100 公克",
+    "脂肪 1.1 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:生; 前處理描述:去鱗,含皮,去頭尾,去內臟及骨刺,混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "J0406701",
+      "originalDescription": "大口逆鈎鰺",
+      "preparation": "樣品狀態:生; 前處理描述:去鱗,含皮,去頭尾,去內臟及骨刺,混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:J0406701",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "fiber",
+      "sugar",
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

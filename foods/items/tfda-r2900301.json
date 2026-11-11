@@ -1,0 +1,77 @@
+{
+  "id": "tfda-r2900301",
+  "name": "冷凍,水晶餃",
+  "emoji": "🍱",
+  "category": "加工調理食品",
+  "subcategory": "加工調理食品及其他類",
+  "aliases": [
+    "冷凍,水晶餃"
+  ],
+  "summary": "冷凍,水晶餃；加工調理食品及其他類，冷凍包裝(豬肉,沙拉油,白蘿蔔乾,油蔥,醬油,調味料等)。每 100 公克可食部分約 190 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 190.0,
+    "protein": 2.8,
+    "fat": 3.5,
+    "carbs": 36.8,
+    "fiber": 0.7,
+    "sugar": 0.2,
+    "satFat": 1.5,
+    "sodium": 348.0,
+    "cholesterol": 0.0,
+    "potassium": 72.0,
+    "calcium": 19.0,
+    "iron": 0.9,
+    "vitC": 0.0,
+    "zinc": 0.3,
+    "vitB1": 0.06,
+    "vitB2": 0.02,
+    "vitB6": 0.06,
+    "vitB12": 0.17,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "加工調理食品及其他類",
+    "食藥署樣品",
+    "蛋白質 2.8 克／100 公克",
+    "脂肪 3.5 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:冷凍包裝(豬肉,沙拉油,白蘿蔔乾,油蔥,醬油,調味料等); 前處理描述:混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "R2900301",
+      "originalDescription": "冷凍,水晶餃",
+      "preparation": "樣品狀態:冷凍包裝(豬肉,沙拉油,白蘿蔔乾,油蔥,醬油,調味料等); 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:R2900301",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

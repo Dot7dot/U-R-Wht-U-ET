@@ -1,0 +1,77 @@
+{
+  "id": "tfda-p1500201",
+  "name": "炸雞粉",
+  "emoji": "🧂",
+  "category": "香料調味",
+  "subcategory": "調味料及香辛料類",
+  "aliases": [
+    "炸雞粉"
+  ],
+  "summary": "炸雞粉；調味料及香辛料類，依來源前處理描述。每 100 公克可食部分約 333 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 5 公克",
+    "grams": 5
+  },
+  "per100g": {
+    "kcal": 333.0,
+    "protein": 8.3,
+    "fat": 1.7,
+    "carbs": 71.0,
+    "fiber": 6.2,
+    "satFat": 0.6,
+    "sodium": 3790.0,
+    "potassium": 220.0,
+    "calcium": 19.0,
+    "iron": 2.7,
+    "zinc": 0.8,
+    "vitB1": 0.13,
+    "vitB2": 0.08,
+    "vitB6": 0.15,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "調味料及香辛料類",
+    "食藥署樣品",
+    "蛋白質 8.3 克／100 公克",
+    "脂肪 1.7 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "前處理描述:混合均勻(麵粉,澱粉,糖,鹽,胡椒等)。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "P1500201",
+      "originalDescription": "炸雞粉",
+      "preparation": "前處理描述:混合均勻(麵粉,澱粉,糖,鹽,胡椒等)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:P1500201",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "sugar",
+      "cholesterol",
+      "vitC",
+      "vitB12",
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "tfda-p1004601",
+  "name": "麻婆醬",
+  "emoji": "🧂",
+  "category": "香料調味",
+  "subcategory": "調味料及香辛料類",
+  "aliases": [
+    "麻婆醬"
+  ],
+  "summary": "麻婆醬；調味料及香辛料類，依來源前處理描述。每 100 公克可食部分約 190 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 5 公克",
+    "grams": 5
+  },
+  "per100g": {
+    "kcal": 190.0,
+    "protein": 2.9,
+    "fat": 9.5,
+    "carbs": 23.1,
+    "fiber": 2.6,
+    "satFat": 1.4,
+    "sodium": 1753.0,
+    "potassium": 167.0,
+    "calcium": 9.0,
+    "iron": 6.3,
+    "zinc": 0.3,
+    "vitB1": 0.08,
+    "vitB2": 0.06,
+    "vitB6": 0.78,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "調味料及香辛料類",
+    "食藥署樣品",
+    "蛋白質 2.9 克／100 公克",
+    "脂肪 9.5 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "前處理描述:混合均勻(豆瓣,味噌,辣椒,薑,澱粉,香油,糖等)。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "P1004601",
+      "originalDescription": "麻婆醬",
+      "preparation": "前處理描述:混合均勻(豆瓣,味噌,辣椒,薑,澱粉,香油,糖等)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:P1004601",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "sugar",
+      "cholesterol",
+      "vitC",
+      "vitB12",
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}
