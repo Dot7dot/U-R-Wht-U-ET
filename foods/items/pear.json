@@ -1,0 +1,56 @@
+{
+  "id": "pear",
+  "name": "西洋梨",
+  "emoji": "🍐",
+  "category": "水果",
+  "aliases": [
+    "pear",
+    "洋梨"
+  ],
+  "summary": "生鮮西洋梨，每 100 公克可食部分約 57 大卡。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.0,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 57.0,
+    "protein": 0.36,
+    "fat": 0.14,
+    "satFat": 0.022,
+    "carbs": 15.23,
+    "sugar": 9.75,
+    "fiber": 3.1,
+    "sodium": 1.0,
+    "potassium": 116.0,
+    "calcium": 9.0,
+    "iron": 0.18,
+    "vitC": 4.3,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "維生素 C 4.3 毫克／100 公克",
+    "膳食纖維 3.1 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "去除果核後食用，可保留洗淨的果皮。 畫圖估重請只畫可食部分；需要精準份量時請使用秤重。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "09252",
+      "originalDescription": "PEARS,RAW",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "basis": "每 100 公克生鮮可食部分；糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 為介面估重暫定值，非實測密度；edibleRatio=1 僅適用於已去除不可食部分的圖形。"
+  }
+}

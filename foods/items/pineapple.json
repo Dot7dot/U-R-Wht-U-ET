@@ -1,0 +1,56 @@
+{
+  "id": "pineapple",
+  "name": "鳳梨",
+  "emoji": "🍍",
+  "category": "水果",
+  "aliases": [
+    "pineapple",
+    "菠蘿"
+  ],
+  "summary": "生鮮鳳梨，每 100 公克可食部分約 50 大卡。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.0,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 50.0,
+    "protein": 0.54,
+    "fat": 0.12,
+    "satFat": 0.009,
+    "carbs": 13.12,
+    "sugar": 9.85,
+    "fiber": 1.4,
+    "sodium": 1.0,
+    "potassium": 109.0,
+    "calcium": 13.0,
+    "iron": 0.29,
+    "vitC": 47.8,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "維生素 C 47.8 毫克／100 公克",
+    "膳食纖維 1.4 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "去皮後將可食果肉切塊秤重。 畫圖估重請只畫可食部分；需要精準份量時請使用秤重。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "09266",
+      "originalDescription": "PINEAPPLE,RAW,ALL VAR",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "basis": "每 100 公克生鮮可食部分；糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 為介面估重暫定值，非實測密度；edibleRatio=1 僅適用於已去除不可食部分的圖形。"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "passion-fruit",
+  "name": "紫色百香果",
+  "emoji": "🟣",
+  "category": "水果",
+  "aliases": [
+    "passion fruit",
+    "百香果",
+    "西番蓮"
+  ],
+  "summary": "生鮮紫色百香果，每 100 公克可食部分約 97 大卡。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.0,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 97.0,
+    "protein": 2.2,
+    "fat": 0.7,
+    "satFat": 0.059,
+    "carbs": 23.38,
+    "sugar": 11.2,
+    "fiber": 10.4,
+    "sodium": 28.0,
+    "potassium": 348.0,
+    "calcium": 12.0,
+    "iron": 1.6,
+    "vitC": 30.0,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "維生素 C 30 毫克／100 公克",
+    "膳食纖維 10.4 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "取出果瓤與可食種子秤重，不包含果殼。 畫圖估重請只畫可食部分；需要精準份量時請使用秤重。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "09231",
+      "originalDescription": "PASSION-FRUIT,(GRANADILLA),PURPLE,RAW",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "basis": "每 100 公克生鮮可食部分；糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 為介面估重暫定值，非實測密度；edibleRatio=1 僅適用於已去除不可食部分的圖形。"
+  }
+}

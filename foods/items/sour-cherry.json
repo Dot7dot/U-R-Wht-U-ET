@@ -1,0 +1,56 @@
+{
+  "id": "sour-cherry",
+  "name": "酸櫻桃",
+  "emoji": "🍒",
+  "category": "水果",
+  "aliases": [
+    "sour cherry",
+    "酸車厘子"
+  ],
+  "summary": "生鮮酸櫻桃，每 100 公克可食部分約 50 大卡。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.0,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 50.0,
+    "protein": 1.0,
+    "fat": 0.3,
+    "satFat": 0.068,
+    "carbs": 12.18,
+    "sugar": 8.49,
+    "fiber": 1.6,
+    "sodium": 3.0,
+    "potassium": 173.0,
+    "calcium": 16.0,
+    "iron": 0.32,
+    "vitC": 10.0,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "維生素 C 10 毫克／100 公克",
+    "膳食纖維 1.6 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "此筆為鮮果，糖漬產品需另計糖量。 畫圖估重請只畫可食部分；需要精準份量時請使用秤重。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "09063",
+      "originalDescription": "CHERRIES,SOUR,RED,RAW",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "basis": "每 100 公克生鮮可食部分；糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 為介面估重暫定值，非實測密度；edibleRatio=1 僅適用於已去除不可食部分的圖形。"
+  }
+}

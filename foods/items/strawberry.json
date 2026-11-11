@@ -1,0 +1,55 @@
+{
+  "id": "strawberry",
+  "name": "草莓",
+  "emoji": "🍓",
+  "category": "水果",
+  "aliases": [
+    "strawberry"
+  ],
+  "summary": "生鮮草莓，每 100 公克可食部分約 32 大卡。",
+  "shape": {
+    "type": "round"
+  },
+  "density": 1.0,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 32.0,
+    "protein": 0.67,
+    "fat": 0.3,
+    "satFat": 0.015,
+    "carbs": 7.68,
+    "sugar": 4.89,
+    "fiber": 2.0,
+    "sodium": 1.0,
+    "potassium": 153.0,
+    "calcium": 16.0,
+    "iron": 0.41,
+    "vitC": 58.8,
+    "cholesterol": 0.0
+  },
+  "highlights": [
+    "維生素 C 58.8 毫克／100 公克",
+    "膳食纖維 2 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "去除蒂頭後食用。 畫圖估重請只畫可食部分；需要精準份量時請使用秤重。",
+  "sources": [
+    {
+      "title": "USDA National Nutrient Database for Standard Reference, Release 28 (2016)",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "09316",
+      "originalDescription": "STRAWBERRIES,RAW",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "basis": "每 100 公克生鮮可食部分；糖為總糖，非添加糖。",
+    "missingNutrients": [],
+    "estimation": "density=1 為介面估重暫定值，非實測密度；edibleRatio=1 僅適用於已去除不可食部分的圖形。"
+  }
+}
