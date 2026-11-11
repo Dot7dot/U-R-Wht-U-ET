@@ -1,6 +1,8 @@
 // U R Wht U ET — 用手掌當尺的食物營養小工具
 // 食物資料全部放在 foods/ 資料夾，新增食物請看 foods/README.md
 
+import { openMeasure } from './measure.js';
+
 const $ = (id) => document.getElementById(id);
 const store = {
   get(key, fallback) {
@@ -459,6 +461,24 @@ document.addEventListener('click', (e) => {
   const input = step.parentElement.querySelector('input');
   input.value = clampPalm((parseFloat(input.value) || 18) + parseFloat(step.dataset.palmStep));
   input.dispatchEvent(new Event('change'));
+});
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('[data-measure]')) return;
+  // 示意圖：掌心放一枚十元硬幣
+  const demo = $('m-demo').getContext('2d');
+  demo.clearRect(0, 0, 300, 330);
+  drawHand(demo, 46, 20, 290);
+  const cx = 46 + 49 * 2.9, cy = 20 + 74 * 2.9, r = (2.6 / 18) * 290 / 2;
+  demo.fillStyle = '#c9a25a'; demo.strokeStyle = '#8f6f2f'; demo.lineWidth = 2;
+  demo.beginPath(); demo.arc(cx, cy, r, 0, Math.PI * 2); demo.fill(); demo.stroke();
+  demo.fillStyle = '#6b5220'; demo.font = '700 15px sans-serif'; demo.textAlign = 'center'; demo.textBaseline = 'middle';
+  demo.fillText('10', cx, cy + 1);
+  openMeasure((cm) => {
+    savePalm(cm);
+    $('setup-palm').value = $('set-palm').value = state.settings.palmCm;
+    toast(`手掌長度已設定為 ${state.settings.palmCm} 公分`);
+    if (!$('view-setup').hidden) route();
+  });
 });
 $('set-palm').addEventListener('change', (e) => { savePalm(parseFloat(e.target.value)); e.target.value = state.settings.palmCm; toast('已更新手掌長度'); });
 $('setup-done').addEventListener('click', () => {
