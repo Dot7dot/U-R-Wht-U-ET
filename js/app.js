@@ -36,11 +36,52 @@ async function getJSON(path) {
   return res.json();
 }
 
+// 大型資料庫限制並行數，避免行動瀏覽器同時發出數千個請求。
+async function mapLimit(items, limit, mapper) {
+  const result = new Array(items.length);
+  let next = 0, failed = false, failure;
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (!failed && next < items.length) {
+      const i = next++;
+      try { result[i] = await mapper(items[i], i); }
+      catch (err) { failed = true; failure = err; }
+    }
+  }));
+  if (failed) throw failure;
+  return result;
+}
+
+async function loadFoodItems(index) {
+  try {
+    const catalog = await getJSON('foods/catalog/index.json');
+    if (catalog.version !== 1 || catalog.foodCount !== index.length ||
+        !Array.isArray(catalog.itemFiles) || JSON.stringify(catalog.itemFiles) !== JSON.stringify(index) ||
+        !Array.isArray(catalog.chunks) || !catalog.chunks.length) {
+      throw new Error('整批快取與食物索引不一致');
+    }
+    const chunks = await mapLimit(catalog.chunks, 4, async (chunk) => {
+      if (!/^part-\d+-[a-f0-9]+\.json$/.test(chunk.file)) throw new Error('快取檔名不正確');
+      const foods = await getJSON('foods/catalog/' + chunk.file);
+      if (!Array.isArray(foods) || foods.length !== chunk.count ||
+          foods.some((f) => !f?.id || !f.name || !f.per100g)) throw new Error('快取內容不完整');
+      return foods;
+    });
+    const foods = chunks.flat();
+    if (foods.length !== index.length || new Set(foods.map((f) => f.id)).size !== index.length) {
+      throw new Error('快取筆數或食物代號不一致');
+    }
+    return foods;
+  } catch (err) {
+    console.warn('整批快取不可用，改為逐筆載入', err);
+    return mapLimit(index, 8, (file) =>
+      getJSON('foods/items/' + file).catch((error) => { console.warn('略過食物', file, error); return null; }));
+  }
+}
+
 async function loadData() {
   const [nutrients, index] = await Promise.all([getJSON('foods/nutrients.json'), getJSON('foods/index.json')]);
   state.nutrients = nutrients;
-  const loaded = await Promise.all(index.map((file) =>
-    getJSON('foods/items/' + file).catch((err) => { console.warn('略過食物', file, err); return null; })));
+  const loaded = await loadFoodItems(index);
   state.foods = loaded.filter((f) => f && f.id && f.name && f.per100g);
   for (const f of state.foods) {
     f._hay = [f.name, f.category, ...(f.aliases || []), ...(f.highlights || []),

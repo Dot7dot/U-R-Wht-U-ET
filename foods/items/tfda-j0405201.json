@@ -1,0 +1,85 @@
+{
+  "id": "tfda-j0405201",
+  "name": "斑點九刺鮨(去皮)",
+  "emoji": "🐟",
+  "category": "豆魚蛋肉",
+  "subcategory": "魚貝類",
+  "aliases": [
+    "斑點九刺鮨(去皮)",
+    "眼斑鱠",
+    "過魚",
+    "石斑",
+    "油鱠",
+    "青貓",
+    "黑鱠僅",
+    "黑鱠仔(澎湖)",
+    "Seabass; Peacock hind; Peacock grouper; Peacock cod; Peacock rockcod; Peacock rock-cod; Peacock coral cod; Peacock rock cod; Worldwide-peacock rockcod; Blue spotted grouper; Bluespotted grouper;"
+  ],
+  "summary": "斑點九刺鮨(去皮)；魚貝類，生,已去鱗片及內臟。每 100 公克可食部分約 82 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 82.0,
+    "protein": 18.8,
+    "fat": 0.2,
+    "carbs": 0.9,
+    "sugar": 0.0,
+    "sodium": 157.0,
+    "cholesterol": 46.0,
+    "potassium": 396.0,
+    "calcium": 17.0,
+    "iron": 0.0,
+    "vitC": 0.5,
+    "zinc": 0.6,
+    "vitB1": 0.09,
+    "vitB2": 0.05,
+    "vitB6": 0.09,
+    "vitB12": 0.44
+  },
+  "highlights": [
+    "魚貝類",
+    "食藥署樣品",
+    "蛋白質 18.8 克／100 公克",
+    "脂肪 0.2 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:生,已去鱗片及內臟; 前處理描述:去皮,去頭尾及骨刺,混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "J0405201",
+      "originalDescription": "斑點九刺鮨(去皮)",
+      "preparation": "樣品狀態:生,已去鱗片及內臟; 前處理描述:去皮,去頭尾及骨刺,混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:J0405201",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "fiber",
+      "satFat",
+      "vitD",
+      "epa",
+      "dha"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

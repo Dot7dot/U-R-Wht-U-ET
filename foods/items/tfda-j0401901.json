@@ -1,0 +1,79 @@
+{
+  "id": "tfda-j0401901",
+  "name": "長體油胡瓜魚",
+  "emoji": "🐟",
+  "category": "豆魚蛋肉",
+  "subcategory": "魚貝類",
+  "aliases": [
+    "長體油胡瓜魚",
+    "柳葉魚",
+    "Shishamo"
+  ],
+  "summary": "長體油胡瓜魚；魚貝類，生。每 100 公克可食部分約 104 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 104.0,
+    "protein": 15.0,
+    "fat": 4.4,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "satFat": 0.9,
+    "sodium": 104.0,
+    "cholesterol": 224.0,
+    "potassium": 175.0,
+    "calcium": 246.0,
+    "iron": 0.0,
+    "vitC": 1.5,
+    "zinc": 2.1,
+    "vitB1": 0.01,
+    "vitB2": 0.25,
+    "vitB6": 0.11,
+    "vitB12": 25.42,
+    "epa": 1107.0,
+    "dha": 1170.0
+  },
+  "highlights": [
+    "魚貝類",
+    "食藥署樣品",
+    "蛋白質 15 克／100 公克",
+    "脂肪 4.4 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:生; 前處理描述:去頭,含魚卵,混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "J0401901",
+      "originalDescription": "長體油胡瓜魚",
+      "preparation": "樣品狀態:生; 前處理描述:去頭,含魚卵,混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:J0401901",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "fiber",
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

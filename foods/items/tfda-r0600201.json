@@ -1,0 +1,78 @@
+{
+  "id": "tfda-r0600201",
+  "name": "鴨血糕",
+  "emoji": "🍱",
+  "category": "加工調理食品",
+  "subcategory": "加工調理食品及其他類",
+  "aliases": [
+    "鴨血糕",
+    "米血糕"
+  ],
+  "summary": "鴨血糕；加工調理食品及其他類，依來源前處理描述。每 100 公克可食部分約 193 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 193.0,
+    "protein": 6.7,
+    "fat": 1.1,
+    "carbs": 39.1,
+    "fiber": 1.3,
+    "sugar": 0.5,
+    "satFat": 0.5,
+    "sodium": 1739.0,
+    "cholesterol": 12.0,
+    "potassium": 58.0,
+    "calcium": 14.0,
+    "iron": 9.7,
+    "vitC": 0.0,
+    "zinc": 0.7,
+    "vitB1": 0.02,
+    "vitB2": 0.02,
+    "vitB6": 0.01,
+    "vitB12": 0.0,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "加工調理食品及其他類",
+    "食藥署樣品",
+    "蛋白質 6.7 克／100 公克",
+    "脂肪 1.1 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "前處理描述:混合均勻打碎(鴨血,糯米,鹽等)。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "R0600201",
+      "originalDescription": "鴨血糕",
+      "preparation": "前處理描述:混合均勻打碎(鴨血,糯米,鹽等)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:R0600201",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

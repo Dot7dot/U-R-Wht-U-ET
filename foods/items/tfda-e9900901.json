@@ -1,0 +1,82 @@
+{
+  "id": "tfda-e9900901",
+  "name": "木虌果",
+  "emoji": "🥬",
+  "category": "蔬菜",
+  "subcategory": "蔬菜類",
+  "aliases": [
+    "木虌果",
+    "木虌子",
+    "刺苦瓜",
+    "夫妻果",
+    "木鱉瓜",
+    "Spiny bitter gourd"
+  ],
+  "summary": "木虌果；蔬菜類，生。每 100 公克可食部分約 70 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 70.0,
+    "protein": 1.1,
+    "fat": 3.1,
+    "carbs": 10.5,
+    "fiber": 4.0,
+    "sugar": 6.4,
+    "satFat": 1.2,
+    "sodium": 1.0,
+    "potassium": 613.0,
+    "calcium": 13.0,
+    "iron": 0.6,
+    "vitC": 21.6,
+    "zinc": 0.0,
+    "vitB1": 0.1,
+    "vitB2": 0.05,
+    "vitB6": 0.2,
+    "vitD": 0.0,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "蔬菜類",
+    "食藥署樣品",
+    "蛋白質 1.1 克／100 公克",
+    "脂肪 3.1 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:生; 前處理描述:去皮及籽,混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "E9900901",
+      "originalDescription": "木虌果",
+      "preparation": "樣品狀態:生; 前處理描述:去皮及籽,混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:E9900901",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "cholesterol",
+      "vitB12"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

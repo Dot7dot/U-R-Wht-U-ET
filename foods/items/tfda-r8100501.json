@@ -1,0 +1,77 @@
+{
+  "id": "tfda-r8100501",
+  "name": "糙米麩",
+  "emoji": "🍱",
+  "category": "加工調理食品",
+  "subcategory": "加工調理食品及其他類",
+  "aliases": [
+    "糙米麩"
+  ],
+  "summary": "糙米麩；加工調理食品及其他類，沖泡即食(糙米,白糖等)。每 100 公克可食部分約 387 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 387.0,
+    "protein": 7.8,
+    "fat": 3.3,
+    "carbs": 81.4,
+    "fiber": 2.9,
+    "sugar": 0.0,
+    "satFat": 0.6,
+    "sodium": 7.0,
+    "potassium": 333.0,
+    "calcium": 17.0,
+    "iron": 1.9,
+    "vitC": 3.9,
+    "zinc": 2.6,
+    "vitB1": 0.11,
+    "vitB2": 0.06,
+    "vitB6": 0.74,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "加工調理食品及其他類",
+    "食藥署樣品",
+    "蛋白質 7.8 克／100 公克",
+    "脂肪 3.3 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:沖泡即食(糙米,白糖等); 前處理描述:混合均勻。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "R8100501",
+      "originalDescription": "糙米麩",
+      "preparation": "樣品狀態:沖泡即食(糙米,白糖等); 前處理描述:混合均勻",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:R8100501",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "cholesterol",
+      "vitB12",
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

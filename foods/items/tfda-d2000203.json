@@ -1,0 +1,84 @@
+{
+  "id": "tfda-d2000203",
+  "name": "嘉玉甜瓜",
+  "emoji": "🍎",
+  "category": "水果",
+  "subcategory": "水果類",
+  "aliases": [
+    "嘉玉甜瓜",
+    "甜瓜",
+    "甘瓜",
+    "果瓜",
+    "香瓜",
+    "梨仔瓜",
+    "澎湖瓜",
+    "Melon; Honeydew melon;"
+  ],
+  "summary": "嘉玉甜瓜；水果類，東洋系脆瓜種,扁圓形,白綠皮肉系。每 100 公克可食部分約 43 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 43.0,
+    "protein": 1.3,
+    "fat": 0.1,
+    "carbs": 10.4,
+    "fiber": 0.6,
+    "sugar": 8.9,
+    "sodium": 4.0,
+    "potassium": 413.0,
+    "calcium": 6.0,
+    "iron": 0.3,
+    "vitC": 18.7,
+    "zinc": 0.3,
+    "vitB1": 0.05,
+    "vitB2": 0.02,
+    "vitB6": 0.14
+  },
+  "highlights": [
+    "水果類",
+    "食藥署樣品",
+    "蛋白質 1.3 克／100 公克",
+    "脂肪 0.1 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:東洋系脆瓜種,扁圓形,白綠皮肉系; 前處理描述:去皮及籽,混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "D2000203",
+      "originalDescription": "嘉玉甜瓜",
+      "preparation": "樣品狀態:東洋系脆瓜種,扁圓形,白綠皮肉系; 前處理描述:去皮及籽,混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:D2000203",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "satFat",
+      "cholesterol",
+      "vitB12",
+      "vitD",
+      "epa",
+      "dha"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

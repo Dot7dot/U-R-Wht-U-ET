@@ -1,0 +1,79 @@
+{
+  "id": "tfda-g0200201",
+  "name": "白毛木耳",
+  "emoji": "🍄",
+  "category": "蔬菜",
+  "subcategory": "菇類",
+  "aliases": [
+    "白毛木耳",
+    "毛木耳(白化)",
+    "雪珍耳"
+  ],
+  "summary": "白毛木耳；菇類，生。每 100 公克可食部分約 45 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 45.0,
+    "protein": 1.2,
+    "fat": 0.1,
+    "carbs": 10.6,
+    "fiber": 7.2,
+    "sugar": 0.3,
+    "sodium": 2.0,
+    "potassium": 109.0,
+    "calcium": 10.0,
+    "iron": 0.3,
+    "vitC": 0.0,
+    "zinc": 0.2,
+    "vitB1": 0.01,
+    "vitB2": 0.11,
+    "vitB6": 0.01,
+    "vitB12": 0.12
+  },
+  "highlights": [
+    "菇類",
+    "食藥署樣品",
+    "蛋白質 1.2 克／100 公克",
+    "脂肪 0.1 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:生; 前處理描述:混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "G0200201",
+      "originalDescription": "白毛木耳",
+      "preparation": "樣品狀態:生; 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:G0200201",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "satFat",
+      "cholesterol",
+      "vitD",
+      "epa",
+      "dha"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

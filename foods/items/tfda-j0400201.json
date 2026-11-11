@@ -1,0 +1,85 @@
+{
+  "id": "tfda-j0400201",
+  "name": "日本鰻鱺魚片(生)",
+  "emoji": "🐟",
+  "category": "豆魚蛋肉",
+  "subcategory": "魚貝類",
+  "aliases": [
+    "日本鰻鱺魚片(生)",
+    "白鰻",
+    "日本鰻",
+    "正鰻",
+    "白鱔",
+    "鰻鱺",
+    "土鰻(澎湖)",
+    "淡水鰻(澎湖)",
+    "Japanese eel; Freshwater eel; Eel"
+  ],
+  "summary": "日本鰻鱺魚片(生)；魚貝類，生。每 100 公克可食部分約 254 大卡。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 10,
+    "fill": 0.6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 254.0,
+    "protein": 18.1,
+    "fat": 19.6,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "satFat": 5.7,
+    "sodium": 47.0,
+    "cholesterol": 154.0,
+    "potassium": 199.0,
+    "calcium": 113.0,
+    "iron": 0.4,
+    "vitC": 1.3,
+    "zinc": 1.5,
+    "vitB1": 0.21,
+    "vitB2": 0.28,
+    "vitB6": 0.21,
+    "vitB12": 3.14,
+    "epa": 649.0,
+    "dha": 1218.0
+  },
+  "highlights": [
+    "魚貝類",
+    "食藥署樣品",
+    "蛋白質 18.1 克／100 公克",
+    "脂肪 19.6 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "樣品狀態:生; 前處理描述:混合均勻打碎。請依來源狀態秤可食部分，生熟重量不能互換；包裝或調理食品優先參考實際營養標示。",
+  "sources": [
+    {
+      "title": "食藥署食品營養成分資料集（8543）",
+      "url": "https://data.gov.tw/dataset/8543",
+      "downloadUrl": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "sampleId": "J0400201",
+      "originalDescription": "日本鰻鱺魚片(生)",
+      "preparation": "樣品狀態:生; 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "tfda-complete-2026-11",
+    "sourceRecord": "TFDA:J0400201",
+    "basis": "每 100 公克可食部分；原始生熟、加工及取樣狀態依樣品原名與前處理描述。",
+    "missingNutrients": [
+      "fiber",
+      "vitD"
+    ],
+    "estimation": "圖形及 density=1 為介面暫定估值，非實測物性；edibleRatio=1 僅適用可食部分，建議優先秤重。",
+    "sugar": "總糖，非添加糖；原始空白不以零代填。",
+    "foodSafety": "來源的生重資料不是生食安全認證。"
+  }
+}

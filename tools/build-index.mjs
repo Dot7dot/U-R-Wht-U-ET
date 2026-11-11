@@ -2,6 +2,7 @@
 // 掃描 foods/items/*.json，檢查格式並重新產生 foods/index.json
 // 用法：node tools/build-index.mjs
 import fs from 'node:fs';
+import { buildCatalog } from './build-catalog.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -26,4 +27,8 @@ for (const file of files) {
 }
 fs.writeFileSync(path.join(root, 'index.json'), JSON.stringify(files, null, 2) + '\n');
 console.log(`✅ 已更新 foods/index.json，共 ${files.length} 種食物${problems ? `，有 ${problems} 個問題待修正` : ''}`);
+if (!problems) {
+  const catalog = buildCatalog(root, files);
+  console.log(`✅ 已更新 ${catalog.chunks.length} 批載入快取。`);
+}
 process.exit(problems ? 1 : 0);
