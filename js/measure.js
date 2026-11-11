@@ -3,14 +3,15 @@
 // 4. 使用者可改選硬幣、拖曳微調
 // 照片只在這支手機上處理，不會上傳。
 
-// 新台幣硬幣：直徑（公分）與顏色
+// 新台幣硬幣：直徑（公分）與顏色（silver 銀色、warm 金黃／銅色）
 const COINS = [
-  { id: '1', name: '1 元', cm: 2.0, tone: 'copper' },
+  { id: '1', name: '1 元', cm: 2.0, tone: 'warm' },
   { id: '5', name: '5 元', cm: 2.2, tone: 'silver' },
   { id: '10', name: '10 元', cm: 2.6, tone: 'silver' },
-  { id: '50', name: '50 元', cm: 2.8, tone: 'gold' },
+  { id: '50', name: '50 元', cm: 2.8, tone: 'warm' },
 ];
 const DEFAULT_COIN = '10';
+const MIN_COIN_SCORE = 18;      // 低於這個分數就當作沒找到硬幣，請使用者手動調整
 const TYPICAL_PALM_CM = 18, PALM_SD_CM = 2;   // 成人手掌長度的大致分布，用來判斷哪個面額比較合理
 const MAX_SIDE = 1280;        // 照片縮小後的最長邊
 const MIN_CM = 10, MAX_CM = 26;
@@ -54,85 +55,138 @@ async function detectHand(canvas) {
   // 模型的指尖點落在指腹，往外延伸一小段才是真正的指尖
   const tip = { x: pad.x + (pad.x - dip.x) * 0.35, y: pad.y + (pad.y - dip.y) * 0.35 };
   const palm = [0, 5, 9, 13, 17].map(pt).reduce((a, p) => ({ x: a.x + p.x / 5, y: a.y + p.y / 5 }), { x: 0, y: 0 });
-  return { wrist, tip, palm };
+  return { wrist, tip, palm, points: lm.map((_, i) => pt(i)) };
 }
 
-/* ---------- 找硬幣：在指定範圍內找邊緣最完整的圓 ---------- */
+/* ---------- 找硬幣 ---------- */
+// 硬幣有兩個特徵：(1) 一整圈完整的圓形邊緣 (2) 圓內的顏色和圓外一圈（皮膚）明顯不同。
+// 只看邊緣會誤抓掌紋、指縫、反光，所以兩個條件都要成立。
 
-// region: { x, y, half }（搜尋中心與半寬），rMin/rMax 為半徑範圍（photo 像素）
-export function findCoin(canvas, region, rMin, rMax, workRadius = 16) {
+function rgbToLab(r, g, b) {
+  const lin = (v) => { v /= 255; return v > 0.04045 ? ((v + 0.055) / 1.055) ** 2.4 : v / 12.92; };
+  const R = lin(r), G = lin(g), B = lin(b);
+  const f = (t) => (t > 0.008856 ? Math.cbrt(t) : 7.787 * t + 16 / 116);
+  const x = f((0.4124 * R + 0.3576 * G + 0.1805 * B) / 0.9505);
+  const y = f(0.2126 * R + 0.7152 * G + 0.0722 * B);
+  const z = f((0.0193 * R + 0.1192 * G + 0.9505 * B) / 1.089);
+  return [116 * y - 16, 500 * (x - y), 200 * (y - z)];
+}
+
+// box: 搜尋範圍 {x0,y0,x1,y1}；rMin/rMax: 半徑範圍；inside(x,y): 圓心是否在允許的位置（皆為 photo 像素）
+export function findCoin(canvas, box, rMin, rMax, inside = null, workRadius = 20) {
   const k = Math.min(1, workRadius / ((rMin + rMax) / 2)); // 縮到硬幣半徑約 workRadius 像素來算
-  const pad = rMax + 4;
-  const x0 = Math.max(0, Math.floor(region.x - region.half - pad));
-  const y0 = Math.max(0, Math.floor(region.y - region.half - pad));
-  const x1 = Math.min(canvas.width, Math.ceil(region.x + region.half + pad));
-  const y1 = Math.min(canvas.height, Math.ceil(region.y + region.half + pad));
-  const w = Math.max(8, Math.round((x1 - x0) * k)), h = Math.max(8, Math.round((y1 - y0) * k));
+  const pad = rMax * 1.7 + 4;
+  const x0 = Math.max(0, Math.floor(box.x0 - pad)), y0 = Math.max(0, Math.floor(box.y0 - pad));
+  const x1 = Math.min(canvas.width, Math.ceil(box.x1 + pad)), y1 = Math.min(canvas.height, Math.ceil(box.y1 + pad));
+  const w = Math.round((x1 - x0) * k), h = Math.round((y1 - y0) * k);
+  if (w < 12 || h < 12) return null;
   const small = document.createElement('canvas');
   small.width = w; small.height = h;
   const sctx = small.getContext('2d', { willReadFrequently: true });
   sctx.imageSmoothingQuality = 'high';
   sctx.drawImage(canvas, x0, y0, x1 - x0, y1 - y0, 0, 0, w, h);
   const px = sctx.getImageData(0, 0, w, h).data;
-  const gray = new Float32Array(w * h);
-  for (let i = 0; i < w * h; i++) gray[i] = 0.299 * px[i * 4] + 0.587 * px[i * 4 + 1] + 0.114 * px[i * 4 + 2];
-  const gx = new Float32Array(w * h), gy = new Float32Array(w * h);
+
+  // 每個像素取「變化最大的色版」的梯度：金色硬幣和皮膚亮度相近，但顏色不同
+  const gx = new Float32Array(w * h), gy = new Float32Array(w * h), gm = new Float32Array(w * h);
   for (let y = 1; y < h - 1; y++) {
     for (let x = 1; x < w - 1; x++) {
       const i = y * w + x;
-      gx[i] = gray[i - w + 1] + 2 * gray[i + 1] + gray[i + w + 1] - gray[i - w - 1] - 2 * gray[i - 1] - gray[i + w - 1];
-      gy[i] = gray[i + w - 1] + 2 * gray[i + w] + gray[i + w + 1] - gray[i - w - 1] - 2 * gray[i - w] - gray[i - w + 1];
+      let bx = 0, by = 0, bm = 0;
+      for (let c = 0; c < 3; c++) {
+        const p = (dx, dy) => px[((y + dy) * w + x + dx) * 4 + c];
+        const sx = p(1, -1) + 2 * p(1, 0) + p(1, 1) - p(-1, -1) - 2 * p(-1, 0) - p(-1, 1);
+        const sy = p(-1, 1) + 2 * p(0, 1) + p(1, 1) - p(-1, -1) - 2 * p(0, -1) - p(1, -1);
+        const m = sx * sx + sy * sy;
+        if (m > bm) { bm = m; bx = sx; by = sy; }
+      }
+      gx[i] = bx; gy[i] = by; gm[i] = Math.sqrt(bm);
     }
   }
-  const N = 40;
-  const cos = [], sin = [];
+
+  const N = 36, cos = [], sin = [];
   for (let n = 0; n < N; n++) { cos.push(Math.cos((n / N) * 2 * Math.PI)); sin.push(Math.sin((n / N) * 2 * Math.PI)); }
-  // 沿著半徑 r 的圓周，把「往外的亮度變化」加總；同時算有多少比例的點方向一致
+  // 圓周上有多少比例的點是「夠明顯、而且方向垂直於圓周」的邊緣
   const ring = (cx, cy, r) => {
-    let sum = 0, pos = 0, neg = 0;
+    let good = 0, sum = 0;
     for (let n = 0; n < N; n++) {
       const sx = Math.round(cx + r * cos[n]), sy = Math.round(cy + r * sin[n]);
-      if (sx < 1 || sy < 1 || sx >= w - 1 || sy >= h - 1) return null;
-      const d = gx[sy * w + sx] * cos[n] + gy[sy * w + sx] * sin[n];
-      sum += d;
-      if (d > 8) pos++; else if (d < -8) neg++;
+      if (sx < 1 || sy < 1 || sx >= w - 1 || sy >= h - 1) continue;
+      const i = sy * w + sx;
+      const v = Math.abs(gx[i] * cos[n] + gy[i] * sin[n]);
+      if (v > 28 && v > 0.8 * gm[i]) { good++; sum += Math.min(v, 160); }
     }
-    return { edge: Math.abs(sum) / N, full: Math.max(pos, neg) / N };
+    return { full: good / N, strength: sum / N };
   };
-  // 硬幣邊緣是一圈「清楚的線」：r 處的變化要明顯大於內外兩側，
-  // 這樣才不會把硬幣表面的漸層反光或皮膚的明暗當成邊緣
-  const score = (cx, cy, r) => {
-    const at = ring(cx, cy, r);
-    if (!at) return 0;
-    const inner = ring(cx, cy, Math.max(1, r - 3)), outer = ring(cx, cy, r + 3);
-    if (!inner || !outer) return 0;
-    const sharp = at.edge - (inner.edge + outer.edge) / 2;
-    // 對比強度設上限：硬幣和膚色的對比不一定強，重點是整圈邊緣是否完整
-    return sharp <= 0 ? 0 : Math.min(sharp, 45) * at.full ** 2;
+  // 圓內與圓外一圈的顏色差（Lab 色差），以及外圈本身顏色是否一致。
+  // 硬幣放在手上時，外圈一整圈都是皮膚；指尖、手的邊緣則是一半皮膚一半背景。
+  const SECT = 8;
+  const contrast = (cx, cy, r) => {
+    const inner = [0, 0, 0, 0];
+    const outer = Array.from({ length: SECT }, () => [0, 0, 0, 0]);
+    const R = Math.ceil(r * 1.6);
+    for (let dy = -R; dy <= R; dy++) {
+      for (let dx = -R; dx <= R; dx++) {
+        const d = Math.hypot(dx, dy) / r;
+        const isInner = d <= 0.75;
+        if (!isInner && (d < 1.2 || d > 1.6)) continue;
+        const x = Math.round(cx + dx), y = Math.round(cy + dy);
+        if (x < 0 || y < 0 || x >= w || y >= h) continue;
+        const i = (y * w + x) * 4;
+        const a = isInner ? inner : outer[Math.min(SECT - 1, Math.floor(((Math.atan2(dy, dx) + Math.PI) / (2 * Math.PI)) * SECT))];
+        a[0] += px[i]; a[1] += px[i + 1]; a[2] += px[i + 2]; a[3]++;
+      }
+    }
+    const lab = (a) => rgbToLab(a[0] / a[3], a[1] / a[3], a[2] / a[3]);
+    const dist = (A, B) => Math.hypot((A[0] - B[0]) * 0.6, A[1] - B[1], A[2] - B[2]); // 亮度權重較低，避免陰影被當成硬幣
+    const sectors = outer.filter((a) => a[3]).map(lab);
+    if (!inner[3] || sectors.length < SECT) return { dE: 0, spread: 99 }; // 外圈超出照片：不採用
+    const mean = [0, 1, 2].map((c) => sectors.reduce((t, v) => t + v[c], 0) / sectors.length);
+    return { dE: dist(lab(inner), mean), spread: Math.max(...sectors.map((v) => dist(v, mean))) };
   };
-  // 越靠近搜尋中心（掌心）越優先，避免抓到指縫或背景裡的圓形
-  const mx = (region.x - x0) * k, my = (region.y - y0) * k, sigma = region.half * k * 0.75;
-  const near = (cx, cy) => Math.exp(-((cx - mx) ** 2 + (cy - my) ** 2) / (2 * sigma * sigma));
-  const cxMin = (region.x - region.half - x0) * k, cxMax = (region.x + region.half - x0) * k;
-  const cyMin = (region.y - region.half - y0) * k, cyMax = (region.y + region.half - y0) * k;
-  const rTop = rMax * k;
-  let best = { s: 0 };
-  const search = (ax, bx, ay, by, ar, br, step) => {
-    for (let r = ar; r <= br; r += step) {
-      for (let cy = ay; cy <= by; cy += step) {
-        for (let cx = ax; cx <= bx; cx += step) {
-          // 同樣清楚的圓，取比較大的：硬幣外緣會包住表面的反光與花紋
-          const s = score(cx, cy, r) * near(cx, cy) * Math.sqrt(r / rTop);
-          if (s > best.s) best = { s, cx, cy, r };
+  const rLo = rMin * k, rHi = rMax * k;
+  const total = (cx, cy, r, e) => {
+    const { dE, spread } = contrast(cx, cy, r);
+    const even = Math.min(1, Math.max(0, 1 - (spread - 9) / 16)); // 外圈顏色越不一致，越不像放在手上的硬幣
+    // 同樣條件下取較大的圓：硬幣外緣會包住表面的花紋與反光
+    return { s: e.full * e.full * Math.min(e.strength, 90) * Math.min(1, Math.max(0, dE - 3) / 14) * even * Math.sqrt(r / rHi), dE };
+  };
+
+  // 第一步：只看邊緣，粗略掃過所有位置與半徑，留下邊緣最完整的候選
+  const cands = [];
+  for (let cy = (box.y0 - y0) * k; cy <= (box.y1 - y0) * k; cy += 2) {
+    for (let cx = (box.x0 - x0) * k; cx <= (box.x1 - x0) * k; cx += 2) {
+      if (inside && !inside(cx / k + x0, cy / k + y0)) continue;
+      for (let r = rLo; r <= rHi; r += 1.5) {
+        const e = ring(cx, cy, r);
+        if (e.full >= 0.55) cands.push({ cx, cy, r, e, q: e.full * e.full * Math.min(e.strength, 90) });
+      }
+    }
+  }
+  if (!cands.length) return null;
+  cands.sort((a, b) => b.q - a.q);
+  // 第二步：對前幾名加上「顏色與周圍不同」的條件
+  let best = null;
+  for (const c of cands.slice(0, 150)) {
+    const t = total(c.cx, c.cy, c.r, c.e);
+    if (!best || t.s > best.s) best = { ...c, ...t };
+  }
+  if (!best || best.s <= 0) return null;
+  // 第三步：在最佳候選附近微調位置與半徑
+  for (let pass = 0; pass < 2; pass++) {
+    const c = { ...best };
+    for (let r = Math.max(rLo * 0.9, c.r - 2); r <= c.r + 2; r += 0.5) {
+      for (let cy = c.cy - 2; cy <= c.cy + 2; cy += 0.5) {
+        for (let cx = c.cx - 2; cx <= c.cx + 2; cx += 0.5) {
+          const e = ring(cx, cy, r);
+          if (e.full < 0.5) continue;
+          const t = total(cx, cy, r, e);
+          if (t.s > best.s) best = { cx, cy, r, e, ...t };
         }
       }
     }
-  };
-  search(cxMin, cxMax, cyMin, cyMax, rMin * k, rMax * k, 2);
-  if (!best.s) return null;
-  const c = best;
-  search(c.cx - 2, c.cx + 2, c.cy - 2, c.cy + 2, Math.max(2, c.r - 2), c.r + 2, 0.5);
-  return { x: best.cx / k + x0, y: best.cy / k + y0, r: best.r / k, score: best.s };
+  }
+  return { x: best.cx / k + x0, y: best.cy / k + y0, r: best.r / k, score: best.s, full: best.e.full, dE: best.dE };
 }
 
 /* ---------- 判斷是哪一種硬幣 ---------- */
@@ -163,9 +217,8 @@ function coinTone(canvas, coin) {
   }
   const sig = (v) => 1 / (1 + Math.exp(-v));
   const silver = sig((0.2 - sat) / 0.05);                 // 飽和度低 → 銀色
-  const gold = (1 - silver) * sig((hue - 31) / 5);        // 偏黃 → 金色
-  const copper = (1 - silver) * (1 - sig((hue - 31) / 5)); // 偏紅 → 銅色
-  return { silver, gold, copper };
+  // 1 元與 50 元在照片裡都偏金黃色，分不出來，交給大小去判斷
+  return { silver, warm: 1 - silver };
 }
 // 綜合顏色與「換算出的手掌長度合不合理」來猜面額；handPx 為 0 表示沒有辨識到手
 export function guessCoin(canvas, coin, handPx) {
@@ -228,25 +281,40 @@ async function analyse(file) {
     const len = Math.hypot(hand.tip.x - hand.wrist.x, hand.tip.y - hand.wrist.y);
     handPx = len;
     marks.coin = { x: hand.palm.x, y: hand.palm.y, r: len * 0.072 };
+    // 硬幣可能放在手掌的任何位置（不一定在正中央），所以搜尋整隻手的範圍，
+    // 但圓心必須落在手掌上，才不會抓到桌上其他圓形的東西
+    const P = hand.points;
+    // 只看手掌（手腕到各指根、拇指根部），不含手指：指尖和指甲的圓弧容易被誤認
+    const bones = [[0, 1], [1, 2], [0, 5], [0, 9], [0, 13], [0, 17], [5, 9], [9, 13], [13, 17], [1, 5], [2, 5], [1, 9], [1, 13], [1, 17]];
+    const palmPts = [0, 1, 2, 5, 9, 13, 17].map((i) => P[i]);
+    const reach = len * 0.09;
+    const onHand = (x, y) => bones.some(([a, b]) => {
+      const ax = P[a].x, ay = P[a].y, vx = P[b].x - ax, vy = P[b].y - ay;
+      const t = Math.max(0, Math.min(1, ((x - ax) * vx + (y - ay) * vy) / (vx * vx + vy * vy || 1)));
+      return Math.hypot(x - ax - t * vx, y - ay - t * vy) < reach;
+    });
+    const xs = palmPts.map((p) => p.x), ys = palmPts.map((p) => p.y);
+    const box = { x0: Math.min(...xs) - reach, y0: Math.min(...ys) - reach, x1: Math.max(...xs) + reach, y1: Math.max(...ys) + reach };
     // 1–50 元硬幣、手掌 10–26 公分時，硬幣半徑約為手掌長的 4%–14%
-    coin = findCoin(photo, { x: hand.palm.x, y: hand.palm.y, half: len * 0.22 }, len * 0.04, len * 0.135);
+    coin = findCoin(photo, box, len * 0.04, len * 0.135, onHand);
   } else {
-    coin = findCoin(photo, { x: W / 2, y: H / 2, half: S * 0.3 }, S * 0.025, S * 0.09);
+    coin = findCoin(photo, { x0: W * 0.1, y0: H * 0.1, x1: W * 0.9, y1: H * 0.9 }, S * 0.025, S * 0.09);
   }
-  if (coin && coin.score > 4) {
-    // 第二輪：在找到的圓附近用較高解析度重新對齊邊緣，讓半徑更準
-    const fine = findCoin(photo, { x: coin.x, y: coin.y, half: coin.r * 0.25 }, coin.r * 0.8, coin.r * 1.3, 40);
-    if (fine) coin = { ...fine, score: coin.score };
+  if (coin && coin.score > MIN_COIN_SCORE) {
+    // 再用較高解析度在同一個位置重新對齊邊緣，讓半徑更準
+    const m = coin.r * 0.2;
+    const fine = findCoin(photo, { x0: coin.x - m, y0: coin.y - m, x1: coin.x + m, y1: coin.y + m }, coin.r * 0.85, coin.r * 1.2, null, 44);
+    if (fine && fine.score > MIN_COIN_SCORE) coin = { ...fine, score: coin.score };
   }
   console.debug('coin', coin);
-  if (coin && coin.score > 4) marks.coin = { x: coin.x, y: coin.y, r: coin.r }; else coin = null;
+  if (coin && coin.score > MIN_COIN_SCORE) marks.coin = { x: coin.x, y: coin.y, r: coin.r }; else coin = null;
   if (coin) {
     coinAuto = guessCoin(photo, coin, handPx);
     if (coinAuto) coinId = coinAuto;
   }
   const coinName = COINS.find((c) => c.id === coinId).name;
 
-  if (hand && coin) setStatus(`已自動找到手掌與硬幣，判斷是 ${coinName} 硬幣。${coinId === '5' || coinId === '10' ? '5 元和 10 元顏色相同、容易混淆，請確認下方面額是否正確' : '如果面額不對請在下方改選'}；圓圈或兩個點不準的話可以拖曳調整。`, 'ok');
+  if (hand && coin) setStatus(`已自動找到手掌與硬幣，判斷是 ${coinName} 硬幣。${coinId === '5' || coinId === '10' ? '5 元和 10 元' : '1 元和 50 元'}顏色相近、容易混淆，請確認下方面額是否正確；圓圈或兩個點不準的話可以拖曳調整。`, 'ok');
   else if (hand) setStatus('找到手掌了，但沒找到硬幣。請在下方選擇硬幣面額，並拖曳橘色圓圈讓它剛好貼齊硬幣邊緣。', 'warn');
   else if (coin) setStatus(`${handFailed ? '手部辨識無法載入' : '沒有辨識到手掌'}。請把兩個綠點拖到中指指尖和手腕橫紋，並確認下方的硬幣面額（目前為 ${coinName}）與圓圈位置。`, 'warn');
   else setStatus('沒有辨識成功。請選擇硬幣面額、把橘色圓圈貼齊硬幣，並把兩個綠點拖到中指指尖和手腕橫紋；或重拍一張。', 'warn');
