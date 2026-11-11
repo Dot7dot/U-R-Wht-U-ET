@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbachs-a900gasty",
+  "name": "北海 鱈魚香絲(寬條)",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "北海",
+  "aliases": [
+    "北海",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "北海｜肉乾海苔豆乾。包裝標示每 100 公克 332.4 大卡、鈉 1708.8 毫克、糖 17.6 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 34
+  },
+  "per100g": {
+    "kcal": 332.4,
+    "protein": 27.1,
+    "fat": 1.5,
+    "satFat": 0.9,
+    "carbs": 52.9,
+    "sugar": 17.6,
+    "sodium": 1708.8
+  },
+  "highlights": [
+    "高鈉",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1708.8 毫克（≥600 毫克屬高鈉）。"
+    }
+  ],
+  "tips": "包裝標示每份 34 公克、約 113 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "如文案說明",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACHS-A900GASTY",
+      "sku": "DBACHS-A900GASTY",
+      "originalName": "北海 鱈魚香絲(寬條)212g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

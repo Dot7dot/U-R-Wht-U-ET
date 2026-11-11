@@ -1,0 +1,69 @@
+{
+  "id": "bs-pc-dbaek6-a900kkh1q",
+  "name": "Calbee miino黑胡椒風味蠶豆",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "Calbee",
+  "aliases": [
+    "Calbee",
+    "堅果瓜子"
+  ],
+  "summary": "Calbee｜堅果瓜子。包裝標示每 100 公克 585.2 大卡、鈉 472 毫克、糖 5.3 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 25
+  },
+  "per100g": {
+    "kcal": 585.2,
+    "protein": 20.8,
+    "fat": 42,
+    "satFat": 19.7,
+    "carbs": 35.2,
+    "sugar": 5.3,
+    "fiber": 8.4,
+    "sodium": 472
+  },
+  "highlights": [
+    "高飽和脂肪",
+    "蛋白質較高",
+    "高纖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 19.7 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 25 公克、約 146.3 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "蠶豆,棕櫚油,食鹽,黑胡椒,砂糖,葡萄糖,玉",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KKH1Q",
+      "sku": "DBAEK6-A900KKH1Q",
+      "originalName": "Calbee miino黑胡椒風味蠶豆 (25g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

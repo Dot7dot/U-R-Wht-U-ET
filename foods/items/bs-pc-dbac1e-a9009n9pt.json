@@ -1,0 +1,75 @@
+{
+  "id": "bs-pc-dbac1e-a9009n9pt",
+  "name": "惠香 台灣造型關廟土鳳梨酥四顆",
+  "emoji": "🍰",
+  "category": "品牌零食",
+  "subcategory": "蛋糕甜點",
+  "brand": "惠香",
+  "aliases": [
+    "惠香",
+    "蛋糕甜點"
+  ],
+  "summary": "惠香｜蛋糕甜點。包裝標示每 100 公克 423 大卡、鈉 64 毫克、糖 36 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 3,
+    "min": 1,
+    "max": 10
+  },
+  "density": 0.4,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 423,
+    "protein": 4,
+    "fat": 14,
+    "satFat": 8,
+    "carbs": 71,
+    "sugar": 36,
+    "sodium": 64
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 36 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 8 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含有小麥、蛋、奶、偏亞硫酸氫鈉。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "土產鳳梨蔬果醬 [ 蘿蔔泥、麥芽糖、鳳梨、砂糖、蕃薯、棕櫚油、食鹽、檸檬酸(調味劑)、香料、偏亞硫酸氫鈉 (抗氧化劑)]、麵粉、酥油、糖、奶粉、雞蛋、防腐劑(己二烯酸鉀)、泡打粉(酸式焦磷酸鈉、碳酸氫鈉、磷酸二氫鈣)。過敏原資訊:本產品含有小麥、蛋、奶、偏亞硫酸氫鈉。",
+  "allergens": "本產品含有小麥、蛋、奶、偏亞硫酸氫鈉。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC1E-A9009N9PT",
+      "sku": "DBAC1E-A9009N9PT",
+      "originalName": "惠香 惠香 台灣造型關廟土鳳梨酥(140g/盒)四顆入",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

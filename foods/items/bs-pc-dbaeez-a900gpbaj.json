@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbaeez-a900gpbaj",
+  "name": "SOYJOY 大豆營養棒-白巧克力夏威夷豆口味",
+  "emoji": "🍫",
+  "category": "品牌零食",
+  "subcategory": "巧克力",
+  "brand": "SOYJOY",
+  "aliases": [
+    "SOYJOY",
+    "巧克力"
+  ],
+  "summary": "SOYJOY｜巧克力。包裝標示每 100 公克 513.6 大卡、鈉 146 毫克、糖 20 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1,
+    "min": 0.3,
+    "max": 4
+  },
+  "density": 1.2,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 25
+  },
+  "per100g": {
+    "kcal": 513.6,
+    "protein": 24.8,
+    "fat": 34,
+    "satFat": 12.4,
+    "carbs": 32.4,
+    "sugar": 20,
+    "sodium": 146
+  },
+  "highlights": [
+    "高飽和脂肪",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 12.4 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 25 公克、約 128.4 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "大豆粉(非基因改造黃豆),人造奶油,大豆泡芙(大豆分離蛋白,木薯澱粉,碳酸鈣),砂糖,豆乳可可(砂糖,可可脂,豆 乳粉,糊精,大豆卵磷脂,香料),難消化性麥芽糊精(膳食纖維),夏威夷豆,檸檬皮(砂糖,檸檬皮,麥芽糖漿,香料),香料,白巧克力香料,檸檬酸,食鹽",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEEZ-A900GPBAJ",
+      "sku": "DBAEEZ-A900GPBAJ",
+      "originalName": "SOYJOY 大豆營養棒-白巧克力夏威夷豆口味25g(12條/盒)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

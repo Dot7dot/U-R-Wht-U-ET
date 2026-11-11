@@ -1,0 +1,75 @@
+{
+  "id": "bs-pc-dbacgb-a900ikx1k",
+  "name": "珍珍 昆布",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "珍珍",
+  "aliases": [
+    "珍珍",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "珍珍｜肉乾海苔豆乾。包裝標示每 100 公克 266 大卡、鈉 3020 毫克、糖 23.9 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 266,
+    "protein": 5.4,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 61.1,
+    "sugar": 23.9,
+    "sodium": 3020
+  },
+  "highlights": [
+    "高鈉",
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 3020 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 23.9 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含有大豆、含麩質之穀物等及其製品、不適合對其過敏體質者食用"
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 266 大卡，本包裝含 20 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "海帶、糖、鹽、麥芽糖、辣椒、食醋、醬油(黃豆、小麥)",
+  "allergens": "本產品含有大豆、含麩質之穀物等及其製品、不適合對其過敏體質者食用",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACGB-A900IKX1K",
+      "sku": "DBACGB-A900IKX1K",
+      "originalName": "珍珍 昆布(400g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

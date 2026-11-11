@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbacfn-a900bf4nt",
+  "name": "旺旺 夾心捲(香草口味蛋捲)",
+  "emoji": "🍘",
+  "category": "品牌零食",
+  "subcategory": "米果",
+  "brand": "旺旺",
+  "aliases": [
+    "旺旺",
+    "米果"
+  ],
+  "summary": "旺旺｜米果。包裝標示每 100 公克 539 大卡、鈉 194 毫克、糖 37.6 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 37
+  },
+  "per100g": {
+    "kcal": 539,
+    "protein": 4.7,
+    "fat": 30,
+    "satFat": 17.5,
+    "carbs": 62.5,
+    "sugar": 37.6,
+    "sodium": 194
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 37.6 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 17.5 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 37 公克、約 199 大卡，本包裝含 5 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "低筋麵粉、烤酥油、砂糖、脫鹽乳清粉、雞蛋、棕櫚油、葡萄糖、麥芽糊精、無水奶油、香草香料(葡萄糖、香料)、精鹽、奶油香料(奶油、乳清、脫脂奶粉、牛奶蛋白、香料、精鹽)、泡打粉(磷酸二氫鈣、碳酸氫鈉、玉米澱粉)、牛奶香料、黃梔子色素",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACFN-A900BF4NT",
+      "sku": "DBACFN-A900BF4NT",
+      "originalName": "旺旺 夾心捲(香草口味蛋捲)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

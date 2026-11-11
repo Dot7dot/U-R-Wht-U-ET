@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbachn-a900kivx8",
+  "name": "惠香 化核應子 (無籽去核黑李子 糖葫蘆蜜餞)",
+  "emoji": "🥭",
+  "category": "品牌零食",
+  "subcategory": "果乾蜜餞",
+  "brand": "惠香",
+  "aliases": [
+    "惠香",
+    "果乾蜜餞"
+  ],
+  "summary": "惠香｜果乾蜜餞。包裝標示每 100 公克 297 大卡、鈉 711 毫克、糖 53.8 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.7,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 297,
+    "protein": 0.7,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 73.6,
+    "sugar": 53.8,
+    "sodium": 711
+  },
+  "highlights": [
+    "高鈉",
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 711 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 53.8 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "李子、糖、鹽 、食品添加物:甜味劑(阿斯巴甜 、紐甜 、蔗糖素、甘草素)、苯甲酸(防腐劑) 、偏亞硫酸氫鈉、檸檬酸、DL-蘋果酸、檸檬酸鈉、無水氯化鈣 、香料(香莢蘭醛 、乙基麥芽醇) 、異抗壞血酸鈉(抗氧化劑) 、焦糖色素 *本品含阿斯巴甜,苯酮尿症患者不宜食用*本品含亞硫酸鹽類。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACHN-A900KIVX8",
+      "sku": "DBACHN-A900KIVX8",
+      "originalName": "惠香 化核應子120g/包 (無籽去核黑李子 糖葫蘆蜜餞)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

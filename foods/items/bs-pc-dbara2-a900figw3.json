@@ -1,0 +1,78 @@
+{
+  "id": "bs-pc-dbara2-a900figw3",
+  "name": "每日優果 高纖黑木耳蒟蒻乾",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "每日優果",
+  "aliases": [
+    "每日優果",
+    "糖果口香糖"
+  ],
+  "summary": "每日優果｜糖果口香糖。包裝標示每 100 公克 275 大卡、鈉 1370 毫克、糖 49.4 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 275,
+    "protein": 1.9,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 73.2,
+    "sugar": 49.4,
+    "fiber": 12.7,
+    "sodium": 1370
+  },
+  "highlights": [
+    "高鈉",
+    "高糖",
+    "高纖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1370 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 49.4 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含有大豆及含麩質之穀物其製品,不適合其過敏體質者食用"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "蒟蒻.黃豆粉(非基因改造).木耳.糖.醬油(大豆(非基因改造).小麥.食鹽).鹽.五香粉(大茴.小茴.花椒.丁香.肉桂).胡椒粉",
+  "allergens": "本產品含有大豆及含麩質之穀物其製品,不適合其過敏體質者食用",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBARA2-A900FIGW3",
+      "sku": "DBARA2-A900FIGW3",
+      "originalName": "每日優果 高纖黑木耳蒟蒻乾150G",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

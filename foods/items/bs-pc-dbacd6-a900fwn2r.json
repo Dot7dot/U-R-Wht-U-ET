@@ -1,0 +1,73 @@
+{
+  "id": "bs-pc-dbacd6-a900fwn2r",
+  "name": "巧益 瘋爆 梅子烤海苔",
+  "emoji": "🌽",
+  "category": "品牌零食",
+  "subcategory": "玉米與穀物點心",
+  "brand": "巧益",
+  "aliases": [
+    "巧益",
+    "玉米與穀物點心"
+  ],
+  "summary": "巧益｜玉米與穀物點心。包裝標示每 100 公克 585.1 大卡、鈉 1286.7 毫克、糖 0.8 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 585.1,
+    "protein": 24.2,
+    "fat": 44.3,
+    "satFat": 4.3,
+    "carbs": 22.4,
+    "sugar": 0.8,
+    "sodium": 1286.7
+  },
+  "highlights": [
+    "高鈉",
+    "高脂",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1286.7 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品生產製程廠房及設備或生產管線有處理麻油及其製品."
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 585.1 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "海苔、芥花油、岩鹽、梅子粉[梅子、仙楂、葡萄糖、鹽、甜味劑(甜菊醣苷、蔗糖素、紐甜、甘草萃)、香料(乙基香莢蘭醛、乙基麥芽醇)]、抗氧化劑(維生素E).",
+  "allergens": "本產品生產製程廠房及設備或生產管線有處理麻油及其製品.",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACD6-A900FWN2R",
+      "sku": "DBACD6-A900FWN2R",
+      "originalName": "巧益  瘋爆 梅子烤海苔 30g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

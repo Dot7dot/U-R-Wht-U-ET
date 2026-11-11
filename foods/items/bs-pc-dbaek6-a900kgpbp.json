@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbaek6-a900kgpbp",
+  "name": "UHA 味覺糖 噗啾汽水風味條糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "UHA",
+  "aliases": [
+    "UHA",
+    "糖果口香糖"
+  ],
+  "summary": "UHA｜糖果口香糖。包裝標示每 100 公克 204 大卡、鈉 39 毫克、糖 29.4 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 50
+  },
+  "per100g": {
+    "kcal": 204,
+    "protein": 0.9,
+    "fat": 3.6,
+    "satFat": 2.9,
+    "carbs": 42,
+    "sugar": 29.4,
+    "sodium": 39
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 29.4 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：*苯酮尿症患者不宜食用"
+    }
+  ],
+  "tips": "包裝標示每份 50 公克、約 102 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麥芽糖,砂糖,棕櫚油,殺菌乳酸菌飲料(牛奶,砂",
+  "allergens": "*苯酮尿症患者不宜食用",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KGPBP",
+      "sku": "DBAEK6-A900KGPBP",
+      "originalName": "UHA 味覺糖 噗啾汽水風味條糖 (50g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

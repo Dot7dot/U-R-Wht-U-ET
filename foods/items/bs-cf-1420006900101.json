@@ -1,0 +1,60 @@
+{
+  "id": "bs-cf-1420006900101",
+  "name": "良澔大溪名產豆丁",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "良澔",
+  "aliases": [
+    "良澔",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "良澔｜肉乾海苔豆乾。包裝標示每 100 公克 188 大卡、鈉 308 毫克、糖 4 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 44
+  },
+  "per100g": {
+    "kcal": 188,
+    "protein": 20.5,
+    "fat": 8.3,
+    "satFat": 1.2,
+    "carbs": 7.8,
+    "sugar": 4,
+    "sodium": 308
+  },
+  "highlights": [
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "包裝標示每份 44 公克、約 82.9 大卡，本包裝含 5 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "黃豆(基因改造)、砂糖、食鹽、醬油、大豆酸水解物(水、氨基酸)、甘草粉、辣椒粉、大茴、小茴、丁香、肉桂、白芷、黃豆粉、酵母粉。",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E8%89%AF%E6%BE%94/1420006900101.html",
+      "sku": "1420006900101",
+      "originalName": "良澔大溪名產豆丁",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

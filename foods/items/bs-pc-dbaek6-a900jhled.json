@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbaek6-a900jhled",
+  "name": "Befco 栗山 瀨戶汐揚仙貝-柚子鹽風味",
+  "emoji": "🍘",
+  "category": "品牌零食",
+  "subcategory": "米果",
+  "brand": "Befco",
+  "aliases": [
+    "Befco",
+    "米果"
+  ],
+  "summary": "Befco｜米果。包裝標示每 100 公克 584.8 大卡、鈉 417 毫克、糖 0.3 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 76
+  },
+  "per100g": {
+    "kcal": 584.8,
+    "protein": 2.6,
+    "fat": 39.2,
+    "satFat": 18.7,
+    "carbs": 55.4,
+    "sugar": 0.3,
+    "sodium": 417
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 18.7 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 76 公克、約 444.6 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "棕櫚油,米穀粉(粳米),澱粉(粗玉米澱粉,馬",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900JHLED",
+      "sku": "DBAEK6-A900JHLED",
+      "originalName": "Befco 栗山 瀨戶汐揚仙貝-柚子鹽風味 (76g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

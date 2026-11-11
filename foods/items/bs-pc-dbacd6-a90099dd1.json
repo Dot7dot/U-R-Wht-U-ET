@@ -1,0 +1,61 @@
+{
+  "id": "bs-pc-dbacd6-a90099dd1",
+  "name": "巧益 沙茶豆干",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "巧益",
+  "aliases": [
+    "巧益",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "巧益｜肉乾海苔豆乾。包裝標示每 100 公克 420 大卡、鈉 470 毫克、糖 20 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 420,
+    "protein": 30,
+    "fat": 20,
+    "satFat": 3,
+    "carbs": 30,
+    "sugar": 20,
+    "sodium": 470
+  },
+  "highlights": [
+    "高脂",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "包裝標示每份 100 公克、約 420 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "黃豆(非基因改造)、蔗糖、大豆油、甘油、麥芽糖、鹽、甜味劑(D-山梨醇液70%、蔗糖素、甘草酸鈉)、沙茶粉(魚、芝麻、花生、椰子粉、蔥、蝦、蒜、甘草、胡椒、薑、DL-胺基丙酸、肉桂、八角、小茴、丁香、L-麩酸鈉、5'-次黃嘌呤核?磷酸二鈉、5'-鳥嘌呤核?磷酸二鈉、琥珀酸二鈉、防腐劑(己二烯酸鉀)、焦糖色素、檸檬酸、乳酸、辣椒、胺基乙酸、花椒、乳酸、食用黃色5號、硫酸鈣、脂肪酸甘油酯、卵磷脂、碳酸鎂、矽樹脂、五加皮、山奈、二氧化矽.",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACD6-A90099DD1",
+      "sku": "DBACD6-A90099DD1",
+      "originalName": "巧益  沙茶豆干 350g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "bs-pc-dbacvn-a900jj90j",
+  "name": "順便幸福 黑糖奶茶泡芙脆脆",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "順便幸福",
+  "aliases": [
+    "順便幸福",
+    "糖果口香糖"
+  ],
+  "summary": "順便幸福｜糖果口香糖。包裝標示每 100 公克 232.5 大卡、鈉 226 毫克、糖 6.5 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 65
+  },
+  "per100g": {
+    "kcal": 232.5,
+    "protein": 5.9,
+    "fat": 13.5,
+    "satFat": 8.2,
+    "carbs": 22.2,
+    "sugar": 6.5,
+    "sodium": 226
+  },
+  "highlights": [
+    "高飽和脂肪",
+    "含反式脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 8.2 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "所有人，特別是心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含反式脂肪 0.4 公克，建議盡量少吃。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含有蛋、牛奶、含麩質之穀物及其製品,不適合對其過敏體質者食用"
+    }
+  ],
+  "tips": "包裝標示每份 65 公克、約 144.1 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0.4
+  },
+  "ingredients": "蛋、水、低筋麵粉、無鹽奶油、沖繩黑糖奶茶(奶精(葡萄糖漿、玉米糖漿、完全氫化椰子油、牛奶蛋白、乳清粉、磷酸氫二鉀(品質改良劑)、",
+  "allergens": "本產品含有蛋、牛奶、含麩質之穀物及其製品,不適合對其過敏體質者食用",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACVN-A900JJ90J",
+      "sku": "DBACVN-A900JJ90J",
+      "originalName": "順便幸福 黑糖奶茶泡芙脆脆65gx3袋(餅乾 零食 甜點)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

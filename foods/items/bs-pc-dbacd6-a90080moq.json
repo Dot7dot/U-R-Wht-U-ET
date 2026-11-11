@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbacd6-a90080moq",
+  "name": "健康日誌 法式蒜味脆餅",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "健康日誌",
+  "aliases": [
+    "健康日誌",
+    "餅乾"
+  ],
+  "summary": "健康日誌｜餅乾。包裝標示每 100 公克 553 大卡、鈉 671 毫克、糖 5.3 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 553,
+    "protein": 7.6,
+    "fat": 33.1,
+    "satFat": 15.3,
+    "carbs": 56.2,
+    "sugar": 5.3,
+    "sodium": 671
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 671 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 15.3 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 553 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "小麥粉、馬鈴薯、食用棕櫚油、大蒜粉、食鹽、膨脹劑(碳酸氫銨、碳酸氫鈉)、亞硫酸鈉、葡萄糖、磷酸氫鈣、胡蘿蔔色素、香料",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACD6-A90080MOQ",
+      "sku": "DBACD6-A90080MOQ",
+      "originalName": "健康日誌  法式蒜味脆餅 408g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

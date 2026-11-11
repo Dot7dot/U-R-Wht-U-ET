@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbac4m-a900ho2fj",
+  "name": "新東陽 原味魷魚絲",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "新東陽",
+  "aliases": [
+    "新東陽",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "新東陽｜肉乾海苔豆乾。包裝標示每 100 公克 285 大卡、鈉 2009 毫克、糖 20.8 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 285,
+    "protein": 35.6,
+    "fat": 1.7,
+    "satFat": 1,
+    "carbs": 31.9,
+    "sugar": 20.8,
+    "sodium": 2009
+  },
+  "highlights": [
+    "高鈉",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 2009 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含魷魚、乳製品成分,食物過敏體質者請留意！"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "魷魚、砂糖、乳糖、D-山梨醇、L-麩酸鈉、DL-蘋果酸鈉、食鹽、米醋、甘油、琥珀酸二鈉、DL-胺基丙酸、葡萄糖酸-δ內酯、胺基乙酸、防腐劑(己二烯酸)、反丁烯二酸一鈉、醋酸鈉(無水)、偏磷酸鈉、5′-次黄嘌呤核苷磷酸二鈉、5′-鳥嘌呤核苷磷酸二鈉、甜味劑(醋磺內酯鉀、甘草酸銨)、辣椒精(辣椒、水、丙二醇)",
+  "allergens": "本產品含魷魚、乳製品成分,食物過敏體質者請留意！",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC4M-A900HO2FJ",
+      "sku": "DBAC4M-A900HO2FJ",
+      "originalName": "新東陽 原味魷魚絲85g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

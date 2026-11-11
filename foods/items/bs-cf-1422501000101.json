@@ -1,0 +1,62 @@
+{
+  "id": "bs-cf-1422501000101",
+  "name": "利口樂草本喉糖原味",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "利口樂",
+  "aliases": [
+    "利口樂",
+    "糖果口香糖"
+  ],
+  "summary": "利口樂｜糖果口香糖。包裝標示每 100 公克 400 大卡、鈉 0 毫克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 2.5
+  },
+  "per100g": {
+    "kcal": 400,
+    "protein": 0,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 100,
+    "sodium": 0
+  },
+  "highlights": [
+    "熱量 400 大卡／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "包裝標示每份 2.5 公克、約 10 大卡，本包裝含 100 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "蔗糖、葡萄糖、焦糖、多種利口樂草本植物萃取菁華(車前草、藥蜀葵、薄荷、百里香、鼠尾草、斗篷草、西洋蓍草、地榆、錦葵、接骨木、野櫻草、傷寒草、圓葉薄荷)、天然檸檬香精、天然香料(薄荷腦、薄荷油)",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E5%88%A9%E5%8F%A3%E6%A8%82/1422501000101.html",
+      "sku": "1422501000101",
+      "originalName": "利口樂草本喉糖原味250g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [
+      "sugar"
+    ],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

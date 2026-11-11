@@ -1,0 +1,67 @@
+{
+  "id": "bs-pc-dbaeac-a68551018",
+  "name": "可康 海鹽檸檬糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "可康",
+  "aliases": [
+    "可康",
+    "糖果口香糖"
+  ],
+  "summary": "可康｜糖果口香糖。包裝標示每 100 公克 375 大卡、鈉 1900 毫克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 375,
+    "protein": 0.3,
+    "fat": 0.1,
+    "satFat": 0,
+    "carbs": 93.1,
+    "sodium": 1900
+  },
+  "highlights": [
+    "高鈉"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1900 毫克（≥600 毫克屬高鈉）。"
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 375 大卡，本包裝含 1.5 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "砂糖、葡萄糖漿、海鹽、檸檬果汁、檸檬酸 ( 調味用 ) 、天然香料",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEAC-A68551018",
+      "sku": "DBAEAC-A68551018",
+      "originalName": "可康  限 時 特 惠 海鹽檸檬糖(150g/包)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [
+      "sugar"
+    ],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

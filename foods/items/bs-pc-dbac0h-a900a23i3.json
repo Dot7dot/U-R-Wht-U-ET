@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbac0h-a900a23i3",
+  "name": "孔雀 餅乾 原味",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "孔雀",
+  "aliases": [
+    "孔雀",
+    "餅乾"
+  ],
+  "summary": "孔雀｜餅乾。包裝標示每 100 公克 507.5 大卡、鈉 406 毫克、糖 15.5 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 33.5
+  },
+  "per100g": {
+    "kcal": 507.5,
+    "protein": 8.4,
+    "fat": 23,
+    "satFat": 15.2,
+    "carbs": 66.6,
+    "sugar": 15.5,
+    "sodium": 406
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 15.2 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 33.5 公克、約 170 大卡，本包裝含 4 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵粉、砂糖、蛋黃、棕櫚油(棕櫚油、乳化劑(脂肪酸山梨醇酐酯、脂肪酸甘油酯、檸檬酸甘油酯)、抗氧化劑(L-抗壞血酸棕櫚酸酯))、椰子油、抗氧化劑(維生素E、L-抗壞血酸棕櫚酸酯))、膨脹劑(碳酸氫銨、碳酸氫鈉)、麥芽糖、鹽、碳酸鈣、香料、β-胡蘿蔔素。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC0H-A900A23I3",
+      "sku": "DBAC0H-A900A23I3",
+      "originalName": "孔雀 餅乾 原味  135g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbaek6-a900knkhi",
+  "name": "Calbee 卡樂先生4連黑胡椒風味堅脆洋芋片",
+  "emoji": "🥔",
+  "category": "品牌零食",
+  "subcategory": "洋芋片",
+  "brand": "Calbee",
+  "aliases": [
+    "Calbee",
+    "洋芋片"
+  ],
+  "summary": "Calbee｜洋芋片。包裝標示每 100 公克 508.8 大卡、鈉 260 毫克、糖 2.1 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 15
+  },
+  "per100g": {
+    "kcal": 508.8,
+    "protein": 6,
+    "fat": 26,
+    "satFat": 9.5,
+    "carbs": 62.7,
+    "sugar": 2.1,
+    "sodium": 260
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 9.5 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：##生產此食品的設備亦處理雞蛋,牛奶,蝦,蟹"
+    }
+  ],
+  "tips": "包裝標示每份 15 公克、約 76.3 大卡，本包裝含 4 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "馬鈴薯,棕櫚油,黑胡椒,糊精,食鹽,砂糖,葡萄糖,",
+  "allergens": "##生產此食品的設備亦處理雞蛋,牛奶,蝦,蟹",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KNKHI",
+      "sku": "DBAEK6-A900KNKHI",
+      "originalName": "Calbee 卡樂先生4連黑胡椒風味堅脆洋芋片 (60g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

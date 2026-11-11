@@ -1,0 +1,62 @@
+{
+  "id": "bs-pc-dbaek6-a900kep1t",
+  "name": "ORIHIRO 蒟蒻果凍-白桃&葡萄",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "ORIHIRO",
+  "aliases": [
+    "ORIHIRO",
+    "糖果口香糖"
+  ],
+  "summary": "ORIHIRO｜糖果口香糖。包裝標示每 100 公克 36.8 大卡、鈉 44 毫克、糖 8.9 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 18
+  },
+  "per100g": {
+    "kcal": 36.8,
+    "protein": 0,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 9.5,
+    "sugar": 8.9,
+    "fiber": 0.6,
+    "sodium": 44
+  },
+  "highlights": [
+    "熱量 36.8 大卡／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "包裝標示每份 18 公克、約 6.6 大卡，本包裝含 6 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "白桃風味(淨重108公克){甜味劑(赤藻糖醇",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KEP1T",
+      "sku": "DBAEK6-A900KEP1T",
+      "originalName": "ORIHIRO 【 限 時 優 惠 】 蒟蒻果凍-白桃&葡萄 (216g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

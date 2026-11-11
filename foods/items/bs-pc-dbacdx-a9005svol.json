@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbacdx-a9005svol",
+  "name": "同正 素食蠶豆",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "同正",
+  "aliases": [
+    "同正",
+    "堅果瓜子"
+  ],
+  "summary": "同正｜堅果瓜子。包裝標示每 100 公克 518 大卡、鈉 345 毫克、糖 0.14 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 518,
+    "protein": 17.3,
+    "fat": 26.6,
+    "satFat": 10.2,
+    "carbs": 52.5,
+    "sugar": 0.14,
+    "sodium": 345
+  },
+  "highlights": [
+    "高飽和脂肪",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 10.2 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACDX-A9005SVOL",
+      "sku": "DBACDX-A9005SVOL",
+      "originalName": "同正 素食蠶豆200g*2包/組",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

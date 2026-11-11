@@ -1,0 +1,72 @@
+{
+  "id": "bs-pc-dbaek6-a900khmca",
+  "name": "Befco 栗山 寶貝怪獸星星米果",
+  "emoji": "🍘",
+  "category": "品牌零食",
+  "subcategory": "米果",
+  "brand": "Befco",
+  "aliases": [
+    "Befco",
+    "米果"
+  ],
+  "summary": "Befco｜米果。包裝標示每 100 公克 530.7 大卡、鈉 882 毫克、糖 0.6 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 86
+  },
+  "per100g": {
+    "kcal": 530.7,
+    "protein": 3.6,
+    "fat": 29.9,
+    "satFat": 3,
+    "carbs": 61.8,
+    "sugar": 0.6,
+    "sodium": 882
+  },
+  "highlights": [
+    "高鈉",
+    "高脂"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 882 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：魚類"
+    }
+  ],
+  "tips": "包裝標示每份 86 公克、約 456.1 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "米穀粉(粳米),植物油(芥花油,米糠油,玉米",
+  "allergens": "魚類",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KHMCA",
+      "sku": "DBAEK6-A900KHMCA",
+      "originalName": "Befco 栗山 寶貝怪獸星星米果[期間限定] (86g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

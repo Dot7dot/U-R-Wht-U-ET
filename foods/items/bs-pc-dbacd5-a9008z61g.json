@@ -1,0 +1,65 @@
+{
+  "id": "bs-pc-dbacd5-a9008z61g",
+  "name": "九福 黑糖沙琪瑪",
+  "emoji": "🍰",
+  "category": "品牌零食",
+  "subcategory": "蛋糕甜點",
+  "brand": "九福",
+  "aliases": [
+    "九福",
+    "蛋糕甜點"
+  ],
+  "summary": "九福｜蛋糕甜點。包裝標示每 100 公克 447.4 大卡、鈉 78.9 毫克、糖 13.4 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 3,
+    "min": 1,
+    "max": 10
+  },
+  "density": 0.4,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 38
+  },
+  "per100g": {
+    "kcal": 447.4,
+    "protein": 7.1,
+    "fat": 17.1,
+    "satFat": 7.9,
+    "carbs": 66.3,
+    "sugar": 13.4,
+    "sodium": 78.9
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 7.9 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 38 公克、約 170 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "小麥麵粉、麥芽糖、棕櫚油、雞蛋、黑糖、鹽、奶粉、碳酸氫鈉(小蘇打)、楓糖香料。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACD5-A9008Z61G",
+      "sku": "DBACD5-A9008Z61G",
+      "originalName": "九福    黑糖沙琪瑪227g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

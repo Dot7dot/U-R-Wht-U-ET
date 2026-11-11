@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbacd6-a900eoubo",
+  "name": "嘉義福義軒 湘辣蘇打餅",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "嘉義福義軒",
+  "aliases": [
+    "嘉義福義軒",
+    "餅乾"
+  ],
+  "summary": "嘉義福義軒｜餅乾。包裝標示每 100 公克 531.6 大卡、鈉 485 毫克、糖 0 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 531.6,
+    "protein": 9.6,
+    "fat": 29.6,
+    "satFat": 16.7,
+    "carbs": 56.7,
+    "sugar": 0,
+    "sodium": 485
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 16.7 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 531.6 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵粉、椰子油、棕櫚油、辣椒乾、海鹽、糙米、酵母粉(酵母、脂肪酸山梨醇酐酯)、泡打粉(玉米澱粉、酸性焦磷酸鈉、碳酸氫鈉)、L-麩酸鈉、椒鹽粉[鹽、調味劑(L-麩酸鈉)、黑胡椒、肉桂、白胡椒、眾香子、甘草、丁香、雞心椒]、膨脹劑(碳酸氫鈉)、砂糖、芝麻油、大蒜調味粉[大蒜、香辛料(奧勒岡草、巴西里香芹、迷迭香、羅勒、紅椒、辣椒)、橘子皮、洋蔥、芹菜]、調味粉[大蒜、鹽、洋蔥、香辛料(黑胡椒、香芹、紅辣椒)、橙皮、紅椒、青椒]、二氧化矽、紅蔥頭、蒜頭.",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACD6-A900EOUBO",
+      "sku": "DBACD6-A900EOUBO",
+      "originalName": "嘉義福義軒 湘辣蘇打餅 306g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

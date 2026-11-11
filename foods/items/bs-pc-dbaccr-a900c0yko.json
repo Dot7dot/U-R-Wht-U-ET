@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbaccr-a900c0yko",
+  "name": "義美 杏仁南瓜子煎餅",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "義美",
+  "aliases": [
+    "義美",
+    "堅果瓜子"
+  ],
+  "summary": "義美｜堅果瓜子。包裝標示每 100 公克 454 大卡、鈉 147 毫克、糖 24.5 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 20
+  },
+  "per100g": {
+    "kcal": 454,
+    "protein": 8,
+    "fat": 13.5,
+    "satFat": 5.5,
+    "carbs": 74.5,
+    "sugar": 24.5,
+    "sodium": 147
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 24.5 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 5.5 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 20 公克、約 90.8 大卡，本包裝含 12 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵粉、蔗糖、雞蛋、植物油 (棕櫚油、乳化劑 (脂肪酸甘油酯、脂肪酸丙二醇酯)、食鹽)、",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACCR-A900C0YKO",
+      "sku": "DBACCR-A900C0YKO",
+      "originalName": "義美  杏仁南瓜子煎餅240g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

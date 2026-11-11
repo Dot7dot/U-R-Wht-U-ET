@@ -1,0 +1,69 @@
+{
+  "id": "bs-cf-1401008800101",
+  "name": "維力 張君雅小妹妹五連包BBQ點心麵",
+  "emoji": "🍜",
+  "category": "品牌零食",
+  "subcategory": "點心麵",
+  "brand": "維力",
+  "aliases": [
+    "維力",
+    "點心麵"
+  ],
+  "summary": "維力｜點心麵。包裝標示每 100 公克 492.1 大卡、鈉 1040 毫克、糖 6 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 22
+  },
+  "per100g": {
+    "kcal": 492.1,
+    "protein": 10.5,
+    "fat": 21.7,
+    "satFat": 10.9,
+    "carbs": 63.7,
+    "sugar": 6,
+    "fiber": 0,
+    "sodium": 1040
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1040 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 10.9 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 22 公克、約 108.4 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "ingredients": "麵粉、精緻棕櫚油、馬鈴薯澱粉、糖、酵母抽出物、雞肉粉、食鹽、調味劑、醬油、芝麻油、乳化劑、胡椒粉、豬肉粉、調味劑、五香粉、麵質改良劑、維生素E",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E7%B6%AD%E5%8A%9B/1401008800101.html",
+      "sku": "1401008800101",
+      "originalName": "張君雅小妹妹五連包BBQ點心麵22gx5",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

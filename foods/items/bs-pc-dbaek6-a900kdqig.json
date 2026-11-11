@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbaek6-a900kdqig",
+  "name": "樂天 小梅口香糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "樂天",
+  "aliases": [
+    "樂天",
+    "糖果口香糖"
+  ],
+  "summary": "樂天｜糖果口香糖。包裝標示每 100 公克 295.6 大卡、鈉 23 毫克、糖 36.9 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 26
+  },
+  "per100g": {
+    "kcal": 295.6,
+    "protein": 1.2,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 72.7,
+    "sugar": 36.9,
+    "sodium": 23
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 36.9 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 26 公克、約 76.8 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "砂糖,葡萄糖,水飴(玉米),豬皮明膠,濃縮",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KDQIG",
+      "sku": "DBAEK6-A900KDQIG",
+      "originalName": "LOTTE 樂天 小梅口香糖 (26g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

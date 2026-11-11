@@ -1,0 +1,70 @@
+{
+  "id": "bs-cf-1401015400101",
+  "name": "卡迪那德州薯條茄汁口味",
+  "emoji": "🥔",
+  "category": "品牌零食",
+  "subcategory": "洋芋片",
+  "brand": "卡迪那",
+  "aliases": [
+    "卡迪那",
+    "洋芋片"
+  ],
+  "summary": "卡迪那｜洋芋片。包裝標示每 100 公克 540 大卡、鈉 622 毫克、糖 3 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 30
+  },
+  "per100g": {
+    "kcal": 540,
+    "protein": 3.1,
+    "fat": 30.4,
+    "satFat": 13.3,
+    "carbs": 63.5,
+    "sugar": 3,
+    "sodium": 622
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 622 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 13.3 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 30 公克、約 162 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E5%8D%A1%E8%BF%AA%E9%82%A3/1401015400101.html",
+      "sku": "1401015400101",
+      "originalName": "卡迪那德州薯條茄汁口味240g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

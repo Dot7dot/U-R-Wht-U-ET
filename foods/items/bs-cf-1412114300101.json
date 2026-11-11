@@ -1,0 +1,66 @@
+{
+  "id": "bs-cf-1412114300101",
+  "name": "義美美味薄餅夾心-草莓",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "義美",
+  "aliases": [
+    "義美",
+    "餅乾"
+  ],
+  "summary": "義美｜餅乾。包裝標示每 100 公克 511 大卡、鈉 194 毫克、糖 22.1 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 24
+  },
+  "per100g": {
+    "kcal": 511,
+    "protein": 6.4,
+    "fat": 24,
+    "satFat": 15.2,
+    "carbs": 67.3,
+    "sugar": 22.1,
+    "sodium": 194
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 15.2 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 24 公克、約 123 大卡，本包裝含 6 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵粉、植物油(棕櫚油、椰子油、乳化劑(脂肪酸丙二醇酯)、抗氧化劑(混合濃縮生育醇))、蔗糖、奶粉、葡萄糖、乳糖、食鹽、膨脹劑(碳酸氫鈉、碳酸氫銨)、乳化劑(乳酸硬脂酸鈉、脂肪酸甘油酯)、檸檬酸、香料、草莓粉",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E7%BE%A9%E7%BE%8E/1412114300101.html",
+      "sku": "1412114300101",
+      "originalName": "義美美味薄餅夾心-草莓",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

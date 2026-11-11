@@ -1,0 +1,70 @@
+{
+  "id": "bs-pc-dbac4m-1900hndap",
+  "name": "新東陽 原味沙琪瑪",
+  "emoji": "🍰",
+  "category": "品牌零食",
+  "subcategory": "蛋糕甜點",
+  "brand": "新東陽",
+  "aliases": [
+    "新東陽",
+    "蛋糕甜點"
+  ],
+  "summary": "新東陽｜蛋糕甜點。包裝標示每 100 公克 517 大卡、鈉 135 毫克、糖 17.1 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 3,
+    "min": 1,
+    "max": 10
+  },
+  "density": 0.4,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 517,
+    "protein": 6.7,
+    "fat": 28,
+    "satFat": 12.7,
+    "carbs": 59.6,
+    "sugar": 17.1,
+    "sodium": 135
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 12.7 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含有小麥及蛋製品,食物過敏體質者請留意！"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麥芽糖、小麥麵粉、棕櫚油、雞蛋、砂糖、乳酸硬脂酸鈉、碳酸氫鈉、食鹽、香料。",
+  "allergens": "本產品含有小麥及蛋製品,食物過敏體質者請留意！",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC4M-1900HNDAP",
+      "sku": "DBAC4M-1900HNDAP",
+      "originalName": "新東陽 原味沙琪瑪360gx5",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

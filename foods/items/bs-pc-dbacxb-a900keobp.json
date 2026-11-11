@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbacxb-a900keobp",
+  "name": "易而安 甘拿喉潤喉丸",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "易而安",
+  "aliases": [
+    "易而安",
+    "糖果口香糖"
+  ],
+  "summary": "易而安｜糖果口香糖。包裝標示每 100 公克 344 大卡、鈉 972.8 毫克、糖 34 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 25
+  },
+  "per100g": {
+    "kcal": 344,
+    "protein": 4.8,
+    "fat": 0.4,
+    "satFat": 0,
+    "carbs": 80,
+    "sugar": 34,
+    "sodium": 972.8
+  },
+  "highlights": [
+    "高鈉",
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 972.8 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 34 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 25 公克、約 86 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "蜂蜜、陳皮、羅漢果萃取液、羅漢果、甘草、澎大海、烏梅、梅子粉、焦糖色素(著色劑)、薄荷粉(乳糖、L-薄荷腦、麥芽糊精)、麥門冬、桔梗",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACXB-A900KEOBP",
+      "sku": "DBACXB-A900KEOBP",
+      "originalName": "易而安 甘拿喉潤喉丸-15粒/盒",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

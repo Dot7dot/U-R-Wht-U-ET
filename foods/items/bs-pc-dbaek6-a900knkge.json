@@ -1,0 +1,75 @@
+{
+  "id": "bs-pc-dbaek6-a900knkge",
+  "name": "Nestle 雀巢 KitKat橘子可可風味餅乾",
+  "emoji": "🍫",
+  "category": "品牌零食",
+  "subcategory": "巧克力",
+  "brand": "Nestle",
+  "aliases": [
+    "Nestle",
+    "巧克力"
+  ],
+  "summary": "Nestle｜巧克力。包裝標示每 100 公克 548.2 大卡、鈉 69 毫克、糖 43.1 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1,
+    "min": 0.3,
+    "max": 4
+  },
+  "density": 1.2,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 11.6
+  },
+  "per100g": {
+    "kcal": 548.2,
+    "protein": 5.2,
+    "fat": 31,
+    "satFat": 19,
+    "carbs": 62.1,
+    "sugar": 43.1,
+    "sodium": 69
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 43.1 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 19 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：大豆,種子類"
+    }
+  ],
+  "tips": "包裝標示每份 11.6 公克、約 63.6 大卡，本包裝含 9 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "可可加工品[砂糖,植物油(棕櫚油,葵花籽油",
+  "allergens": "大豆,種子類",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KNKGE",
+      "sku": "DBAEK6-A900KNKGE",
+      "originalName": "Nestle 雀巢 KitKat橘子可可風味餅乾 (104.4g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

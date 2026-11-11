@@ -1,0 +1,64 @@
+{
+  "id": "bs-cf-1424489800105",
+  "name": "萬歲牌 萬歲海苔杏仁小魚盒裝",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "萬歲牌",
+  "aliases": [
+    "萬歲牌",
+    "堅果瓜子"
+  ],
+  "summary": "萬歲牌｜堅果瓜子。包裝標示每 100 公克 559 大卡、鈉 450 毫克、糖 11.3 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 24
+  },
+  "per100g": {
+    "kcal": 559,
+    "protein": 31.3,
+    "fat": 41.1,
+    "satFat": 3.5,
+    "carbs": 19.6,
+    "sugar": 11.3,
+    "fiber": 7.3,
+    "sodium": 450
+  },
+  "highlights": [
+    "高脂",
+    "蛋白質較高",
+    "高纖"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "包裝標示每份 24 公克、約 134 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "杏仁條、海苔調味小魚 [小魚干(小魚、鹽)、糖、麥芽寡醣、芝麻、海苔]、葵花油。",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E8%90%AC%E6%AD%B2%E7%89%8C/1424489800105.html",
+      "sku": "1424489800105",
+      "originalName": "萬歲海苔杏仁小魚盒裝",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

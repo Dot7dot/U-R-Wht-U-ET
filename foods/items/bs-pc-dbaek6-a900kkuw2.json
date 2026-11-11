@@ -1,0 +1,77 @@
+{
+  "id": "bs-pc-dbaek6-a900kkuw2",
+  "name": "Tohato 東鳩 比諾豌豆脆條",
+  "emoji": "🌽",
+  "category": "品牌零食",
+  "subcategory": "玉米與穀物點心",
+  "brand": "Tohato",
+  "aliases": [
+    "Tohato",
+    "玉米與穀物點心"
+  ],
+  "summary": "Tohato｜玉米與穀物點心。包裝標示每 100 公克 620.2 大卡、鈉 618 毫克、糖 2.7 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 51
+  },
+  "per100g": {
+    "kcal": 620.2,
+    "protein": 12.4,
+    "fat": 47.8,
+    "satFat": 23.3,
+    "carbs": 35.1,
+    "sugar": 2.7,
+    "sodium": 618
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 618 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 23.3 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：魚類,種子類,芝麻"
+    }
+  ],
+  "tips": "包裝標示每份 51 公克、約 316.4 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "粗豌豆粉,棕櫚油,豌豆粉,砂糖,食鹽,醬油粉",
+  "allergens": "魚類,種子類,芝麻",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KKUW2",
+      "sku": "DBAEK6-A900KKUW2",
+      "originalName": "Tohato 東鳩 比諾豌豆脆條[烤雞風味] (51g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

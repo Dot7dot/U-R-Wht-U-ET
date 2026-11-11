@@ -1,0 +1,76 @@
+{
+  "id": "bs-pc-dbac4m-a900a8zfe",
+  "name": "新東陽 頂級和牛牛肉乾",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "新東陽",
+  "aliases": [
+    "新東陽",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "新東陽｜肉乾海苔豆乾。包裝標示每 100 公克 388 大卡、鈉 1060 毫克、糖 18.5 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 388,
+    "protein": 30,
+    "fat": 18,
+    "satFat": 9.7,
+    "carbs": 26.5,
+    "sugar": 18.5,
+    "sodium": 1060
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1060 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 9.7 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品醬油含大豆、小麥成分,食物過敏體質者請留意！"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "精選澳洲和牛、醬油、蔗糖、甘油、甜味劑(D-山梨醇液70%)、香辛料(薑、青蔥、胡椒、大茴、小茴、肉桂、丁香、花椒)、調味劑(5'-次黃嘌呤核苷磷酸二鈉、5'-鳥嘌呤核苷磷酸二鈉)、保色劑(食用鹽、亞硝 酸鈉)、食用黃色五號色素",
+  "allergens": "本產品醬油含大豆、小麥成分,食物過敏體質者請留意！",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC4M-A900A8ZFE",
+      "sku": "DBAC4M-A900A8ZFE",
+      "originalName": "新東陽 頂級和牛牛肉乾120g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

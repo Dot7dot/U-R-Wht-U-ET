@@ -1,0 +1,76 @@
+{
+  "id": "bs-pc-dbae65-a9009so87",
+  "name": "Loacker 方角哈斯餅(抹茶味)",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "Loacker",
+  "aliases": [
+    "Loacker",
+    "餅乾"
+  ],
+  "summary": "Loacker｜餅乾。包裝標示每 100 公克 505.3 大卡、鈉 161 毫克、糖 28.4 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 505.3,
+    "protein": 8.2,
+    "fat": 25.3,
+    "satFat": 21.4,
+    "carbs": 61.2,
+    "sugar": 28.4,
+    "sodium": 161
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 28.4 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 21.4 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品有含麩質穀物,牛奶,大豆及堅果類,不適合對其過敏體質者食用."
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "小麥粉,椰子油,葡萄糖漿,砂糖,乳清粉(牛奶),大豆粉,脫脂奶粉,抹茶粉,大麥麥芽提取物,全脂奶粉,膨脹劑(碳酸氫鈉),酸性焦磷酸鈉,大豆卵磷脂,食鹽,低脂可可,榛果,香辛料(肉桂),香草莢.",
+  "allergens": "本產品有含麩質穀物,牛奶,大豆及堅果類,不適合對其過敏體質者食用.",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAE65-A9009SO87",
+      "sku": "DBAE65-A9009SO87",
+      "originalName": "Loacker 方角哈斯餅(抹茶味)110g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

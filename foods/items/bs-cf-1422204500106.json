@@ -1,0 +1,61 @@
+{
+  "id": "bs-cf-1422204500106",
+  "name": "旺旺吸C凍可吸果凍-草莓果汁",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "旺旺",
+  "aliases": [
+    "旺旺",
+    "糖果口香糖"
+  ],
+  "summary": "旺旺｜糖果口香糖。包裝標示每 100 公克 62 大卡、鈉 4 毫克、糖 14 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 90
+  },
+  "per100g": {
+    "kcal": 62,
+    "protein": 0,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 15.6,
+    "sugar": 14,
+    "sodium": 4
+  },
+  "highlights": [
+    "熱量 62 大卡／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "包裝標示每份 90 公克、約 56 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "水、蔗糖、濃縮草莓汁、乳酸鈣、鹿角菜膠、蒟蒻粉、檸檬酸、草莓香料、針葉櫻桃粉(",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E6%97%BA%E6%97%BA/1422204500106.html",
+      "sku": "1422204500106",
+      "originalName": "旺旺吸C凍可吸果凍-草莓果汁",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

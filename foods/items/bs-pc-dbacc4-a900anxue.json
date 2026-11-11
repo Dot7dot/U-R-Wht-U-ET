@@ -1,0 +1,76 @@
+{
+  "id": "bs-pc-dbacc4-a900anxue",
+  "name": "統一 科學麵",
+  "emoji": "🍜",
+  "category": "品牌零食",
+  "subcategory": "點心麵",
+  "brand": "統一",
+  "aliases": [
+    "統一",
+    "點心麵"
+  ],
+  "summary": "統一｜點心麵。包裝標示每 100 公克 488 大卡、鈉 1800 毫克、糖 3 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 40
+  },
+  "per100g": {
+    "kcal": 488,
+    "protein": 10.5,
+    "fat": 22.3,
+    "satFat": 10.9,
+    "carbs": 61.4,
+    "sugar": 3,
+    "sodium": 1800
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1800 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 10.9 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含芝麻、含麩質之穀物及大豆製品；該生產線亦生產含甲殼類、牛奶、蛋、魚類及螺貝類製品。"
+    }
+  ],
+  "tips": "包裝標示每份 40 公克、約 195 大卡，本包裝含 5 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵:麵粉、精製棕櫚油(棕櫚油、抗氧化劑混合濃縮生育醇)、食鹽、水、味精、蔗糖、醬油、芝麻油、關華豆膠、多磷酸鈉、抗氧化劑混合濃縮生育醇(含精製芥花油)、複方抗氧化劑(麥芽糖醇、抗氧化劑混合濃縮生育醇、水、精製芥花油、脂肪酸甘油酯、大豆卵磷脂、酒精、甘油)。",
+  "allergens": "本產品含芝麻、含麩質之穀物及大豆製品；該生產線亦生產含甲殼類、牛奶、蛋、魚類及螺貝類製品。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACC4-A900ANXUE",
+      "sku": "DBACC4-A900ANXUE",
+      "originalName": "統一 科學麵40gx5入/袋",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

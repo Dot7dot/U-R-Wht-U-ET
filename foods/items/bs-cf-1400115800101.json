@@ -1,0 +1,61 @@
+{
+  "id": "bs-cf-1400115800101",
+  "name": "義美生機 亞麻仁蘇打餅",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "義美生機",
+  "aliases": [
+    "義美生機",
+    "餅乾"
+  ],
+  "summary": "義美生機｜餅乾。包裝標示每 100 公克 481 大卡、鈉 548 毫克、糖 2 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 18
+  },
+  "per100g": {
+    "kcal": 481,
+    "protein": 10.1,
+    "fat": 17.7,
+    "satFat": 1.3,
+    "carbs": 70.3,
+    "sugar": 2,
+    "sodium": 548
+  },
+  "highlights": [
+    "高脂"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "包裝標示每份 18 公克、約 86.5 大卡，本包裝含 9 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵粉、芥花油、蕎麥、蔗糖、食鹽、亞麻仁、酵母、白胡椒、膨脹劑(碳酸氫鈉)、奧勒岡、羅勒、百里香、大豆卵磷脂。",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E7%BE%A9%E7%BE%8E%E7%94%9F%E6%A9%9F/1400115800101.html",
+      "sku": "1400115800101",
+      "originalName": "義美生機 亞麻仁蘇打餅",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

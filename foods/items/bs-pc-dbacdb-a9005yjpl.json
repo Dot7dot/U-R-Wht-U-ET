@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbacdb-a9005yjpl",
+  "name": "嘉義福義軒 嘉義 嬌麻餅",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "嘉義福義軒",
+  "aliases": [
+    "嘉義福義軒",
+    "餅乾"
+  ],
+  "summary": "嘉義福義軒｜餅乾。包裝標示每 100 公克 520 大卡、鈉 553.3 毫克、糖 0 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 30
+  },
+  "per100g": {
+    "kcal": 520,
+    "protein": 10,
+    "fat": 26.7,
+    "satFat": 20,
+    "carbs": 60,
+    "sugar": 0,
+    "sodium": 553.3
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 20 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：※本產品含牛奶、堅果類、含麩質的穀類製品,可能導致過敏症狀。"
+    }
+  ],
+  "tips": "包裝標示每份 30 公克、約 156 大卡，本包裝含 10 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵粉、椰子油、奶油、棕櫚油、海鹽、辣椒乾、花椒、L-麩酸鈉、酵母粉(酵母、脂肪酸山梨醇酐酯)、泡打粉(玉米澱粉、酸性焦磷酸鈉、碳酸氫鈉)、糙米、膨脹劑(碳酸氫鈉)、砂糖、二氧化矽、胡椒粉、大蒜調味粉[大蒜、香辛料(奧勒岡草、巴西里香芹、迷迭香、羅勒、辣椒、紅椒)、橘子皮、洋蔥、芹菜]。",
+  "allergens": "※本產品含牛奶、堅果類、含麩質的穀類製品,可能導致過敏症狀。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACDB-A9005YJPL",
+      "sku": "DBACDB-A9005YJPL",
+      "originalName": "嘉義福義軒 嘉義 嬌麻餅 300g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

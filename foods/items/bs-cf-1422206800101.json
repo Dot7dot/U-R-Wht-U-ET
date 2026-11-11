@@ -1,0 +1,61 @@
+{
+  "id": "bs-cf-1422206800101",
+  "name": "盛香珍 Dr.Q葡萄蒟蒻",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "盛香珍",
+  "aliases": [
+    "盛香珍",
+    "糖果口香糖"
+  ],
+  "summary": "盛香珍｜糖果口香糖。包裝標示每 100 公克 102 大卡、鈉 20 毫克、糖 22.3 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 132.5
+  },
+  "per100g": {
+    "kcal": 102,
+    "protein": 0.1,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 25.6,
+    "sugar": 22.3,
+    "sodium": 20
+  },
+  "highlights": [
+    "熱量 102 大卡／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "包裝標示每份 132.5 公克、約 135 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "水、蔗糖、果糖粉、葡萄濃縮汁、果凍粉(鹿角菜膠、葡萄糖、氯化鉀、玉米糖膠、刺槐豆膠、磷酸鈣)、蒟蒻粉、蘋果酸、香料、檸檬酸鈉、檸檬酸、蘿蔔汁、蘋果汁、黑醋栗汁",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E7%9B%9B%E9%A6%99%E7%8F%8D/1422206800101.html",
+      "sku": "1422206800101",
+      "originalName": "Dr.Q葡萄蒟蒻",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

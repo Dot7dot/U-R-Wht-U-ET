@@ -1,0 +1,76 @@
+{
+  "id": "bs-pc-dbaek6-a900kkno3",
+  "name": "OYATSU 優雅食 極辣寬點心麵",
+  "emoji": "🍜",
+  "category": "品牌零食",
+  "subcategory": "點心麵",
+  "brand": "OYATSU",
+  "aliases": [
+    "OYATSU",
+    "點心麵"
+  ],
+  "summary": "OYATSU｜點心麵。包裝標示每 100 公克 535 大卡、鈉 1200 毫克、糖 2.1 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 62
+  },
+  "per100g": {
+    "kcal": 535,
+    "protein": 7.6,
+    "fat": 30.2,
+    "satFat": 8.8,
+    "carbs": 58.2,
+    "sugar": 2.1,
+    "sodium": 1200
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1200 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 8.8 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：魚類,雞蛋"
+    }
+  ],
+  "tips": "包裝標示每份 62 公克、約 331.5 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "小麥粉,棕櫚油,醬油(小麥,大豆,食鹽),香辛料",
+  "allergens": "魚類,雞蛋",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KKNO3",
+      "sku": "DBAEK6-A900KKNO3",
+      "originalName": "OYATSU 優雅食 極辣寬點心麵[雞汁風味] (62g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

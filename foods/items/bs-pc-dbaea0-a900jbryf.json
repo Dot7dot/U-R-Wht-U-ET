@@ -1,0 +1,75 @@
+{
+  "id": "bs-pc-dbaea0-a900jbryf",
+  "name": "Loacker 義大利萊佳單片雙倍可可哈斯餅",
+  "emoji": "🍫",
+  "category": "品牌零食",
+  "subcategory": "巧克力",
+  "brand": "Loacker",
+  "aliases": [
+    "Loacker",
+    "巧克力"
+  ],
+  "summary": "Loacker｜巧克力。包裝標示每 100 公克 498.6 大卡、鈉 169 毫克、糖 26.4 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1,
+    "min": 0.3,
+    "max": 4
+  },
+  "density": 1.2,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 498.6,
+    "protein": 9.1,
+    "fat": 27,
+    "satFat": 22.5,
+    "carbs": 54.8,
+    "sugar": 26.4,
+    "sodium": 169
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 26.4 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 22.5 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品有含麩質之穀物,花生,牛奶,大豆及堅果類,不適合對其過敏體質者食用."
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "成分:椰子油,小麥粉,葡萄糖漿,乳清粉(牛奶),砂糖,低脂可可,大豆粉,可可風味餡(砂糖,可可塊),脫脂奶粉,榛果,複方食品添加物(碳酸氫鈉,酸性焦磷酸鈉),大豆卵磷脂,食鹽,大麥麥芽提取物,濃縮蘋果汁,花生醬,香辛料(肉桂),杏仁,香草莢.",
+  "allergens": "本產品有含麩質之穀物,花生,牛奶,大豆及堅果類,不適合對其過敏體質者食用.",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEA0-A900JBRYF",
+      "sku": "DBAEA0-A900JBRYF",
+      "originalName": "Loacker 義大利萊佳單片雙倍可可哈斯餅45g*3入",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

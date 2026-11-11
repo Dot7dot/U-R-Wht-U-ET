@@ -1,0 +1,71 @@
+{
+  "id": "bs-cf-1412006800101",
+  "name": "Nutella 能多益 能多益餅乾",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "Nutella 能多益",
+  "aliases": [
+    "Nutella 能多益",
+    "餅乾"
+  ],
+  "summary": "Nutella 能多益｜餅乾。包裝標示每 100 公克 514.5 大卡、鈉 217.4 毫克、糖 35.5 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 13.8
+  },
+  "per100g": {
+    "kcal": 514.5,
+    "protein": 8,
+    "fat": 24.6,
+    "satFat": 11.6,
+    "carbs": 65.9,
+    "sugar": 35.5,
+    "sodium": 217.4
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 35.5 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 11.6 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 13.8 公克、約 71 大卡，本包裝含 14 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "榛果可可醬(40%)(糖、棕櫚油、榛果仁(13%)、脫脂乳 粉(8.7%)、低脂可可粉(7.4%)、卵磷脂(大豆)、香料)、小麥 麵粉、棕櫚油、棕櫚仁油、蔗糖8.5%、乳糖、麥麩、全脂乳 粉、蜂蜜、大麥麥芽粉、低脂可可粉、鹽、大麥麥芽玉米萃取粉、酸性焦磷酸鈉、碳酸氫鈉、碳酸氫銨、小麥澱粉、卵磷脂(大豆)、香料。",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/nutella-%E8%83%BD%E5%A4%9A%E7%9B%8A/1412006800101.html",
+      "sku": "1412006800101",
+      "originalName": "能多益餅乾193.2g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

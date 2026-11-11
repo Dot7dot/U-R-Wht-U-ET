@@ -1,0 +1,70 @@
+{
+  "id": "bs-pc-dbacd6-a900hhomn",
+  "name": "安堡 帕瑪森起司餅-椒麻海苔口味",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "安堡",
+  "aliases": [
+    "安堡",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "安堡｜肉乾海苔豆乾。包裝標示每 100 公克 511 大卡、鈉 421 毫克、糖 1.3 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 511,
+    "protein": 9.9,
+    "fat": 25.7,
+    "satFat": 11.7,
+    "carbs": 59.9,
+    "sugar": 1.3,
+    "sodium": 421
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 11.7 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含有麩質的穀物及牛奶、芝麻及其製品."
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 511 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵粉、無氫化棕櫚油、起司粉(牛乳、鹽、植物性凝乳酵素)、香辣粉(辣椒粉、L-麩酸鈉、鹽、胡椒粉、芝麻、孜然粉、花椒粉、香料、八角粉、二氧化矽、小茴粉、肉桂粉、5'-鳥嘌呤核苷磷酸二鈉、5'-次黃嘌呤核苷磷酸二鈉、丁香粉、山奈粉)、鹽、青苔海、砂糖、酵母、碳酸氫鈉(小蘇打).",
+  "allergens": "本產品含有麩質的穀物及牛奶、芝麻及其製品.",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACD6-A900HHOMN",
+      "sku": "DBACD6-A900HHOMN",
+      "originalName": "安堡  帕瑪森起司餅-椒麻海苔口味 192g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

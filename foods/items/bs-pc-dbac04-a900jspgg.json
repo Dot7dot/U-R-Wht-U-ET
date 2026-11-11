@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbac04-a900jspgg",
+  "name": "樂事 洋芋片-九州岩燒海苔",
+  "emoji": "🥔",
+  "category": "品牌零食",
+  "subcategory": "洋芋片",
+  "brand": "樂事",
+  "aliases": [
+    "樂事",
+    "洋芋片"
+  ],
+  "summary": "樂事｜洋芋片。包裝標示每 100 公克 566.7 大卡、鈉 583.3 毫克、糖 3.3 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 12
+  },
+  "per100g": {
+    "kcal": 566.7,
+    "protein": 7.5,
+    "fat": 35,
+    "satFat": 17.5,
+    "carbs": 55,
+    "sugar": 3.3,
+    "sodium": 583.3
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 17.5 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 12 公克、約 68 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "馬鈴薯、棕櫚油、海苔粉(麥芽糊精、食鹽、味精、海苔細片、蒜粉、辣椒粉、二氧化矽、乳化劑[脂肪酸甘油酯]、調味劑[5'-次黃嘌呤核?磷酸二鈉、5'-鳥嘌呤核?磷酸二鈉]、香料)、糖、二氧化矽、全脂奶粉。 (本產品含有牛奶、小麥、大豆、魚及其製品)",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC04-A900JSPGG",
+      "sku": "DBAC04-A900JSPGG",
+      "originalName": "Lay's 樂事 Lays 樂事洋芋片--九州岩燒海苔(12g/50包)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}
