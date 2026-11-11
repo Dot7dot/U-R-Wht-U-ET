@@ -1,0 +1,67 @@
+{
+  "id": "bs-cf-1424108100101",
+  "name": "義美好食瓶-油爆花生",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "義美",
+  "aliases": [
+    "義美",
+    "堅果瓜子"
+  ],
+  "summary": "義美｜堅果瓜子。包裝標示每 100 公克 643 大卡、鈉 228 毫克、糖 3.8 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 23
+  },
+  "per100g": {
+    "kcal": 643,
+    "protein": 32.2,
+    "fat": 51.2,
+    "satFat": 11.2,
+    "carbs": 13.4,
+    "sugar": 3.8,
+    "sodium": 228
+  },
+  "highlights": [
+    "高飽和脂肪",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 11.2 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 23 公克、約 148 大卡，本包裝含 10 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "花生、芥花油、食鹽、抗氧化劑(混合濃縮生育醇)",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E7%BE%A9%E7%BE%8E/1424108100101.html",
+      "sku": "1424108100101",
+      "originalName": "義美好食瓶-油爆花生230g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

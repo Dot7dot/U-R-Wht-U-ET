@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbac2x-a900av6t4",
+  "name": "茶鼎天 天然無糖愛文芒果乾",
+  "emoji": "🥭",
+  "category": "品牌零食",
+  "subcategory": "果乾蜜餞",
+  "brand": "茶鼎天",
+  "aliases": [
+    "茶鼎天",
+    "果乾蜜餞"
+  ],
+  "summary": "茶鼎天｜果乾蜜餞。包裝標示每 100 公克 320 大卡、鈉 0 毫克、糖 67 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.7,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 20
+  },
+  "per100g": {
+    "kcal": 320,
+    "protein": 2,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 78,
+    "sugar": 67,
+    "sodium": 0
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 67 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 20 公克、約 64 大卡，本包裝含 5 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "每20g",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC2X-A900AV6T4",
+      "sku": "DBAC2X-A900AV6T4",
+      "originalName": "茶鼎天 天然無糖愛文芒果乾",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

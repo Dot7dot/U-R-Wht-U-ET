@@ -1,0 +1,76 @@
+{
+  "id": "bs-pc-dbaeec-a900frqjp",
+  "name": "湖池屋 明太子風味玉米餅",
+  "emoji": "🌽",
+  "category": "品牌零食",
+  "subcategory": "玉米與穀物點心",
+  "brand": "湖池屋",
+  "aliases": [
+    "湖池屋",
+    "玉米與穀物點心"
+  ],
+  "summary": "湖池屋｜玉米與穀物點心。包裝標示每 100 公克 523.8 大卡、鈉 1075 毫克、糖 2.2 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 55
+  },
+  "per100g": {
+    "kcal": 523.8,
+    "protein": 4.4,
+    "fat": 28.2,
+    "satFat": 12.2,
+    "carbs": 63.1,
+    "sugar": 2.2,
+    "sodium": 1075
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1075 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 12.2 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：蝦,大豆,魚類"
+    }
+  ],
+  "tips": "包裝標示每份 55 公克、約 287.9 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵糰(粗玉米粉,玉米澱粉,砂糖,人造奶油,",
+  "allergens": "蝦,大豆,魚類",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEEC-A900FRQJP",
+      "sku": "DBAEEC-A900FRQJP",
+      "originalName": "湖池屋 明太子風味玉米餅 (55g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

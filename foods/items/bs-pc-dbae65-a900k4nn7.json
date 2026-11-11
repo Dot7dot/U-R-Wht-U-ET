@@ -1,0 +1,76 @@
+{
+  "id": "bs-pc-dbae65-a900k4nn7",
+  "name": "Loacker 萊佳單片草莓哈斯餅",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "Loacker",
+  "aliases": [
+    "Loacker",
+    "餅乾"
+  ],
+  "summary": "Loacker｜餅乾。包裝標示每 100 公克 520.8 大卡、鈉 152 毫克、糖 29 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 520.8,
+    "protein": 6.2,
+    "fat": 28,
+    "satFat": 25,
+    "carbs": 61,
+    "sugar": 29,
+    "sodium": 152
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 29 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 25 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品有含麩質之穀物,牛奶,大豆及堅果類,不適合對其過敏體質者食用."
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "椰子油,小麥粉,葡萄糖漿,砂糖,乳清粉(牛奶),脫脂奶粉,草莓粉,大豆粉,大麥麥芽提取物,大豆卵磷脂,複方食品添加物(碳酸氫鈉,酸性焦磷酸鈉),食鹽,低脂可可,香辛料(肉桂),香草莢.",
+  "allergens": "本產品有含麩質之穀物,牛奶,大豆及堅果類,不適合對其過敏體質者食用.",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAE65-A900K4NN7",
+      "sku": "DBAE65-A900K4NN7",
+      "originalName": "Loacker 《Loacker》萊佳單片草莓哈斯餅45g*3入",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

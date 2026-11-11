@@ -1,0 +1,61 @@
+{
+  "id": "bs-cf-1424308400101",
+  "name": "統一生機有機甘栗",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "統一",
+  "aliases": [
+    "統一",
+    "堅果瓜子"
+  ],
+  "summary": "統一｜堅果瓜子。包裝標示每 100 公克 191.8 大卡、鈉 0.2 毫克、糖 8.5 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 25
+  },
+  "per100g": {
+    "kcal": 191.8,
+    "protein": 4.8,
+    "fat": 1.4,
+    "satFat": 0.3,
+    "carbs": 43.9,
+    "sugar": 8.5,
+    "fiber": 7.8,
+    "sodium": 0.2
+  },
+  "highlights": [
+    "高纖"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "包裝標示每份 25 公克、約 43 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E7%B5%B1%E4%B8%80/1424308400101.html",
+      "sku": "1424308400101",
+      "originalName": "統一生機有機甘栗",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

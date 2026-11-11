@@ -1,0 +1,65 @@
+{
+  "id": "bs-pc-dbaccr-a900bthlq",
+  "name": "義美 超大葡萄乾巧克力球三角包",
+  "emoji": "🍫",
+  "category": "品牌零食",
+  "subcategory": "巧克力",
+  "brand": "義美",
+  "aliases": [
+    "義美",
+    "巧克力"
+  ],
+  "summary": "義美｜巧克力。包裝標示每 100 公克 377.5 大卡、鈉 48.1 毫克、糖 44.4 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1,
+    "min": 0.3,
+    "max": 4
+  },
+  "density": 1.2,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 16
+  },
+  "per100g": {
+    "kcal": 377.5,
+    "protein": 6.2,
+    "fat": 6.2,
+    "satFat": 3.8,
+    "carbs": 73.8,
+    "sugar": 44.4,
+    "sodium": 48.1
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 44.4 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 16 公克、約 60.4 大卡，本包裝含 9 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "葡萄乾、蔗糖、可可脂、奶粉、可可膏、可可粉、乳糖、阿拉伯膠、大豆卵磷脂、光澤劑 (蟲膠)、麥芽糖、香料",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACCR-A900BTHLQ",
+      "sku": "DBACCR-A900BTHLQ",
+      "originalName": "義美 超大葡萄乾巧克力球三角包144g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbara2-a900gg40v",
+  "name": "每日優果 罐裝帶皮鹽焗腰果",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "每日優果",
+  "aliases": [
+    "每日優果",
+    "堅果瓜子"
+  ],
+  "summary": "每日優果｜堅果瓜子。包裝標示每 100 公克 641 大卡、鈉 91 毫克、糖 7.1 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 641,
+    "protein": 21.6,
+    "fat": 46,
+    "satFat": 9.3,
+    "carbs": 26.8,
+    "sugar": 7.1,
+    "sodium": 91
+  },
+  "highlights": [
+    "高飽和脂肪",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 9.3 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBARA2-A900GG40V",
+      "sku": "DBARA2-A900GG40V",
+      "originalName": "每日優果 罐裝帶皮鹽焗腰果280G",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

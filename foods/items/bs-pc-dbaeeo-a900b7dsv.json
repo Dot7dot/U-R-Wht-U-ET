@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbaeeo-a900b7dsv",
+  "name": "秋山製菓 抹茶牛奶風味糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "秋山製菓",
+  "aliases": [
+    "秋山製菓",
+    "糖果口香糖"
+  ],
+  "summary": "秋山製菓｜糖果口香糖。包裝標示每 100 公克 396 大卡、鈉 79 毫克、糖 74.9 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 80
+  },
+  "per100g": {
+    "kcal": 396,
+    "protein": 0.9,
+    "fat": 2,
+    "satFat": 0.7,
+    "carbs": 93.6,
+    "sugar": 74.9,
+    "sodium": 79
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 74.9 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：##生產此食品的設備亦處理大豆"
+    }
+  ],
+  "tips": "包裝標示每份 80 公克、約 317 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "砂糖,水飴(玉米),甜味劑(麥芽糖醇),乳清粉,奶油",
+  "allergens": "##生產此食品的設備亦處理大豆",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEEO-A900B7DSV",
+      "sku": "DBAEEO-A900B7DSV",
+      "originalName": "秋山製菓  抹茶牛奶風味糖 (80g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

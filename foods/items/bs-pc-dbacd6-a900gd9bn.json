@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbacd6-a900gd9bn",
+  "name": "Yupi YUPI 呦皮漢堡QQ軟糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "Yupi",
+  "aliases": [
+    "Yupi",
+    "糖果口香糖"
+  ],
+  "summary": "Yupi｜糖果口香糖。包裝標示每 100 公克 336 大卡、鈉 38 毫克、糖 52 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 336,
+    "protein": 5,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 79,
+    "sugar": 52,
+    "sodium": 38
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 52 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 336 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "葡萄糖漿、砂糖、水、明膠、濃縮蘋果果汁、品質改良劑(D-山梨醇)、調味劑(檸檬酸、乳酸)、水解豌豆蛋白、香料(草莓香料、乳脂香料、蘋果香料、鳳梨香料)、複方添加物(蜂蠟、棕櫚蠟)、著色劑[食用黃色4號、食用黃色5號、食用紅色40號、食用藍色1號、焦糖色素(銨鹽焦糖)、二氧化鈦].",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACD6-A900GD9BN",
+      "sku": "DBACD6-A900GD9BN",
+      "originalName": "Yupi YUPI 呦皮漢堡QQ軟糖 231g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

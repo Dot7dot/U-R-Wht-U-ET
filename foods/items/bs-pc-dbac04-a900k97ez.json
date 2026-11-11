@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbac04-a900k97ez",
+  "name": "多力多滋 迷你脆皮蛋口味玉米片",
+  "emoji": "🥔",
+  "category": "品牌零食",
+  "subcategory": "洋芋片",
+  "brand": "多力多滋",
+  "aliases": [
+    "多力多滋",
+    "洋芋片"
+  ],
+  "summary": "多力多滋｜洋芋片。包裝標示每 100 公克 533.3 大卡、鈉 754.2 毫克、糖 2.1 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 24
+  },
+  "per100g": {
+    "kcal": 533.3,
+    "protein": 5.8,
+    "fat": 29.6,
+    "satFat": 15,
+    "carbs": 61.2,
+    "sugar": 2.1,
+    "sodium": 754.2
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 754.2 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 15 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 24 公克、約 128 大卡，本包裝含 2 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "玉米、棕櫚油、調味料(麥芽糊精、調味劑(味精、氯化鉀、5'-次黃嘌呤核苷磷酸二鈉、5'-鳥嘌呤核苷磷酸二鈉)、食鹽、糖、醬油粉(麥芽糊精、食鹽、醬油、焦糖色素、香料、5'-次黃嘌呤核苷磷酸二鈉、5'-鳥嘌呤核苷磷酸二鈉)、胡椒粉、二氧化矽、檸檬酸、植物油(芥花油、棕櫚油))、植物碳。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC04-A900K97EZ",
+      "sku": "DBAC04-A900K97EZ",
+      "originalName": "多力多滋 多力多滋迷你脆皮蛋口味玉米片48g/12包",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

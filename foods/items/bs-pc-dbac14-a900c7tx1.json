@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbac14-a900c7tx1",
+  "name": "惠香 川味麻辣干",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "惠香",
+  "aliases": [
+    "惠香",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "惠香｜肉乾海苔豆乾。包裝標示每 100 公克 283 大卡、鈉 218 毫克、糖 10.4 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 283,
+    "protein": 9.3,
+    "fat": 15.9,
+    "satFat": 2.5,
+    "carbs": 25.7,
+    "sugar": 10.4,
+    "sodium": 218
+  },
+  "highlights": [
+    "熱量 283 大卡／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含大豆、麩質的穀類製品。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "黃豆(非基改)、麥芽(寡糖、麥芽糖、葡萄糖、水)、甘油、辣椒、甜味劑(D-山梨醇液70%)、醬油(非基改)、砂糖、大豆油、L-麩酸鈉、鹽、防腐劑(己二烯酸鉀)、花椒、甘草、乳酸、八角、檸檬酸、油桂、硫酸鈣、脂肪酸甘油酯、卵磷脂、碳酸鎂、矽樹脂。",
+  "allergens": "本產品含大豆、麩質的穀類製品。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC14-A900C7TX1",
+      "sku": "DBAC14-A900C7TX1",
+      "originalName": "惠香 惠香 川味麻辣干300g夾鏈袋大包裝",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

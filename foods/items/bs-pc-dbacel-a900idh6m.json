@@ -1,0 +1,72 @@
+{
+  "id": "bs-pc-dbacel-a900idh6m",
+  "name": "惠香 椒麻花生米",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "惠香",
+  "aliases": [
+    "惠香",
+    "堅果瓜子"
+  ],
+  "summary": "惠香｜堅果瓜子。包裝標示每 100 公克 593 大卡、鈉 875 毫克、糖 8.1 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 593,
+    "protein": 30.3,
+    "fat": 42.5,
+    "satFat": 8.9,
+    "carbs": 22.4,
+    "sugar": 8.1,
+    "sodium": 875
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 875 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 8.9 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "花生、植物油[棕櫚油、大豆油、抗氧化劑(第三丁基氫酉昆)]、鹽、辣椒、花椒、八角粉、肉桂粉、麥芽糊精、",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACEL-A900IDH6M",
+      "sku": "DBACEL-A900IDH6M",
+      "originalName": "惠香 椒麻花生米(75g/包)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "bs-pc-dbae65-a900fd2s9",
+  "name": "Loacker 萊佳方角哈斯餅(花生醬)",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "Loacker",
+  "aliases": [
+    "Loacker",
+    "堅果瓜子"
+  ],
+  "summary": "Loacker｜堅果瓜子。包裝標示每 100 公克 509.2 大卡、鈉 164 毫克、糖 21.7 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 509.2,
+    "protein": 13.6,
+    "fat": 27.2,
+    "satFat": 16.5,
+    "carbs": 52.5,
+    "sugar": 21.7,
+    "sodium": 164
+  },
+  "highlights": [
+    "高飽和脂肪",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 16.5 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品有含麩質之穀物,花生,牛奶,大豆及堅果類,不適合對其過敏體質者食用."
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "小麥粉,花生醬,椰子油,葡萄糖漿,乳清粉(牛奶),大豆粉,砂糖,脫脂奶粉,大麥麥芽提取物,低脂可可,可可脂,複方食品添加物(碳酸氫鈉,酸性焦磷酸鈉),大豆卵磷脂,食鹽,榛果,濃縮蘋果汁,香辛料(肉桂).",
+  "allergens": "本產品有含麩質之穀物,花生,牛奶,大豆及堅果類,不適合對其過敏體質者食用.",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAE65-A900FD2S9",
+      "sku": "DBAE65-A900FD2S9",
+      "originalName": "Loacker 萊佳方角哈斯餅(花生醬)125g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

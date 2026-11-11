@@ -1,0 +1,76 @@
+{
+  "id": "bs-pc-dbac2v-a900jj8yz",
+  "name": "順便幸福 咖啡核桃司康脆脆",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "順便幸福",
+  "aliases": [
+    "順便幸福",
+    "堅果瓜子"
+  ],
+  "summary": "順便幸福｜堅果瓜子。包裝標示每 100 公克 387 大卡、鈉 254.1 毫克、糖 7.4 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 120
+  },
+  "per100g": {
+    "kcal": 387,
+    "protein": 6.67,
+    "fat": 21.63,
+    "satFat": 10.37,
+    "carbs": 42.59,
+    "sugar": 7.4,
+    "sodium": 254.1
+  },
+  "highlights": [
+    "高飽和脂肪",
+    "含反式脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 10.37 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "所有人，特別是心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含反式脂肪 0.69 公克，建議盡量少吃。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含有牛奶、含麩質之穀物及其製品,不適合對其過敏體質者食用"
+    }
+  ],
+  "tips": "包裝標示每份 120 公克、約 464.4 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0.69
+  },
+  "ingredients": "低筋麵粉、牛乳、無鹽奶油、高筋麵粉、細砂糖、泡打粉(碳酸氫鈉、",
+  "allergens": "本產品含有牛奶、含麩質之穀物及其製品,不適合對其過敏體質者食用",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC2V-A900JJ8YZ",
+      "sku": "DBAC2V-A900JJ8YZ",
+      "originalName": "順便幸福 咖啡核桃司康脆脆120gx2袋(餅乾 零食 甜點)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

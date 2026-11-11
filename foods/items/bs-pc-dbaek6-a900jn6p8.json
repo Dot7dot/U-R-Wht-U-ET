@@ -1,0 +1,76 @@
+{
+  "id": "bs-pc-dbaek6-a900jn6p8",
+  "name": "湖池屋 辣芥末風味洋芋條",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "湖池屋",
+  "aliases": [
+    "湖池屋",
+    "餅乾"
+  ],
+  "summary": "湖池屋｜餅乾。包裝標示每 100 公克 543.2 大卡、鈉 602 毫克、糖 3.6 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 85
+  },
+  "per100g": {
+    "kcal": 543.2,
+    "protein": 6,
+    "fat": 32,
+    "satFat": 14.9,
+    "carbs": 57.8,
+    "sugar": 3.6,
+    "sodium": 602
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 602 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 14.9 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：★ 生產國 :日本"
+    }
+  ],
+  "tips": "包裝標示每份 85 公克、約 461.6 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "馬鈴薯,植物油(棕櫚油,米糠油),砂糖,醬油",
+  "allergens": "★ 生產國 :日本",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900JN6P8",
+      "sku": "DBAEK6-A900JN6P8",
+      "originalName": "湖池屋 辣芥末風味洋芋條 (85g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

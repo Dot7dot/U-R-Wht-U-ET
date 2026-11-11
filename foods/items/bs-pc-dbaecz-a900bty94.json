@@ -1,0 +1,65 @@
+{
+  "id": "bs-pc-dbaecz-a900bty94",
+  "name": "Cachet 凱薩90%巧克力",
+  "emoji": "🍫",
+  "category": "品牌零食",
+  "subcategory": "巧克力",
+  "brand": "Cachet",
+  "aliases": [
+    "Cachet",
+    "巧克力"
+  ],
+  "summary": "Cachet｜巧克力。包裝標示每 100 公克 573 大卡、鈉 12 毫克、糖 7.9 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1,
+    "min": 0.3,
+    "max": 4
+  },
+  "density": 1.2,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 573,
+    "protein": 9.7,
+    "fat": 54,
+    "satFat": 33,
+    "carbs": 12,
+    "sugar": 7.9,
+    "sodium": 12
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 33 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 573 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "可可塊,糖,可可脂,天然香草香料 ,大豆卵磷脂",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAECZ-A900BTY94",
+      "sku": "DBAECZ-A900BTY94",
+      "originalName": "Cachet 凱薩90%巧克力100G",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

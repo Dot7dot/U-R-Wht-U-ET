@@ -1,0 +1,75 @@
+{
+  "id": "bs-cf-1423102500101",
+  "name": "TOBLERONE 瑞士三角 瑞士三角牛奶巧克力(含蜂蜜及奶油杏仁)",
+  "emoji": "🍫",
+  "category": "品牌零食",
+  "subcategory": "巧克力",
+  "brand": "TOBLERONE 瑞士三角",
+  "aliases": [
+    "TOBLERONE 瑞士三角",
+    "巧克力"
+  ],
+  "summary": "TOBLERONE 瑞士三角｜巧克力。包裝標示每 100 公克 528 大卡、鈉 52 毫克、糖 59.9 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1,
+    "min": 0.3,
+    "max": 4
+  },
+  "density": 1.2,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 25
+  },
+  "per100g": {
+    "kcal": 528,
+    "protein": 5.6,
+    "fat": 28.5,
+    "satFat": 16.9,
+    "carbs": 63.3,
+    "sugar": 59.9,
+    "sodium": 52
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪",
+    "含反式脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 59.9 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 16.9 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "所有人，特別是心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含反式脂肪 0.3 公克，建議盡量少吃。"
+    }
+  ],
+  "tips": "包裝標示每份 25 公克、約 132 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0.3
+  },
+  "ingredients": "砂糖、全脂奶粉、可可脂、可可液塊、蜂蜜(3%)、奶油、杏仁(1.6%)、大豆卵磷脂、雞蛋蛋白、香莢蘭醛、牛奶巧克力中可可固形物不低於28%、乳固形物含量不低於14%",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/toblerone-%E7%91%9E%E5%A3%AB%E4%B8%89%E8%A7%92/1423102500101.html",
+      "sku": "1423102500101",
+      "originalName": "瑞士三角牛奶巧克力(含蜂蜜及奶油杏仁)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

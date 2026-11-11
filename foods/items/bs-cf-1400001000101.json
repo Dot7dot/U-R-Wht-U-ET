@@ -1,0 +1,76 @@
+{
+  "id": "bs-cf-1400001000101",
+  "name": "旺旺 波貝仙",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "旺旺",
+  "aliases": [
+    "旺旺",
+    "餅乾"
+  ],
+  "summary": "旺旺｜餅乾。包裝標示每 100 公克 546 大卡、鈉 805 毫克、糖 13.4 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 25
+  },
+  "per100g": {
+    "kcal": 546,
+    "protein": 4.2,
+    "fat": 32.1,
+    "satFat": 15.8,
+    "carbs": 60.1,
+    "sugar": 13.4,
+    "sodium": 805
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪",
+    "含反式脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 805 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 15.8 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "所有人，特別是心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含反式脂肪 0.3 公克，建議盡量少吃。"
+    }
+  ],
+  "tips": "包裝標示每份 25 公克、約 137 大卡，本包裝含 14 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0.3
+  },
+  "ingredients": "精米、棕櫚油、砂糖、玉米澱粉、釀造醬油(非基因改造)、馬鈴薯澱粉、精鹽、辣椒粉、糖蜜酵母粉",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E6%97%BA%E6%97%BA/1400001000101.html",
+      "sku": "1400001000101",
+      "originalName": "波貝仙",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

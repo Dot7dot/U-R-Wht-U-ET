@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbacd6-a9007p5x6",
+  "name": "北田 蒟蒻糙米捲-海苔",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "北田",
+  "aliases": [
+    "北田",
+    "糖果口香糖"
+  ],
+  "summary": "北田｜糖果口香糖。包裝標示每 100 公克 600 大卡、鈉 281 毫克、糖 5 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 10
+  },
+  "per100g": {
+    "kcal": 600,
+    "protein": 3.2,
+    "fat": 43.5,
+    "satFat": 19.7,
+    "carbs": 49,
+    "sugar": 5,
+    "sodium": 281
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 19.7 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 10 公克、約 60 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "糙米、棕櫚油、麥芽糊精、白米、玉米、砂糖、海苔粉、醬油粉(大豆、小麥、鹽、糖)、蒟蒻粉",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACD6-A9007P5X6",
+      "sku": "DBACD6-A9007P5X6",
+      "originalName": "北田  蒟蒻糙米捲-海苔350g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

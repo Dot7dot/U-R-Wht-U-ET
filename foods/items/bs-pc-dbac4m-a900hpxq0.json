@@ -1,0 +1,72 @@
+{
+  "id": "bs-pc-dbac4m-a900hpxq0",
+  "name": "新東陽 薄脆片肉乾",
+  "emoji": "🌽",
+  "category": "品牌零食",
+  "subcategory": "玉米與穀物點心",
+  "brand": "新東陽",
+  "aliases": [
+    "新東陽",
+    "玉米與穀物點心"
+  ],
+  "summary": "新東陽｜玉米與穀物點心。包裝標示每 100 公克 455 大卡、鈉 873 毫克、糖 33.1 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 455,
+    "protein": 33.8,
+    "fat": 16.8,
+    "satFat": 3.3,
+    "carbs": 42.2,
+    "sugar": 33.1,
+    "sodium": 873
+  },
+  "highlights": [
+    "高鈉",
+    "高糖",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 873 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 33.1 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "◆ 商品名稱:杏仁芝麻薄脆片肉乾",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC4M-A900HPXQ0",
+      "sku": "DBAC4M-A900HPXQ0",
+      "originalName": "新東陽 薄脆片肉乾75g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

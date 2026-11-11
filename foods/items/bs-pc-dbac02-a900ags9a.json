@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbac02-a900ags9a",
+  "name": "樂事 洋芋片-經典原味",
+  "emoji": "🥔",
+  "category": "品牌零食",
+  "subcategory": "洋芋片",
+  "brand": "樂事",
+  "aliases": [
+    "樂事",
+    "洋芋片"
+  ],
+  "summary": "樂事｜洋芋片。包裝標示每 100 公克 575 大卡、鈉 583.3 毫克、糖 0 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 12
+  },
+  "per100g": {
+    "kcal": 575,
+    "protein": 7.5,
+    "fat": 35.8,
+    "satFat": 18.3,
+    "carbs": 54.2,
+    "sugar": 0,
+    "sodium": 583.3
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 18.3 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 12 公克、約 69 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "馬鈴薯、棕櫚油、食鹽、味精、調味劑(5'-次黃嘌呤核?磷酸二鈉、5'-鳥嘌呤核?磷酸二鈉)。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC02-A900AGS9A",
+      "sku": "DBAC02-A900AGS9A",
+      "originalName": "Lay's 樂事 樂事洋芋片-經典原味(12g/50包)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

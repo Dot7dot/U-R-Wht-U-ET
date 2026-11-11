@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbacd6-a9009rj3f",
+  "name": "巧益 原味夾心蘇打餅",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "巧益",
+  "aliases": [
+    "巧益",
+    "餅乾"
+  ],
+  "summary": "巧益｜餅乾。包裝標示每 100 公克 493 大卡、鈉 176 毫克、糖 10.7 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 493,
+    "protein": 8.8,
+    "fat": 22.4,
+    "satFat": 10.9,
+    "carbs": 64.1,
+    "sugar": 10.7,
+    "sodium": 176
+  },
+  "highlights": [
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 10.9 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 493 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵粉、棕櫚油、砂糖、食鹽、酵母、碳酸氫鈉(小蘇打)、香料.",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACD6-A9009RJ3F",
+      "sku": "DBACD6-A9009RJ3F",
+      "originalName": "巧益  原味夾心蘇打餅 270g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

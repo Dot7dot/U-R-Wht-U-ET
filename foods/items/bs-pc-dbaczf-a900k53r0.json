@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbaczf-a900k53r0",
+  "name": "黑師傅 捲心酥-開心果口味",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "黑師傅",
+  "aliases": [
+    "黑師傅",
+    "堅果瓜子"
+  ],
+  "summary": "黑師傅｜堅果瓜子。包裝標示每 100 公克 490.8 大卡、鈉 103.4 毫克、糖 37.9 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 40
+  },
+  "per100g": {
+    "kcal": 490.8,
+    "protein": 8.9,
+    "fat": 20,
+    "satFat": 12.4,
+    "carbs": 68.8,
+    "sugar": 37.9,
+    "sodium": 103.4
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 37.9 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 12.4 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 40 公克、約 196.3 大卡，本包裝含 10 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵粉/糖/海藻糖/乳糖/脫脂奶粉/精製分餾棕櫚核仁油/",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACZF-A900K53R0",
+      "sku": "DBACZF-A900K53R0",
+      "originalName": "黑師傅 【 限 時 優 惠 】捲心酥-開心果口味 (400g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

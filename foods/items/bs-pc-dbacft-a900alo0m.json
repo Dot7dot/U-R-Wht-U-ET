@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbacft-a900alo0m",
+  "name": "老楊 紅豆麻糬",
+  "emoji": "🍰",
+  "category": "品牌零食",
+  "subcategory": "蛋糕甜點",
+  "brand": "老楊",
+  "aliases": [
+    "老楊",
+    "蛋糕甜點"
+  ],
+  "summary": "老楊｜蛋糕甜點。包裝標示每 100 公克 324 大卡、鈉 6 毫克、糖 31.2 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 3,
+    "min": 1,
+    "max": 10
+  },
+  "density": 0.4,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 30
+  },
+  "per100g": {
+    "kcal": 324,
+    "protein": 1.3,
+    "fat": 2.3,
+    "satFat": 1.1,
+    "carbs": 74.4,
+    "sugar": 31.2,
+    "fiber": 0,
+    "sodium": 6
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 31.2 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 30 公克、約 97 大卡，本包裝含 4 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麥芽糖、砂糖、糯米、紅豆、羥丙基磷酸二澱粉(粘稠劑)、棕櫚油、香料、己二烯酸鉀(防腐劑)",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACFT-A900ALO0M",
+      "sku": "DBACFT-A900ALO0M",
+      "originalName": "老楊 嘉義名店紅豆麻糬 120g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

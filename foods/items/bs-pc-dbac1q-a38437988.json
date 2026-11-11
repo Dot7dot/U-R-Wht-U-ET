@@ -1,0 +1,68 @@
+{
+  "id": "bs-pc-dbac1q-a38437988",
+  "name": "Ruffles 波樂 厚切洋芋片-起士口味",
+  "emoji": "🥔",
+  "category": "品牌零食",
+  "subcategory": "洋芋片",
+  "brand": "Ruffles",
+  "aliases": [
+    "Ruffles",
+    "洋芋片"
+  ],
+  "summary": "Ruffles｜洋芋片。包裝標示每 100 公克 571.4 大卡、鈉 821.4 毫克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 28
+  },
+  "per100g": {
+    "kcal": 571.4,
+    "protein": 7.1,
+    "fat": 35.7,
+    "satFat": 3.6,
+    "carbs": 50,
+    "sodium": 821.4
+  },
+  "highlights": [
+    "高鈉",
+    "高脂"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 821.4 毫克（≥600 毫克屬高鈉）。"
+    }
+  ],
+  "tips": "包裝標示每份 28 公克、約 160 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "馬鈴薯.蔬菜油(葵花油,玉米油和/或菜籽油),鹽,乳清蛋白,乳清,起司粉,麥芽糊精,部分氫化沙拉油,味精,洋蔥粉,硫酸氫二鈉,奶油,酸奶(奶油,脫脂奶),乾酪素鈉,檸檬酸,蒜粉,乳酸,食用色素(黃色5號),香料,次黃嘌呤核甘磷酸二鈉,鳥嘌呤核甘磷酸二鈉",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC1Q-A38437988",
+      "sku": "DBAC1Q-A38437988",
+      "originalName": "Ruffles 波樂 【美國】 厚切洋芋片-起士口味(184.2g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [
+      "sugar"
+    ],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

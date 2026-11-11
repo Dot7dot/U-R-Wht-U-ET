@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbaek6-a900knkip",
+  "name": "Nobel 爽口白桃風味軟糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "Nobel",
+  "aliases": [
+    "Nobel",
+    "糖果口香糖"
+  ],
+  "summary": "Nobel｜糖果口香糖。包裝標示每 100 公克 337.2 大卡、鈉 78 毫克、糖 61.3 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 50
+  },
+  "per100g": {
+    "kcal": 337.2,
+    "protein": 2.4,
+    "fat": 0.4,
+    "satFat": 0.1,
+    "carbs": 81,
+    "sugar": 61.3,
+    "sodium": 78
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 61.3 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 50 公克、約 168.6 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "砂糖,水飴(玉米),豬皮明膠,濃縮白桃果汁,",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KNKIP",
+      "sku": "DBAEK6-A900KNKIP",
+      "originalName": "Nobel 爽口白桃風味軟糖 (50g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

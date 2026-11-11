@@ -1,0 +1,72 @@
+{
+  "id": "bs-pc-dbac18-a900976od",
+  "name": "恰好 香香豆",
+  "emoji": "🥜",
+  "category": "品牌零食",
+  "subcategory": "堅果瓜子",
+  "brand": "恰好",
+  "aliases": [
+    "恰好",
+    "堅果瓜子"
+  ],
+  "summary": "恰好｜堅果瓜子。包裝標示每 100 公克 483.6 大卡、鈉 718.2 毫克、糖 5 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.6,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 22
+  },
+  "per100g": {
+    "kcal": 483.6,
+    "protein": 19.5,
+    "fat": 21.8,
+    "satFat": 19.1,
+    "carbs": 52.3,
+    "sugar": 5,
+    "sodium": 718.2
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 718.2 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 19.1 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 22 公克、約 106.4 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "青豆 椰子油 糖 鹽 味精 辣椒粉 黑胡椒粉 蒜粉 洋蔥粉 醬油粉 食用色素 藍色一號 黃色四號",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC18-A900976OD",
+      "sku": "DBAC18-A900976OD",
+      "originalName": "恰好  香香豆(380g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

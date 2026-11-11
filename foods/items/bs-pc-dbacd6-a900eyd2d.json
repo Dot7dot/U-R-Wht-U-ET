@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbacd6-a900eyd2d",
+  "name": "巧益 川蜀椒麻烤海苔",
+  "emoji": "🌽",
+  "category": "品牌零食",
+  "subcategory": "玉米與穀物點心",
+  "brand": "巧益",
+  "aliases": [
+    "巧益",
+    "玉米與穀物點心"
+  ],
+  "summary": "巧益｜玉米與穀物點心。包裝標示每 100 公克 368 大卡、鈉 1299 毫克、糖 70 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 368,
+    "protein": 8,
+    "fat": 1.5,
+    "satFat": 0.3,
+    "carbs": 85,
+    "sugar": 70,
+    "sodium": 1299
+  },
+  "highlights": [
+    "高鈉",
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1299 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 70 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 368 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "海苔、糖粉(砂糖、樹薯澱粉)、葡萄糖粉、川麻調味粉(鹽、L-麩酸鈉、辣椒粉、麥芽糊精、蒜頭抽出物、二氧化矽).",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACD6-A900EYD2D",
+      "sku": "DBACD6-A900EYD2D",
+      "originalName": "巧益  川蜀椒麻烤海苔 32g",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

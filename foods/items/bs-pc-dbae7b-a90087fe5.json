@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbae7b-a90087fe5",
+  "name": "Dupont 法國多朋果汁軟糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "Dupont",
+  "aliases": [
+    "Dupont",
+    "糖果口香糖"
+  ],
+  "summary": "Dupont｜糖果口香糖。包裝標示每 100 公克 398.6 大卡、鈉 0 毫克、糖 70 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 398.6,
+    "protein": 0.8,
+    "fat": 6.6,
+    "satFat": 3.8,
+    "carbs": 84,
+    "sugar": 70,
+    "sodium": 0
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 70 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "砂糖,葡萄糖漿,棕櫚油脂,明膠(豬皮提取),檸檬酸,香料,濃縮果汁(柳橙,檸檬,覆盆子,櫻桃,荔枝,百香果,芭樂,香蕉,接骨木),食用萃取紅甜椒色素,乳化劑(葵花卵磷脂).",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAE7B-A90087FE5",
+      "sku": "DBAE7B-A90087FE5",
+      "originalName": "Dupont 法國多朋果汁軟糖(250g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

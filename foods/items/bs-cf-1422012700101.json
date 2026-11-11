@@ -1,0 +1,66 @@
+{
+  "id": "bs-cf-1422012700101",
+  "name": "立夢生巨峰葡萄糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "立夢",
+  "aliases": [
+    "立夢",
+    "糖果口香糖"
+  ],
+  "summary": "立夢｜糖果口香糖。包裝標示每 100 公克 380 大卡、鈉 17 毫克、糖 69.7 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 54
+  },
+  "per100g": {
+    "kcal": 380,
+    "protein": 0,
+    "fat": 0.2,
+    "satFat": 0,
+    "carbs": 95,
+    "sugar": 69.7,
+    "sodium": 17
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 69.7 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 54 公克、約 205 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "水飴、砂糖、巨峰葡萄醬〔水飴、砂糖、巨峰葡萄濃縮果汁、蘋果榨汁、抗氧化劑(L-抗壞血酸)、調味劑(DL-蘋果酸)、葡萄籽抽出物(葡萄)、酸味製劑〔調味劑(檸檬酸、DL-蘋果酸)、品質改良劑(己二酸)、香料、複合製劑〔果膠(檸檬、萊姆、柚子來源)、砂糖〕、粘稠劑(羥丙基磷酸二澱粉)、天然食用色素(梔子藍色素)、調味劑(檸檬酸鈉)、品質改良劑(偏磷酸鈉)〕",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E7%AB%8B%E5%A4%A2/1422012700101.html",
+      "sku": "1422012700101",
+      "originalName": "立夢生巨峰葡萄糖",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

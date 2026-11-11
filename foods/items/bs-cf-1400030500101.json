@@ -1,0 +1,70 @@
+{
+  "id": "bs-cf-1400030500101",
+  "name": "旺旺 米小餅-金薯口味(米果)",
+  "emoji": "🍘",
+  "category": "品牌零食",
+  "subcategory": "米果",
+  "brand": "旺旺",
+  "aliases": [
+    "旺旺",
+    "米果"
+  ],
+  "summary": "旺旺｜米果。包裝標示每 100 公克 514 大卡、鈉 792 毫克、糖 10.5 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 20
+  },
+  "per100g": {
+    "kcal": 514,
+    "protein": 3.5,
+    "fat": 25.7,
+    "satFat": 13,
+    "carbs": 67.2,
+    "sugar": 10.5,
+    "sodium": 792
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 792 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 13 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 20 公克、約 103 大卡，本包裝含 8 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E6%97%BA%E6%97%BA/1400030500101.html",
+      "sku": "1400030500101",
+      "originalName": "米小餅-金薯口味(米果)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

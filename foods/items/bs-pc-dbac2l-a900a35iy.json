@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbac2l-a900a35iy",
+  "name": "惠香 葡萄風味益生菌軟糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "惠香",
+  "aliases": [
+    "惠香",
+    "糖果口香糖"
+  ],
+  "summary": "惠香｜糖果口香糖。包裝標示每 100 公克 336 大卡、鈉 40 毫克、糖 56 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 336,
+    "protein": 6,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 78,
+    "sugar": 56,
+    "sodium": 40
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 56 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麥芽糖、砂糖、水、明膠、山梨醇(甜味劑)、甘油、洋菜、檸檬酸、食用香精、益生菌(凝結芽孢桿菌)、食用色素(黃色四號、黃色五號、藍色一號、紅色六號、紅色40號)二氧化鈦。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC2L-A900A35IY",
+      "sku": "DBAC2L-A900A35IY",
+      "originalName": "惠香 葡萄風味益生菌軟糖(90g/包)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

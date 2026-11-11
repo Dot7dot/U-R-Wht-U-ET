@@ -1,0 +1,67 @@
+{
+  "id": "bs-pc-dbarcm-a900grnrq",
+  "name": "垂坤 蝦餅",
+  "emoji": "🌽",
+  "category": "品牌零食",
+  "subcategory": "玉米與穀物點心",
+  "brand": "垂坤",
+  "aliases": [
+    "垂坤",
+    "玉米與穀物點心"
+  ],
+  "summary": "垂坤｜玉米與穀物點心。包裝標示每 100 公克 168 大卡、鈉 291.9 毫克、糖 2.4 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 35
+  },
+  "per100g": {
+    "kcal": 168,
+    "protein": 0.7,
+    "fat": 7,
+    "satFat": 3.2,
+    "carbs": 25.6,
+    "sugar": 2.4,
+    "sodium": 291.9
+  },
+  "highlights": [
+    "熱量 168 大卡／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含有蝦製品,,對特殊過敏體質者可能產生過敏症狀"
+    }
+  ],
+  "tips": "包裝標示每份 35 公克、約 58.8 大卡，本包裝含 2 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "木薯粉、馬鈴薯粉、蝦、白砂糖、鹽、棕櫚油、碳酸氫鈉(膨脹劑)、大蒜、維生素E(抗氧化劑)、食用色素黃色五號",
+  "allergens": "本產品含有蝦製品,,對特殊過敏體質者可能產生過敏症狀",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBARCM-A900GRNRQ",
+      "sku": "DBARCM-A900GRNRQ",
+      "originalName": "垂坤  蝦餅(70g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

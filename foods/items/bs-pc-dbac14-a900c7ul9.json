@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbac14-a900c7ul9",
+  "name": "惠香 素沙茶豆干",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "惠香",
+  "aliases": [
+    "惠香",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "惠香｜肉乾海苔豆乾。包裝標示每 100 公克 294 大卡、鈉 345 毫克、糖 13.2 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 294,
+    "protein": 9.7,
+    "fat": 16.7,
+    "satFat": 2.7,
+    "carbs": 26.3,
+    "sugar": 13.2,
+    "sodium": 345
+  },
+  "highlights": [
+    "熱量 294 大卡／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含大豆、堅果種子類、麩質的穀類製品。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "黃豆(基因改造)、麥牙、甘油、甜味劑(D-山梨醇液70%)、醬油 【黃豆、小麥、食鹽、砂糖、水、調味料(琥珀酸二鈉、5’-次黃嘌呤核苷磷酸二鈉、5’-鳥嘌呤核苷磷酸二鈉)、甜味劑(醋磺內酯鉀)】素沙茶醬",
+  "allergens": "本產品含大豆、堅果種子類、麩質的穀類製品。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC14-A900C7UL9",
+      "sku": "DBAC14-A900C7UL9",
+      "originalName": "惠香 素沙茶豆干300g夾鏈袋大包裝",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbaek6-a900kmy03",
+  "name": "樂天 寶貝怪獸造型軟糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "樂天",
+  "aliases": [
+    "樂天",
+    "糖果口香糖"
+  ],
+  "summary": "樂天｜糖果口香糖。包裝標示每 100 公克 360 大卡、鈉 40 毫克、糖 50 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 1
+  },
+  "per100g": {
+    "kcal": 360,
+    "protein": 10,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 80,
+    "sugar": 50,
+    "sodium": 40
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 50 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 1 公克、約 3.6 大卡，本包裝含 20 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "檸檬蘇打風味(淨重20公克)[水飴(玉米),砂糖,",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KMY03",
+      "sku": "DBAEK6-A900KMY03",
+      "originalName": "LOTTE 樂天  寶貝怪獸造型軟糖 (80g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

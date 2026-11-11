@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbac14-a900iilmf",
+  "name": "惠香 一口小豆丁",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "惠香",
+  "aliases": [
+    "惠香",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "惠香｜肉乾海苔豆乾。包裝標示每 100 公克 375 大卡、鈉 1014 毫克、糖 4.5 公克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 375,
+    "protein": 30.3,
+    "fat": 16.7,
+    "satFat": 2.4,
+    "carbs": 25.9,
+    "sugar": 4.5,
+    "sodium": 1014
+  },
+  "highlights": [
+    "高鈉",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1014 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含大豆、麩質的穀類製品。"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "黃豆(基因改造)、甘油、砂糖、甜味劑(D-山梨醇液70%)、醬油【黃豆、小麥、食鹽、砂糖、水、調味料(琥珀酸二鈉、5'-次黃嘌呤核苷磷酸二鈉、5'-鳥嘌呤核苷磷酸二鈉)、甜味劑(醋磺內酯鉀)】、大豆油、鹽、L-麩酸鈉、乳酸、防腐劑(己二烯酸鉀)、檸檬酸、甘草、一品香(桂節、大茴、小茴、丁香枝)、油桂、食用色素紅色40號、辣椒、硫酸鈣、矽樹脂、脂肪酸山梨醇酐酯、羧甲基纖維素鈉●過敏原資訊:本產品含大豆、麩質的穀類製品。",
+  "allergens": "本產品含大豆、麩質的穀類製品。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC14-A900IILMF",
+      "sku": "DBAC14-A900IILMF",
+      "originalName": "惠香 惠香 一口小豆丁300g夾鏈袋大包裝",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

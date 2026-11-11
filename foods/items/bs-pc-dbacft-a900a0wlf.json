@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbacft-a900a0wlf",
+  "name": "老楊 超濃起司 方塊酥(植物五辛素)",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "老楊",
+  "aliases": [
+    "老楊",
+    "餅乾"
+  ],
+  "summary": "老楊｜餅乾。包裝標示每 100 公克 497 大卡、鈉 887 毫克、糖 9.1 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 37
+  },
+  "per100g": {
+    "kcal": 497,
+    "protein": 7.1,
+    "fat": 24.1,
+    "satFat": 11.1,
+    "carbs": 63,
+    "sugar": 9.1,
+    "sodium": 887
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 887 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 11.1 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 37 公克、約 184 大卡，本包裝含 10 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "麵粉、棕櫚油、糖、超濃起士粉[乾酪、蔗糖、葡萄糖、乳糖、食鹽、L-麩酸鈉、洋蔥粉、香料(香料、乳清粉、食鹽、糊精、乾酪、 蔗糖、醋酸、乳酸、阿拉伯膠、脂肪酸甘油脂、乳酸鈣、L-麩酸鈉、二氧化矽、馬鈴薯糊精)、蒜頭粉、二氧化矽、黑胡椒、 5'-次黃瞟呤核苷磷酸二鈉、5'-鳥瞟呤核苷磷酸二鈉、D-山梨醇、甜味劑(蔗糖素)]、起士粉(乳酪粉、麥芽糖精、奶粉、起司香料、 二氧化矽)、鹽",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBACFT-A900A0WLF",
+      "sku": "DBACFT-A900A0WLF",
+      "originalName": "老楊 超濃起司 方塊酥 370g (植物五辛素)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

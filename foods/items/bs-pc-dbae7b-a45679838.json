@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbae7b-a45679838",
+  "name": "前田 乳球小粒燒菓子蛋酥",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "前田",
+  "aliases": [
+    "前田",
+    "餅乾"
+  ],
+  "summary": "前田｜餅乾。包裝標示每 100 公克 386.4 大卡、鈉 23 毫克、糖 29.7 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "秤重 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 386.4,
+    "protein": 1.5,
+    "fat": 0.8,
+    "satFat": 0.3,
+    "carbs": 93.3,
+    "sugar": 29.7,
+    "sodium": 23
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 29.7 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：本產品含有雞蛋、牛奶,不適合對其過敏體質者食用"
+    }
+  ],
+  "tips": "數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "馬鈴薯澱粉,砂糖,雞蛋,葡萄糖,麥芽糖,脫脂奶粉,混合寒梅粉(玉米澱粉,糯米粉),蛋殼鈣.",
+  "allergens": "本產品含有雞蛋、牛奶,不適合對其過敏體質者食用",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAE7B-A45679838",
+      "sku": "DBAE7B-A45679838",
+      "originalName": "前田 《日本》乳球小粒燒菓子蛋酥(100g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

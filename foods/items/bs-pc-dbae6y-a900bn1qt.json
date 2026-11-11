@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbae6y-a900bn1qt",
+  "name": "樺達 硬喉糖-超涼薄荷",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "樺達",
+  "aliases": [
+    "樺達",
+    "糖果口香糖"
+  ],
+  "summary": "樺達｜糖果口香糖。包裝標示每 100 公克 394.7 大卡、鈉 5.3 毫克、糖 73.7 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 3.8
+  },
+  "per100g": {
+    "kcal": 394.7,
+    "protein": 0,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 100,
+    "sugar": 73.7,
+    "sodium": 5.3
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 73.7 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 3.8 公克、約 15 大卡，本包裝含 20 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "蔗糖、葡萄糖漿、天然食用色素紅花黃、l-薄荷腦、香草香料、 桉葉油精、香料、食用藍色一號",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAE6Y-A900BN1QT",
+      "sku": "DBAE6Y-A900BN1QT",
+      "originalName": "樺達 硬喉糖-超涼薄荷(38gx2條)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

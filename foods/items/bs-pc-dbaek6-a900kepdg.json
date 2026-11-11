@@ -1,0 +1,71 @@
+{
+  "id": "bs-pc-dbaek6-a900kepdg",
+  "name": "船岡 牛奶仙貝-煎餅",
+  "emoji": "🍘",
+  "category": "品牌零食",
+  "subcategory": "米果",
+  "brand": "船岡",
+  "aliases": [
+    "船岡",
+    "米果"
+  ],
+  "summary": "船岡｜米果。包裝標示每 100 公克 429.6 大卡、鈉 213 毫克、糖 44.8 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 15.1
+  },
+  "per100g": {
+    "kcal": 429.6,
+    "protein": 8.3,
+    "fat": 6.8,
+    "satFat": 2.6,
+    "carbs": 83.8,
+    "sugar": 44.8,
+    "sodium": 213
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 44.8 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：牛奶"
+    }
+  ],
+  "tips": "包裝標示每份 15.1 公克、約 65 大卡，本包裝含 10 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "砂糖,小麥粉,雞蛋,牛奶,奶油,全脂奶粉,棕櫚油,",
+  "allergens": "牛奶",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEK6-A900KEPDG",
+      "sku": "DBAEK6-A900KEPDG",
+      "originalName": "船岡 牛奶仙貝-煎餅 (151g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

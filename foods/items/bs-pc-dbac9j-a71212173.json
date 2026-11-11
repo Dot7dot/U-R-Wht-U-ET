@@ -1,0 +1,67 @@
+{
+  "id": "bs-pc-dbac9j-a71212173",
+  "name": "北海 有豐食品 鱈魚香絲",
+  "emoji": "🥓",
+  "category": "品牌零食",
+  "subcategory": "肉乾海苔豆乾",
+  "brand": "北海",
+  "aliases": [
+    "北海",
+    "肉乾海苔豆乾"
+  ],
+  "summary": "北海｜肉乾海苔豆乾。包裝標示每 100 公克 338.5 大卡、鈉 2115.4 毫克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.4,
+    "min": 0.1,
+    "max": 2
+  },
+  "density": 0.9,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 26
+  },
+  "per100g": {
+    "kcal": 338.5,
+    "protein": 26.9,
+    "fat": 1.5,
+    "satFat": 0.4,
+    "carbs": 53.8,
+    "sodium": 2115.4
+  },
+  "highlights": [
+    "高鈉",
+    "蛋白質較高"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 2115.4 毫克（≥600 毫克屬高鈉）。"
+    }
+  ],
+  "tips": "包裝標示每份 26 公克、約 88 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "魚漿(含鱈魚)、樹薯澱粉、D-山梨醇液70%(甜味劑)、砂糖、鹽、海鹽(海鹽、氯化鉀)、味精、辣椒粉、醬油(黃豆、小麥)、大豆蛋白質水解物、甘胺酸、L-麩酸鈉、5'-次黃嘌呤核甘磷酸二鈉、5'-鳥 嘌呤核甘磷酸二鈉、琥珀酸二鈉、DL-胺基丙酸、辣椒膏(樹薯澱粉、紅辣椒萃取物、乙醇、D-山梨醇、脂肪酸蔗糖酯)、乙基麥芽醇",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAC9J-A71212173",
+      "sku": "DBAC9J-A71212173",
+      "originalName": "北海 【 限 時 優 惠 】有豐食品  鱈魚香絲 大包裝(600g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [
+      "sugar"
+    ],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

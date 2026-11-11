@@ -1,0 +1,71 @@
+{
+  "id": "bs-cf-1422014000101",
+  "name": "BF海鹽檸檬糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "BF",
+  "aliases": [
+    "BF",
+    "糖果口香糖"
+  ],
+  "summary": "BF｜糖果口香糖。包裝標示每 100 公克 370 大卡、鈉 1720 毫克、糖 62 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 2.5
+  },
+  "per100g": {
+    "kcal": 370,
+    "protein": 0,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 92.5,
+    "sugar": 62,
+    "sodium": 1720
+  },
+  "highlights": [
+    "高鈉",
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 1720 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 62 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 2.5 公克、約 9.3 大卡。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "蔗糖、葡萄糖糖漿、檸檬酸、海鹽、檸檬汁、天然檸檬香料",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/bf/1422014000101.html",
+      "sku": "1422014000101",
+      "originalName": "BF海鹽檸檬糖",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

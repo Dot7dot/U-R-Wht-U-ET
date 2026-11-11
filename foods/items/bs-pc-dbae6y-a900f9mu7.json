@@ -1,0 +1,66 @@
+{
+  "id": "bs-pc-dbae6y-a900f9mu7",
+  "name": "利口樂 草本潤喉糖-原味",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "利口樂",
+  "aliases": [
+    "利口樂",
+    "糖果口香糖"
+  ],
+  "summary": "利口樂｜糖果口香糖。包裝標示每 100 公克 400 大卡、鈉 0 毫克、糖 71.4 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 3.5
+  },
+  "per100g": {
+    "kcal": 400,
+    "protein": 0,
+    "fat": 0,
+    "satFat": 0,
+    "carbs": 97.1,
+    "sugar": 71.4,
+    "sodium": 0
+  },
+  "highlights": [
+    "高糖"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 71.4 公克（≥22.5 公克屬高糖）。"
+    }
+  ],
+  "tips": "包裝標示每份 3.5 公克、約 14 大卡，本包裝含 27 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "糖、葡萄糖、焦糖色素、多種利口樂草本植物萃取物(薄荷、香蜂草、百里香、鼠尾草、神香草、接骨木花、菩提花、錦葵、苦汁薄荷、野生百里香)、天然香料(薄荷油)、l-薄荷腦",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAE6Y-A900F9MU7",
+      "sku": "DBAE6Y-A900F9MU7",
+      "originalName": "RICOLA 利口樂 草本潤喉糖31.5g-原味3入裝",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

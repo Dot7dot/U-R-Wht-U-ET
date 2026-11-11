@@ -1,0 +1,76 @@
+{
+  "id": "bs-pc-dbaeeg-a900gczb3",
+  "name": "龜田 揚一番醬油米果",
+  "emoji": "🍘",
+  "category": "品牌零食",
+  "subcategory": "米果",
+  "brand": "龜田",
+  "aliases": [
+    "龜田",
+    "米果"
+  ],
+  "summary": "龜田｜米果。包裝標示每 100 公克 542.2 大卡、鈉 736 毫克、糖 8.9 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 542.2,
+    "protein": 4.6,
+    "fat": 33,
+    "satFat": 12.5,
+    "carbs": 56.7,
+    "sugar": 8.9,
+    "sodium": 736
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 736 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 12.5 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：大豆"
+    }
+  ],
+  "tips": "包裝標示每份 100 公克、約 542.2 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "粳米,植物油(棕櫚油,米糠油),醬油(小麥,",
+  "allergens": "大豆",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEEG-A900GCZB3",
+      "sku": "DBAEEG-A900GCZB3",
+      "originalName": "龜田  【 限 時 優 惠 】揚一番醬油米果 (100g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

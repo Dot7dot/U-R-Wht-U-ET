@@ -1,0 +1,67 @@
+{
+  "id": "bs-pc-dbae7b-a68531227",
+  "name": "不二家 牛乳糖",
+  "emoji": "🍬",
+  "category": "品牌零食",
+  "subcategory": "糖果口香糖",
+  "brand": "不二家",
+  "aliases": [
+    "不二家",
+    "糖果口香糖"
+  ],
+  "summary": "不二家｜糖果口香糖。包裝標示每 100 公克 393 大卡、鈉 190 毫克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 1.5,
+    "min": 0.5,
+    "max": 6,
+    "fill": 0.6
+  },
+  "density": 0.8,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 40
+  },
+  "per100g": {
+    "kcal": 393,
+    "protein": 3.5,
+    "fat": 5.5,
+    "satFat": 3.8,
+    "carbs": 82.8,
+    "sodium": 190
+  },
+  "highlights": [
+    "含反式脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "所有人，特別是心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含反式脂肪 0.1 公克，建議盡量少吃。"
+    }
+  ],
+  "tips": "包裝標示每份 40 公克、約 157.2 大卡，本包裝含 1 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0.1
+  },
+  "ingredients": "玉蜀黍糖漿.加糖煉乳.上白糖.植物性油脂.食鹽.乳化劑(脂肪酸甘油酯)",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAE7B-A68531227",
+      "sku": "DBAE7B-A68531227",
+      "originalName": "不二家  牛乳糖(40g)",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。包裝僅標示每份數值，每 100 公克為依每份重量換算並四捨五入。",
+    "derivedFromServing": true,
+    "missingNutrients": [
+      "sugar"
+    ],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

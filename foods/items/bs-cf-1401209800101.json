@@ -1,0 +1,71 @@
+{
+  "id": "bs-cf-1401209800101",
+  "name": "華元Mini-洋蔥圈經典原味",
+  "emoji": "🌽",
+  "category": "品牌零食",
+  "subcategory": "玉米與穀物點心",
+  "brand": "華元",
+  "aliases": [
+    "華元",
+    "玉米與穀物點心"
+  ],
+  "summary": "華元｜玉米與穀物點心。包裝標示每 100 公克 467.8 大卡、鈉 916 毫克、糖 3.3 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 3,
+    "min": 1,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 5
+  },
+  "per100g": {
+    "kcal": 467.8,
+    "protein": 5.8,
+    "fat": 16.2,
+    "satFat": 7.6,
+    "carbs": 74.7,
+    "sugar": 3.3,
+    "sodium": 916
+  },
+  "highlights": [
+    "高鈉",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "高血壓、腎臟病或需要限鈉的人",
+      "why": "包裝標示每 100 公克含鈉 916 毫克（≥600 毫克屬高鈉）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 7.6 公克（≥5 公克屬高飽和脂肪）。"
+    }
+  ],
+  "tips": "包裝標示每份 5 公克、約 23.2 大卡，本包裝含 18 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "洋蔥圈餅體(麵粉、樹 薯澱粉、玉米澱粉、馬鈴薯粉、砂糖、洋蔥粉、食鹽、碳酸氫鈉、酸性焦磷 酸鈉、葡萄糖酸-0-內酯、脂肪酸甘油脂)、棕櫚油、 食品添加物名稱: 複合調味粉[麥芽精 粉(大麥、麥芽)、調味劑、洋蔥粉、食鹽、 麥芽糊精、碳烤風味粉、黑胡椒粉、葡萄糖、辣椒粉、二氧化矽、 乳糖、香料、甜味劑",
+  "sources": [
+    {
+      "title": "萬家福線上購物（原家樂福線上購物） 商品頁刊載之包裝營養標示",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E8%8F%AF%E5%85%83/1401209800101.html",
+      "sku": "1401209800101",
+      "originalName": "華元Mini分享包-洋蔥圈經典原味",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}

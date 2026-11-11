@@ -1,0 +1,77 @@
+{
+  "id": "bs-pc-dbaehm-a900k2is5",
+  "name": "OREO 奧利奧三明治餅乾_BTS聯名_原味香草口味",
+  "emoji": "🍪",
+  "category": "品牌零食",
+  "subcategory": "餅乾",
+  "brand": "OREO",
+  "aliases": [
+    "OREO",
+    "餅乾"
+  ],
+  "summary": "OREO｜餅乾。包裝標示每 100 公克 485 大卡、鈉 520 毫克、糖 38.2 公克。",
+  "shape": {
+    "type": "mound",
+    "thickness": 2,
+    "min": 0.5,
+    "max": 8,
+    "fill": 0.6
+  },
+  "density": 0.35,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "包裝標示 1 份",
+    "grams": 26.2
+  },
+  "per100g": {
+    "kcal": 485,
+    "protein": 4.7,
+    "fat": 20.6,
+    "satFat": 9.9,
+    "carbs": 71.3,
+    "sugar": 38.2,
+    "fiber": 2,
+    "sodium": 520
+  },
+  "highlights": [
+    "高糖",
+    "高飽和脂肪"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "糖尿病或需要控制糖分的人",
+      "why": "包裝標示每 100 公克含糖 38.2 公克（≥22.5 公克屬高糖）。"
+    },
+    {
+      "who": "高血脂或心血管疾病風險較高的人",
+      "why": "包裝標示每 100 公克含飽和脂肪 9.9 公克（≥5 公克屬高飽和脂肪）。"
+    },
+    {
+      "who": "對標示過敏原過敏的人",
+      "why": "包裝標示過敏原資訊：大豆。此生產線也生產含有牛奶及花生的餅乾。"
+    }
+  ],
+  "tips": "包裝標示每份 26.2 公克、約 127 大卡，本包裝含 12 份。數值取自通路商品頁刊載的包裝營養標示，配方或包裝改版時可能不同，請以手上包裝為準。",
+  "labelExtras": {
+    "transFat": 0
+  },
+  "ingredients": "香草口味成分:小麥麵粉,砂糖,非氫化植物油(棕櫚油,抗氧化劑(第三丁基氫醌)),可可粉,高果糖糖漿,膨脹劑(碳酸氫鈉,碳酸氫銨),玉米澱粉,食鹽,大豆卵磷脂,香料。",
+  "allergens": "大豆。此生產線也生產含有牛奶及花生的餅乾。",
+  "sources": [
+    {
+      "title": "PChome 24h購物 商品頁刊載之包裝營養標示",
+      "url": "https://24h.pchome.com.tw/prod/DBAEHM-A900K2IS5",
+      "sku": "DBAEHM-A900K2IS5",
+      "originalName": "OREO 奧利奧三明治餅乾3入/盒_BTS聯名_原味香草口味",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "dataNotes": {
+    "sourceSet": "branded-snacks-2026",
+    "basis": "每 100 公克，依包裝營養標示。",
+    "derivedFromServing": false,
+    "missingNutrients": [],
+    "estimation": "shape 與 density 為依零食型態編輯估計的介面估重設定，非實測值；建議直接用包裝份量或秤重。"
+  }
+}
