@@ -1,0 +1,87 @@
+{
+  "id": "us-beef-top-sirloin-broiled",
+  "name": "上後腰脊牛排（烤熟重、含脂肪）",
+  "emoji": "🥩",
+  "category": "豆魚蛋肉",
+  "subcategory": "牛排館部位與熟肉",
+  "aliases": [
+    "熟上沙朗",
+    "top sirloin cooked",
+    "BEEF,TOP SIRLOIN,STEAK,LN & FAT,1/8\" FAT,ALL GRDS,CKD,BRLD"
+  ],
+  "summary": "Top sirloin 熟肉、外脂修至 1/8 英吋；不是紐約客 top loin 或 ribeye。 每 100 公克約 243 大卡，蛋白質 26.96 克、脂肪 14.23 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.2,
+    "max": 6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 243.0,
+    "protein": 26.96,
+    "fat": 14.23,
+    "carbs": 0.0,
+    "fiber": 0.0,
+    "sugar": 0.0,
+    "satFat": 5.603,
+    "sodium": 56.0,
+    "cholesterol": 92.0,
+    "potassium": 336.0,
+    "calcium": 20.0,
+    "iron": 1.73,
+    "vitC": 0.0,
+    "zinc": 4.87,
+    "vitB1": 0.073,
+    "vitB2": 0.13,
+    "vitB6": 0.564,
+    "vitB12": 1.59,
+    "vitD": 0.2
+  },
+  "highlights": [
+    "牛排",
+    "煎烤",
+    "蛋白質 26.96 克／100 公克",
+    "脂肪 14.23 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "Top sirloin 熟肉、外脂修至 1/8 英吋；不是紐約客 top loin 或 ribeye。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "USDA SR28（2016 年 5 月修訂版）",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "13930",
+      "originalDescription": "BEEF,TOP SIRLOIN,STEAK,LN & FAT,1/8\" FAT,ALL GRDS,CKD,BRLD",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "meatDetails": {
+    "animal": "牛",
+    "cutOrProduct": "上後腰脊牛排",
+    "weightBasis": "熟重",
+    "commonUses": [
+      "牛排",
+      "煎烤"
+    ],
+    "referenceScope": "Top sirloin 熟肉、外脂修至 1/8 英吋；不是紐約客 top loin 或 ribeye。",
+    "originalPreparation": "BEEF,TOP SIRLOIN,STEAK,LN & FAT,1/8\" FAT,ALL GRDS,CKD,BRLD"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "USDA:13930",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [
+      "epa",
+      "dha"
+    ],
+    "qualifiers": {},
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}

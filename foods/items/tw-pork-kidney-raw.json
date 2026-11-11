@@ -1,0 +1,98 @@
+{
+  "id": "tw-pork-kidney-raw",
+  "name": "豬腰子（生重）",
+  "emoji": "🍖",
+  "category": "豆魚蛋肉",
+  "subcategory": "內臟與滷味原料",
+  "aliases": [
+    "腰子",
+    "豬腎",
+    "Pork: kidney"
+  ],
+  "summary": "來源為生豬腎；麻油腰子或湯品需另計油與其他食材。 每 100 公克約 82 大卡，蛋白質 15 克、脂肪 1.9 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.2,
+    "max": 6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 82.0,
+    "protein": 15.0,
+    "fat": 1.9,
+    "carbs": 1.7,
+    "satFat": 0.6,
+    "sodium": 102.0,
+    "cholesterol": 340.0,
+    "potassium": 213.0,
+    "calcium": 7.0,
+    "iron": 7.2,
+    "vitC": 12.8,
+    "zinc": 1.9,
+    "vitB1": 0.3,
+    "vitB2": 1.88,
+    "vitB6": 0.29,
+    "vitB12": 9.15,
+    "epa": 41.0,
+    "dha": 50.0
+  },
+  "highlights": [
+    "滷味",
+    "黑白切",
+    "火鍋",
+    "熱炒",
+    "蛋白質 15 克／100 公克",
+    "脂肪 1.9 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "以熟食重量記錄者",
+      "why": "本筆以名稱標示的原料或原品狀態計算。下鍋前後含水量、油脂及醬料不同，不以固定比例把生重換成熟重。"
+    }
+  ],
+  "tips": "來源為生豬腎；麻油腰子或湯品需另計油與其他食材。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署：食品營養成分資料集（8543）",
+      "url": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "datasetUrl": "https://data.gov.tw/dataset/8543",
+      "sampleId": "I0321601",
+      "originalDescription": "豬腎",
+      "preparation": "樣品狀態:生,豬臟器; 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "meatDetails": {
+    "animal": "豬",
+    "cutOrProduct": "豬腰子",
+    "weightBasis": "生重",
+    "commonUses": [
+      "滷味",
+      "黑白切",
+      "火鍋",
+      "熱炒"
+    ],
+    "referenceScope": "來源為生豬腎；麻油腰子或湯品需另計油與其他食材。",
+    "originalPreparation": "樣品狀態:生,豬臟器; 前處理描述:混合均勻打碎"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "TFDA:I0321601",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [
+      "fiber",
+      "sugar",
+      "vitD"
+    ],
+    "qualifiers": {},
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}

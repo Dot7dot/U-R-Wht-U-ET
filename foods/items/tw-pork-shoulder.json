@@ -1,0 +1,98 @@
+{
+  "id": "tw-pork-shoulder",
+  "name": "豬胛心肉（生重、去皮）",
+  "emoji": "🥓",
+  "category": "豆魚蛋肉",
+  "subcategory": "豬肉部位與火鍋",
+  "aliases": [
+    "胛心肉",
+    "肩胛肉",
+    "豬肩肉",
+    "豬肩胛肉",
+    "Boston butt; Boston butt and picnic shoulder; Pork shoulder; Pork: forefeet"
+  ],
+  "summary": "來源為肩胛肉，不是上肩梅花樣品；可用於肉絲、肉片或絞肉料理。 每 100 公克約 295 大卡，蛋白質 16.5 克、脂肪 24.8 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.3,
+    "min": 0.05,
+    "max": 3
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 295.0,
+    "protein": 16.5,
+    "fat": 24.8,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "satFat": 9.8,
+    "sodium": 53.0,
+    "cholesterol": 71.0,
+    "potassium": 288.0,
+    "calcium": 3.0,
+    "iron": 0.9,
+    "vitC": 1.1,
+    "zinc": 2.4,
+    "vitB1": 0.65,
+    "vitB2": 0.2,
+    "vitB6": 0.23,
+    "vitB12": 0.78,
+    "epa": 0.0,
+    "dha": 45.0
+  },
+  "highlights": [
+    "火鍋",
+    "燒肉",
+    "家常菜",
+    "蛋白質 16.5 克／100 公克",
+    "脂肪 24.8 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "以熟食重量記錄者",
+      "why": "本筆以名稱標示的原料或原品狀態計算。下鍋前後含水量、油脂及醬料不同，不以固定比例把生重換成熟重。"
+    }
+  ],
+  "tips": "來源為肩胛肉，不是上肩梅花樣品；可用於肉絲、肉片或絞肉料理。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署：食品營養成分資料集（8543）",
+      "url": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "datasetUrl": "https://data.gov.tw/dataset/8543",
+      "sampleId": "I0300401",
+      "originalDescription": "豬肩胛肉",
+      "preparation": "樣品狀態:生,豬肩胛部位; 前處理描述:去皮,混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "meatDetails": {
+    "animal": "豬",
+    "cutOrProduct": "豬胛心肉",
+    "weightBasis": "生重",
+    "commonUses": [
+      "火鍋",
+      "燒肉",
+      "家常菜"
+    ],
+    "referenceScope": "來源為肩胛肉，不是上肩梅花樣品；可用於肉絲、肉片或絞肉料理。",
+    "originalPreparation": "樣品狀態:生,豬肩胛部位; 前處理描述:去皮,混合均勻打碎"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "TFDA:I0300401",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [
+      "fiber",
+      "vitD"
+    ],
+    "qualifiers": {},
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}

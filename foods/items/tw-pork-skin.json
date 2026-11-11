@@ -1,0 +1,98 @@
+{
+  "id": "tw-pork-skin",
+  "name": "豬皮（生重）",
+  "emoji": "🍖",
+  "category": "豆魚蛋肉",
+  "subcategory": "內臟與滷味原料",
+  "aliases": [
+    "肉皮",
+    "滷豬皮",
+    "豬皮"
+  ],
+  "summary": "來源為生豬皮，不是炸豬皮或滷豬皮；加工油脂與滷汁需另外計入。 每 100 公克約 491 大卡，蛋白質 22.1 克、脂肪 44 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.2,
+    "max": 6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 491.0,
+    "protein": 22.1,
+    "fat": 44.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "satFat": 14.5,
+    "sodium": 109.0,
+    "cholesterol": 70.0,
+    "potassium": 38.0,
+    "calcium": 8.0,
+    "iron": 0.3,
+    "vitC": 0.0,
+    "zinc": 0.3,
+    "vitB1": 0.03,
+    "vitB2": 0.05,
+    "vitB6": 0.03,
+    "vitB12": 0.92,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "滷味",
+    "黑白切",
+    "火鍋",
+    "熱炒",
+    "蛋白質 22.1 克／100 公克",
+    "脂肪 44 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "以熟食重量記錄者",
+      "why": "本筆以名稱標示的原料或原品狀態計算。下鍋前後含水量、油脂及醬料不同，不以固定比例把生重換成熟重。"
+    }
+  ],
+  "tips": "來源為生豬皮，不是炸豬皮或滷豬皮；加工油脂與滷汁需另外計入。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署：食品營養成分資料集（8543）",
+      "url": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "datasetUrl": "https://data.gov.tw/dataset/8543",
+      "sampleId": "I0320301",
+      "originalDescription": "豬皮",
+      "preparation": "樣品狀態:生,豬臟器; 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "meatDetails": {
+    "animal": "豬",
+    "cutOrProduct": "豬皮",
+    "weightBasis": "生重",
+    "commonUses": [
+      "滷味",
+      "黑白切",
+      "火鍋",
+      "熱炒"
+    ],
+    "referenceScope": "來源為生豬皮，不是炸豬皮或滷豬皮；加工油脂與滷汁需另外計入。",
+    "originalPreparation": "樣品狀態:生,豬臟器; 前處理描述:混合均勻打碎"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "TFDA:I0320301",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [
+      "fiber",
+      "vitD"
+    ],
+    "qualifiers": {},
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}

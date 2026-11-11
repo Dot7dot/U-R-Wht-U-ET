@@ -1,0 +1,97 @@
+{
+  "id": "tw-chicken-thigh-steak",
+  "name": "雞腿排（肉雞、生重、去骨）",
+  "emoji": "🍗",
+  "category": "豆魚蛋肉",
+  "subcategory": "雞肉部位",
+  "aliases": [
+    "去骨雞腿排",
+    "雞排原料",
+    "雞排(肉雞)(2021年取樣)"
+  ],
+  "summary": "來源明確是雞腿部位的生雞排，不是夜市裹粉油炸的大雞排。 每 100 公克約 251 大卡，蛋白質 14.9 克、脂肪 20.8 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.2,
+    "max": 6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 251.0,
+    "protein": 14.9,
+    "fat": 20.8,
+    "carbs": 0.0,
+    "fiber": 0.0,
+    "sugar": 0.0,
+    "satFat": 5.8,
+    "sodium": 94.0,
+    "cholesterol": 80.0,
+    "potassium": 334.0,
+    "calcium": 9.0,
+    "iron": 0.7,
+    "vitC": 0.0,
+    "zinc": 1.8,
+    "vitB1": 0.04,
+    "vitB2": 0.15,
+    "vitB6": 0.27,
+    "vitB12": 0.57,
+    "vitD": 0.0,
+    "epa": 12.0,
+    "dha": 23.0
+  },
+  "highlights": [
+    "雞肉飯",
+    "燒烤",
+    "火鍋",
+    "家常菜",
+    "蛋白質 14.9 克／100 公克",
+    "脂肪 20.8 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "以熟食重量記錄者",
+      "why": "本筆以名稱標示的原料或原品狀態計算。下鍋前後含水量、油脂及醬料不同，不以固定比例把生重換成熟重。"
+    }
+  ],
+  "tips": "來源明確是雞腿部位的生雞排，不是夜市裹粉油炸的大雞排。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署：食品營養成分資料集（8543）",
+      "url": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "datasetUrl": "https://data.gov.tw/dataset/8543",
+      "sampleId": "I0404403",
+      "originalDescription": "雞排(肉雞)(2021年取樣)",
+      "preparation": "樣品狀態:生,雞腿部位; 前處理描述:去骨,混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "meatDetails": {
+    "animal": "雞",
+    "cutOrProduct": "雞腿排",
+    "weightBasis": "生重",
+    "commonUses": [
+      "雞肉飯",
+      "燒烤",
+      "火鍋",
+      "家常菜"
+    ],
+    "referenceScope": "來源明確是雞腿部位的生雞排，不是夜市裹粉油炸的大雞排。",
+    "originalPreparation": "樣品狀態:生,雞腿部位; 前處理描述:去骨,混合均勻打碎"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "TFDA:I0404403",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [],
+    "qualifiers": {},
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}

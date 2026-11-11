@@ -1,0 +1,97 @@
+{
+  "id": "tw-beef-trimmed-brisket",
+  "name": "修清牛前胸肉（生重）",
+  "emoji": "🥩",
+  "category": "豆魚蛋肉",
+  "subcategory": "牛肉部位",
+  "aliases": [
+    "修清牛腩",
+    "修清前胸腋肌",
+    "牛修清前胸肉",
+    "Pectoral meat; Brisket, nose-off"
+  ],
+  "summary": "已修清的前胸部位，與未修清牛腩分開記錄；去除脂肪後請選對應項目。 每 100 公克約 120 大卡，蛋白質 22.3 克、脂肪 2.8 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.2,
+    "max": 6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 120.0,
+    "protein": 22.3,
+    "fat": 2.8,
+    "carbs": 0.9,
+    "satFat": 1.3,
+    "sodium": 45.0,
+    "cholesterol": 64.0,
+    "potassium": 463.0,
+    "calcium": 5.0,
+    "iron": 2.2,
+    "vitC": 0.0,
+    "zinc": 4.4,
+    "vitB1": 0.08,
+    "vitB2": 0.15,
+    "vitB6": 0.65,
+    "vitB12": 2.14,
+    "epa": 0.0,
+    "dha": 0.0
+  },
+  "highlights": [
+    "牛排",
+    "燒肉",
+    "燉煮",
+    "蛋白質 22.3 克／100 公克",
+    "脂肪 2.8 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "以熟食重量記錄者",
+      "why": "本筆以名稱標示的原料或原品狀態計算。下鍋前後含水量、油脂及醬料不同，不以固定比例把生重換成熟重。"
+    }
+  ],
+  "tips": "已修清的前胸部位，與未修清牛腩分開記錄；去除脂肪後請選對應項目。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署：食品營養成分資料集（8543）",
+      "url": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "datasetUrl": "https://data.gov.tw/dataset/8543",
+      "sampleId": "I0104201",
+      "originalDescription": "牛修清前胸肉",
+      "preparation": "樣品狀態:生,牛前胸部位,冷凍產品; 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "meatDetails": {
+    "animal": "牛",
+    "cutOrProduct": "修清牛前胸肉",
+    "weightBasis": "生重",
+    "commonUses": [
+      "牛排",
+      "燒肉",
+      "燉煮"
+    ],
+    "referenceScope": "已修清的前胸部位，與未修清牛腩分開記錄；去除脂肪後請選對應項目。",
+    "originalPreparation": "樣品狀態:生,牛前胸部位,冷凍產品; 前處理描述:混合均勻打碎"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "TFDA:I0104201",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [
+      "fiber",
+      "sugar",
+      "vitD"
+    ],
+    "qualifiers": {},
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}

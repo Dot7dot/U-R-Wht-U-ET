@@ -1,0 +1,97 @@
+{
+  "id": "tw-crab-stick",
+  "name": "蟹味棒（冷凍原品）",
+  "emoji": "🍖",
+  "category": "豆魚蛋肉",
+  "subcategory": "加工肉與火鍋料",
+  "aliases": [
+    "蟹肉棒",
+    "蟹棒",
+    "かにかま",
+    "冷凍蟹味棒"
+  ],
+  "summary": "來源為魚漿等製成的調理品，不是蟹腿肉；火鍋與壽司加料可按實際重量計。 每 100 公克約 118 大卡，蛋白質 9.3 克、脂肪 0.7 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.3,
+    "min": 0.05,
+    "max": 3
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 118.0,
+    "protein": 9.3,
+    "fat": 0.7,
+    "carbs": 18.6,
+    "sugar": 3.1,
+    "satFat": 0.2,
+    "sodium": 694.0,
+    "potassium": 69.0,
+    "calcium": 90.0,
+    "iron": 0.5,
+    "zinc": 0.3,
+    "vitB1": 0.01,
+    "vitB2": 0.04,
+    "vitB6": 0.01,
+    "vitB12": 0.31,
+    "epa": 9.0,
+    "dha": 25.0
+  },
+  "highlights": [
+    "早餐",
+    "火鍋",
+    "串燒",
+    "蛋白質 9.3 克／100 公克",
+    "脂肪 0.7 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "以熟食重量記錄者",
+      "why": "本筆以名稱標示的原料或原品狀態計算。下鍋前後含水量、油脂及醬料不同，不以固定比例把生重換成熟重。"
+    }
+  ],
+  "tips": "來源為魚漿等製成的調理品，不是蟹腿肉；火鍋與壽司加料可按實際重量計。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "衛生福利部食品藥物管理署：食品營養成分資料集（8543）",
+      "url": "https://data.fda.gov.tw/data/opendata/export/20/csv",
+      "datasetUrl": "https://data.gov.tw/dataset/8543",
+      "sampleId": "R6700101",
+      "originalDescription": "冷凍蟹味棒",
+      "preparation": "樣品狀態:冷凍包裝(魚漿等); 前處理描述:混合均勻打碎",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "meatDetails": {
+    "animal": "加工肉品",
+    "cutOrProduct": "蟹味棒",
+    "weightBasis": "加工原品",
+    "commonUses": [
+      "早餐",
+      "火鍋",
+      "串燒"
+    ],
+    "referenceScope": "來源為魚漿等製成的調理品，不是蟹腿肉；火鍋與壽司加料可按實際重量計。",
+    "originalPreparation": "樣品狀態:冷凍包裝(魚漿等); 前處理描述:混合均勻打碎"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "TFDA:R6700101",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [
+      "fiber",
+      "cholesterol",
+      "vitC",
+      "vitD"
+    ],
+    "qualifiers": {},
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}

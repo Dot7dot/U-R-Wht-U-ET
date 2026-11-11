@@ -11,5 +11,13 @@
   { "key": "potassium",   "label": "鉀",         "unit": "毫克", "dv": 2800, "kind": "good" },
   { "key": "calcium",     "label": "鈣",         "unit": "毫克", "dv": 1200, "kind": "good" },
   { "key": "iron",        "label": "鐵",         "unit": "毫克", "dv": 15,   "kind": "good" },
-  { "key": "vitC",        "label": "維生素C",    "unit": "毫克", "dv": 100,  "kind": "good" }
+  { "key": "vitC",        "label": "維生素C",    "unit": "毫克", "dv": 100,  "kind": "good" },
+  {"key": "zinc", "label": "鋅", "unit": "毫克", "dv": null, "kind": "good"},
+  {"key": "vitB1", "label": "維生素B1", "unit": "毫克", "dv": null, "kind": "good"},
+  {"key": "vitB2", "label": "維生素B2", "unit": "毫克", "dv": null, "kind": "good"},
+  {"key": "vitB6", "label": "維生素B6", "unit": "毫克", "dv": null, "kind": "good"},
+  {"key": "vitB12", "label": "維生素B12", "unit": "微克", "dv": null, "kind": "good"},
+  {"key": "vitD", "label": "維生素D", "unit": "微克", "dv": null, "kind": "good"},
+  {"key": "epa", "label": "EPA", "unit": "毫克", "dv": null, "kind": "good"},
+  {"key": "dha", "label": "DHA", "unit": "毫克", "dv": null, "kind": "good"}
 ]

@@ -1,0 +1,88 @@
+{
+  "id": "us-beef-filet-broiled",
+  "name": "菲力牛排（烤熟重、含脂肪）",
+  "emoji": "🥩",
+  "category": "豆魚蛋肉",
+  "subcategory": "牛排館部位與熟肉",
+  "aliases": [
+    "熟菲力",
+    "熟牛柳",
+    "filet mignon",
+    "BEEF,TENDERLOIN,STEAK,LN & FAT,1/8\" FAT,ALL GRDS,CKD,BRLD"
+  ],
+  "summary": "Tenderloin steak，外脂修至 1/8 英吋，含瘦肉與脂肪；未包含外裹培根或奶油。 每 100 公克約 267 大卡，蛋白質 26.46 克、脂肪 17.12 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 1.5,
+    "min": 0.2,
+    "max": 6
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 267.0,
+    "protein": 26.46,
+    "fat": 17.12,
+    "carbs": 0.0,
+    "fiber": 0.0,
+    "sugar": 0.0,
+    "satFat": 6.743,
+    "sodium": 54.0,
+    "cholesterol": 97.0,
+    "potassium": 329.0,
+    "calcium": 19.0,
+    "iron": 1.69,
+    "vitC": 0.0,
+    "zinc": 4.76,
+    "vitB1": 0.072,
+    "vitB2": 0.128,
+    "vitB6": 0.554,
+    "vitB12": 1.56,
+    "vitD": 0.3
+  },
+  "highlights": [
+    "牛排",
+    "煎烤",
+    "蛋白質 26.46 克／100 公克",
+    "脂肪 17.12 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [],
+  "tips": "Tenderloin steak，外脂修至 1/8 英吋，含瘦肉與脂肪；未包含外裹培根或奶油。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "USDA SR28（2016 年 5 月修訂版）",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28abbr.zip",
+      "ndbNo": "13918",
+      "originalDescription": "BEEF,TENDERLOIN,STEAK,LN & FAT,1/8\" FAT,ALL GRDS,CKD,BRLD",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "meatDetails": {
+    "animal": "牛",
+    "cutOrProduct": "菲力牛排",
+    "weightBasis": "熟重",
+    "commonUses": [
+      "牛排",
+      "煎烤"
+    ],
+    "referenceScope": "Tenderloin steak，外脂修至 1/8 英吋，含瘦肉與脂肪；未包含外裹培根或奶油。",
+    "originalPreparation": "BEEF,TENDERLOIN,STEAK,LN & FAT,1/8\" FAT,ALL GRDS,CKD,BRLD"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "USDA:13918",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [
+      "epa",
+      "dha"
+    ],
+    "qualifiers": {},
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}

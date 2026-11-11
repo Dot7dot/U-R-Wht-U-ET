@@ -1,0 +1,104 @@
+{
+  "id": "jp-bluefin-akami",
+  "name": "黑鮪魚赤身（天然、生重）",
+  "emoji": "🐟",
+  "category": "豆魚蛋肉",
+  "subcategory": "生魚片魚種與脂肪部位",
+  "aliases": [
+    "黑鮪赤身",
+    "本鮪赤身",
+    "akami",
+    "くろまぐろ",
+    "魚介類/＜魚類＞/（まぐろ類）/くろまぐろ/天然/赤身/生",
+    "FISH, MOLLUSKS AND CRUSTACEANS/Fish/tuna， bluefin tuna， lean meat， raw"
+  ],
+  "summary": "日本來源為天然藍鰭鮪的赤身去皮切片，不是大腹或中腹；只計魚肉，不含醋飯。 每 100 公克約 115 大卡，蛋白質 26.4 克、脂肪 1.4 克。",
+  "shape": {
+    "type": "flat",
+    "thickness": 0.3,
+    "min": 0.05,
+    "max": 3
+  },
+  "density": 1,
+  "edibleRatio": 1,
+  "serving": {
+    "label": "可食部分 100 公克",
+    "grams": 100
+  },
+  "per100g": {
+    "kcal": 115.0,
+    "protein": 26.4,
+    "fat": 1.4,
+    "carbs": 0.1,
+    "fiber": 0.0,
+    "satFat": 0.25,
+    "sodium": 49.0,
+    "cholesterol": 50.0,
+    "potassium": 380.0,
+    "calcium": 5.0,
+    "iron": 1.1,
+    "vitC": 2.0,
+    "zinc": 0.4,
+    "vitB1": 0.1,
+    "vitB2": 0.05,
+    "vitB6": 0.85,
+    "vitB12": 1.3,
+    "vitD": 5.0,
+    "epa": 27.0,
+    "dha": 120.0
+  },
+  "highlights": [
+    "生魚片",
+    "壽司",
+    "蛋白質 26.4 克／100 公克",
+    "脂肪 1.4 克／100 公克"
+  ],
+  "benefits": [],
+  "cautions": [
+    {
+      "who": "準備生食魚貝類者",
+      "why": "來源中的「生」是營養分析狀態，不是生食安全認證；請確認供生食來源、適當處理及冷鏈。冷凍可降低寄生蟲風險，但不能取代全程衛生管理。"
+    }
+  ],
+  "tips": "日本來源為天然藍鰭鮪的赤身去皮切片，不是大腹或中腹；只計魚肉，不含醋飯。 份量請秤可食部分；生、熟重量不可互換，醬汁、醋飯、配菜與烹調額外用油另計。",
+  "sources": [
+    {
+      "title": "日本文部科學省：日本食品標準成分表（八訂）增補 2023 年",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10253_7",
+      "fattyAcidsUrl": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10253_7&MODE=4",
+      "foodNo": "10253",
+      "originalDescription": "魚介類/＜魚類＞/（まぐろ類）/くろまぐろ/天然/赤身/生",
+      "accessed": "2026-11-11"
+    },
+    {
+      "title": "食藥署：海獸胃線蟲症與生食水產品衛教",
+      "url": "https://www.fda.gov.tw/tc/siteContent.aspx?sid=4603",
+      "accessed": "2026-11-11",
+      "role": "生食注意事項，非營養數值來源"
+    }
+  ],
+  "meatDetails": {
+    "animal": "魚",
+    "cutOrProduct": "黑鮪魚赤身",
+    "weightBasis": "生重",
+    "commonUses": [
+      "生魚片",
+      "壽司"
+    ],
+    "referenceScope": "日本來源為天然藍鰭鮪的赤身去皮切片，不是大腹或中腹；只計魚肉，不含醋飯。",
+    "originalPreparation": "魚介類/＜魚類＞/（まぐろ類）/くろまぐろ/天然/赤身/生"
+  },
+  "dataNotes": {
+    "sourceSet": "taiwan-meat-cuts-2026-11",
+    "sourceRecord": "MEXT:10253",
+    "basis": "每 100 公克可食部分；含皮、修脂、生熟與加工狀態依中文名稱及來源原始描述。",
+    "missingNutrients": [
+      "sugar"
+    ],
+    "qualifiers": {
+      "fiber": "來源以括號標示的推定／估計值：(0)"
+    },
+    "estimation": "shape 與 density=1 為繪圖估重暫定值，非來源實測物性。edibleRatio=1 僅適用已去骨等不可食部分的圖形，優先使用秤重。",
+    "sugar": "總糖，非添加糖；原始缺值不以零代填。"
+  }
+}
